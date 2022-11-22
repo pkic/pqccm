@@ -11,7 +11,7 @@ The PKI Consortium is actively working to promote the adoption of Post-Quantum C
 What the PQCCM do:
 * collect and aggregate information on PQC capabilities across the cybersecurity landspace (vendors, software, hardware, etc..)
 
-What the PQCCM don't do:
+What the PQCCM doesn't do:
 * review, vet, verify or test implementations or interoperability
 * source code review, formal review of algorithms, etc.
 * provide information, documentation or any recommended usage of Post Quantum Cryptography
