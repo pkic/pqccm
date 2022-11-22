@@ -29,3 +29,6 @@ The table lists information from vendors related to support for Post Quantum Cry
 | ----------------------- |:-----------|:-------|:----------------------------------------------------------------------------------------------------|:------|
 |**HSMs**|
 | Utimaco Crypto Server         |HMS, XMSS, XMSS-MT, Dilithium-128, Kyber-768, Kyber-1024| 2022-11-22   |TBD |Software simulator availabe, Dilithium in process of updated to round 3 version|
+| Entrust nShield |FALCON, CRYSTALS-Dilithium, Rainbow, Picnic, SPHINCS+| 2022-11-22 | https://www.entrust.com/-/media/documentation/datasheets/entrust-pqc-option-pack-ds.pdf | The Entrust nShield Post-Quantum SDK enables post-quantum cryptographic applications for nShield HSMs with the CodeSafe SDK |
+|**PKI Software**|
+| Entrust PKIaaS | 	FALCON, CRYSTALS-Dilithium, SPHINCS+ | 2022-11-22 | https://www.entrust.com/digital-security/certificate-solutions/products/pki/managed-services/pki-as-a-service#:~:text=PKIaaS-,Post%2DQuantum,-Within%20the%20decade | The Entrust PKI as a Service (PKIaaS) for Post-Quantum Beta Program supports all three algorithms selected in round 3 of the NIST competition and can provide composite and pure quantum CA hierarchies |
