@@ -4,7 +4,7 @@ The PKI Consortium is managing a PQC Capabilities Matrix (PQCCM) of software app
 Post Quantum Cryptography, without endorsing their implementation or quality.
 
 The list includes a wide variety of software applications, libraries, and hardware from different vendors. 
-The list should be considered a living document and a starting point. Considering the rapid change in the area such things can vary from day to day and complete freshness of information can only be gathered from vendors directly.
+The list should be considered a living document and a starting point. Considering the rapid change in the area such things can vary from day to day and complete freshness of information can only be gathered from vendors directly. 
 
 The PKI Consortium is actively working to promote the adoption of Post-Quantum Cryptography, and the capabilities matrix is a key part of that effort.
 
@@ -14,6 +14,7 @@ What the PQCCM do:
 What the PQCCM don't do:
 * review, vet, verify or test implementations or interoperability
 * source code review, formal review of algorithms, etc.
+* provide information, documentation or any recommended usage of Post Quantum Cryptography
 
 No other activity besides what is listed under PQCCM DOs is under the purview of PKI Consortium (unless explicitly stated otherwise)".
 
