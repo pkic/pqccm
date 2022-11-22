@@ -22,7 +22,7 @@ No other activity besides what is listed under PQCCM DOs is under the purview of
 
 
 # Capabilities
------
+
 The table lists information from vendors related to support for Post Quantum Cryptography.
 
 | Vendor            | Capability | Date | Documentation                                                                                       | Notes |
