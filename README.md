@@ -24,8 +24,45 @@ No other activity besides what is listed under PQCCM DOs is under the purview of
 # Capabilities
 
 The table lists information from vendors related to support for Post Quantum Cryptography.
+| Vendor|Product     |Type|Date      |X.509 Certs|Composite Certs|Hybrid Certs|HMS               |XMSS              |Falcon|Dilithium         |SPHINCS+|Kyber             |BIKE|McEliece|HQC|Other|
+|:------|:-----------|:---|:---------|:----------|:--------------|:-----------|:-----------------|:-----------------|:-----|:-----------------|:-------|:-----------------|:---|:-------|:--|:---|
+|[Utimaco](#utimaco)|CryptoServer|HSM |2022-11-22|:x:        |:x:            |:x:        |:heavy_check_mark:|:heavy_check_mark:|:x:   |:heavy_check_mark:|:x:     |:heavy_check_mark:|:x: |:x:     |:x:|:x:|
+|[Thales](#thales)|Luna|HSM |2022-11-22|:x:        |:x:            |:x:        |:heavy_check_mark:|:heavy_check_mark:|:x:   |:heavy_check_mark:|:x:     |:heavy_check_mark:|:x: |:x:     |:x:|:x:|
+|[Entrust](#entrust)|nShield|HSM |2022-11-22|:x:        |:x:            |:x:        |:x:|:x:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x:|:x: |:x:     |:x:|:heavy_check_mark:|
+|[Entrust](#entrust)|PKIaaS|PKI Software |2022-11-22|:heavy_check_mark:|:heavy_check_mark:|:x:        |:x:|:x:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x:|:x: |:x:     |:x:|:x:|
+|[Bouncy Castle](#bouncy-castle)|BC|API |2022-11-22|:heavy_check_mark:|:heavy_check_mark:|:x:        |:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+|[Keyfactor](#keyfactor)|SignServer|Signing Software|2022-11-22|:x:        |:x:            |:x:        |:x:|:x:|:x:   |:x:|:heavy_check_mark:     |:x:|:x: |:x:     |:x:|:x:|
+|[Keyfactor](#keyfactor)|EJBCA|PKI Software|2022-11-22|:heavy_check_mark:        |:x:            |:x:        |:x:|:x:|:heavy_check_mark:|:x:|:x:     |:x:|:x: |:x:     |:x:|:x:|
 
-| Vendor            | Capability | Date | Documentation                                                                                       | Notes |
-| ----------------------- |:-----------|:-------|:----------------------------------------------------------------------------------------------------|:------|
-|**HSMs**|
-| Utimaco Crypto Server         |HMS, XMSS, XMSS-MT, Dilithium-128, Kyber-768, Kyber-1024| 2022-11-22   |TBD |Software simulator availabe, Dilithium in process of updated to round 3 version|
+
+
+## Utimaco
+
+QSafe firmware extension. Software simulator availabe, Dilithium in process of updated to round 3 version
+
+## Thales
+
+Functional module for Lune. Need functional modules enabled.
+
+## Bouncy Castle
+Java and C# APIs with all NIST candidate support, and some older ones. Available as open source software.
+
+## Entrust 
+nShield
+
+The Entrust nShield Post-Quantum SDK enables post-quantum cryptographic applications for nShield HSMs with the CodeSafe SDK.
+https://www.entrust.com/-/media/documentation/datasheets/entrust-pqc-option-pack-ds.pdf
+
+PKIaaS
+
+The Entrust PKI as a Service (PKIaaS) for Post-Quantum Beta Program supports all three algorithms selected in round 3 of the NIST competition and can provide composite and pure quantum CA hierarchies.
+https://www.entrust.com/digital-security/certificate-solutions/products/pki/managed-services/pki-as-a-service
+
+## Keyfactor
+SignServer
+
+SignServer performs server side signing and is capable of Post-Quantum signatures on CMS (RFC5662) messages. Available as open source software.
+
+EJBCA
+
+EJBCA PKI software can issue X.509 certificates supporting Post-Quantum algorithms. Available for private test.
