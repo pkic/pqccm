@@ -61,7 +61,7 @@ https://www.entrust.com/digital-security/certificate-solutions/products/pki/mana
 ## Keyfactor
 SignServer
 
-SignServer performs server side signing and is capable of Post-Quantum signatures on CMS (RFC5662) messages. Available as open source software.
+SignServer performs server side signing and is capable of Post-Quantum signatures on CMS (RFC5662) messages. Available as open source software from [SignServer Community v5.9.1](https://doc.primekey.com/signserver/signserver-release-information/signserver-release-notes/signserver-community-5-9-1-release-notes).
 
 EJBCA
 
