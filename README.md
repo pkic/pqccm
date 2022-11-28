@@ -24,7 +24,7 @@ No other activity besides what is listed under PQCCM DOs is under the purview of
 # Capabilities
 
 The table lists information from vendors related to support for Post Quantum Cryptography.
-| Vendor|Product     |Type|Last updated|X.509 Certs|Composite Certs|Hybrid Certs|HMS               |XMSS              |Falcon|Dilithium         |SPHINCS+|Kyber             |BIKE|McEliece|HQC|Other|
+| Vendor|Product     |Type|Last updated|X.509 Certs|Composite Certs|Hybrid Certs|HSS/LMS         |XMSS              |Falcon|Dilithium         |SPHINCS+|Kyber             |BIKE|McEliece|HQC|Other|
 |:------|:-----------|:---|:---------|:----------|:--------------|:-----------|:-----------------|:-----------------|:-----|:-----------------|:-------|:-----------------|:---|:-------|:--|:---|
 |[Securosys](#securosys)|Primus|HSM |2022-11-28|:x:|:heavy_check_mark:|:heavy_check_mark:|:x:|:x:|:x:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x: |:x:     |:x:|:x:|
 |[Utimaco](#utimaco)|CryptoServer|HSM |2022-11-28|:x:        |:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x: |:x:     |:x:|:x:|
