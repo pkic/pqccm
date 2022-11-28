@@ -28,7 +28,7 @@ The table lists information from vendors related to support for Post Quantum Cry
 |:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|
 |[Securosys](#securosys)|Primus|HSM|2022-11-28|:clock1:|:clock1:|:x:|:x:|:x:|:clock1:|:clock1:|:clock1:|:x:|:x:|:x:|
 |[Utimaco](#utimaco)|Q-Safe|HSM|2022-11-28|:x:|:x:|:heavy_check_mark:|:heavy_check_mark:|:x:|:heavy_check_mark:|:x:|:heavy_check_mark:|:x:|:x:|:x:|
-|[Utimaco](#utimaco)|u.trust Identify|PKI|2022-11-28|:x:|:x:|:x:|:x:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x:|:x:|:x:|:x:|
+|[Utimaco](#utimaco)|u.trust Identify|PKI|2022-11-28|:heavy_check_mark:|:x:|:x:|:x:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x:|:x:|:x:|:x:|
 |[Thales](#thales)|Luna|HSM |2022-11-22|:x:|:x:|:heavy_check_mark:|:heavy_check_mark:|:x:|:heavy_check_mark:|:x:|:heavy_check_mark:|:x:|:x:|:x:|
 |[Entrust](#entrust)|nShield|HSM |2022-11-22|:x:|:x:|:x:|:x:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x:|:x:|:x:|:x:|
 |[Entrust](#entrust)|PKIaaS|PKI|2022-11-22|:heavy_check_mark:|:x:|:x:|:x:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x:|:x:|:x:|:x:|
