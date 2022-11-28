@@ -35,6 +35,13 @@ The table lists information from vendors related to support for Post Quantum Cry
 |[Keyfactor](#keyfactor)|SignServer|Signing Software|2022-11-22|:x:        |:x:            |:x:        |:x:|:x:|:x:   |:x:|:heavy_check_mark:     |:x:|:x: |:x:     |:x:|:x:|
 |[Keyfactor](#keyfactor)|EJBCA|PKI Software|2022-11-22|:heavy_check_mark:        |:x:            |:x:        |:x:|:x:|:heavy_check_mark:|:x:|:x:     |:x:|:x: |:x:     |:x:|:x:|
 
+The following table contains references
+|Algorithm|Reference|Last updated|
+|:------|:-----------|:---|
+|Composite keys and certificates|https://datatracker.ietf.org/doc/draft-ounsworth-pq-composite-keys/|2022-11-28|
+|HSS/LMS|https://www.rfc-editor.org/rfc/rfc8708.html|2022-11-28|
+
+
 ## Securosys
 Primus HSM (https://www.securosys.com/en/products/primus-hardware-security-modules-hsm) manufactured by https://www.securosys.com/en/. The listed features are based on the roadmap for 2023 and are subject to change depending on market demand and industry research.
 
