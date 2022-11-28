@@ -24,7 +24,7 @@ No other activity besides what is listed under PQCCM DOs is under the purview of
 # Capabilities
 
 The table lists information from vendors related to support for Post Quantum Cryptography.
-| Vendor|Product     |Type|Last updated|X.509 Certs|Composite Certs|Hybrid Certs|HSS/LMS         |XMSS              |Falcon|Dilithium         |SPHINCS+|Kyber             |BIKE|McEliece|HQC|Other|
+| Vendor|Product     |Type|Last updated|X.509 Certs|[Composite certificates](#A)|[Hybrid certificates](#B)|[HSS/LMS](#C)|[XMSS](#D)|[Falcon](#E)|[Dilithium](#F)|[SPHINCS+](#G)|[Kyber](#H)|[BIKE](#I)|[McEliece](#J)|[HQC](#K)|Other|
 |:------|:-----------|:---|:---------|:----------|:--------------|:-----------|:-----------------|:-----------------|:-----|:-----------------|:-------|:-----------------|:---|:-------|:--|:---|
 |[Securosys](#securosys)|Primus|HSM |2022-11-28|:x:|:heavy_check_mark:|:heavy_check_mark:|:x:|:x:|:x:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x: |:x:     |:x:|:x:|
 |[Utimaco](#utimaco)|CryptoServer|HSM |2022-11-28|:x:        |:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x: |:x:     |:x:|:x:|
@@ -35,12 +35,20 @@ The table lists information from vendors related to support for Post Quantum Cry
 |[Keyfactor](#keyfactor)|SignServer|Signing Software|2022-11-22|:x:        |:x:            |:x:        |:x:|:x:|:x:   |:x:|:heavy_check_mark:     |:x:|:x: |:x:     |:x:|:x:|
 |[Keyfactor](#keyfactor)|EJBCA|PKI Software|2022-11-22|:heavy_check_mark:        |:x:            |:x:        |:x:|:x:|:heavy_check_mark:|:x:|:x:     |:x:|:x: |:x:     |:x:|:x:|
 
-The following table contains references
+The following table contains references to the PQC capabilities and algorithms.
 |Algorithm|Reference|Last updated|
 |:------|:-----------|:---|
-|Composite keys and certificates|https://datatracker.ietf.org/doc/draft-ounsworth-pq-composite-keys/|2022-11-28|
-|HSS/LMS|https://www.rfc-editor.org/rfc/rfc8708.html|2022-11-28|
-
+|<span id="A">Composite certificates</span>|https://datatracker.ietf.org/doc/draft-ounsworth-pq-composite-keys/|2022-11-28|
+|<span id="B">Hybrid certificates</span>|https://datatracker.ietf.org/doc/html/draft-truskovsky-lamps-pq-hybrid-x509-01|2022-11-28|
+|<span id="C">HSS/LMS</span>|https://www.rfc-editor.org/rfc/rfc8708.html|2022-11-28|
+|<span id="D">XMSS</span>|https://datatracker.ietf.org/doc/html/rfc8391|2022-11-28|
+|<span id="E">Falcon</span>|https://falcon-sign.info|2022-11-28|
+|<span id="F">Dilithium</span>|https://pq-crystals.org/dilithium/resources.shtml|2022-11-28|
+|<span id="G">SPHINCS+</span>|https://sphincs.org|2022-11-28|
+|<span id="H">Kyber</span>|https://pq-crystals.org/kyber/index.shtml|2022-11-28|
+|<span id="I">BIKE</span>|https://bikesuite.org|2022-11-28|
+|<span id="J">McEliece</span>|https://classic.mceliece.org|2022-11-28|
+|<span id="K">HQC</span>|https://pqc-hqc.org|2022-11-28|
 
 ## Securosys
 Primus HSM (https://www.securosys.com/en/products/primus-hardware-security-modules-hsm) manufactured by https://www.securosys.com/en/. The listed features are based on the roadmap for 2023 and are subject to change depending on market demand and industry research.
