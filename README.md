@@ -24,19 +24,17 @@ No other activity besides what is listed under PQCCM DOs is under the purview of
 # Capabilities
 
 The table lists information from vendors related to support for Post Quantum Cryptography.
-| Vendor|Product     |Category|Last updated|[Composite certificates](#A)|[Hybrid certificates](#B)|[HSS/LMS](#C)|[XMSS](#D)|[Falcon](#E)|[Dilithium](#F)|[SPHINCS+](#G)|[Kyber](#H)|[BIKE](#I)|[McEliece](#J)|[HQC](#K)|
-|:------|:-----------|:---|:----------|:--------------|:-----------|:-----------------|:-----------------|:-----|:-----------------|:-------|:-----------------|:---|:-------|:--|
+|Vendor|Product|Category|Last updated|[Composite certificates](#A)|[Hybrid certificates](#B)|[HSS/LMS](#C)|[XMSS](#D)|[Falcon](#E)|[Dilithium](#F)|[SPHINCS+](#G)|[Kyber](#H)|[BIKE](#I)|[McEliece](#J)|[HQC](#K)|
+|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|
 |[Securosys](#securosys)|Primus|HSM|2022-11-28|:clock1:|:clock1:|:x:|:x:|:x:|:clock1:|:clock1:|:clock1:|:x:|:x:|:x:|
-|[Utimaco](#utimaco)|Q-Safe|HSM|2022-11-28||||||||||||
-|[Utimaco](#utimaco)|u.trust Identify|PKI|2022-11-28||||||||||||
+|[Utimaco](#utimaco)|Q-Safe|HSM|2022-11-28|:x:|:x:|:heavy_check_mark:|:heavy_check_mark:|:x:|:heavy_check_mark:|:x:|:heavy_check_mark:|:x:|:x:|:x:|
+|[Utimaco](#utimaco)|u.trust Identify|PKI|2022-11-28|:x:|:x:|:x:|:x:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x:|:x:|:x:|:x:|
 |[Thales](#thales)|Luna|HSM |2022-11-22|:x:|:x:|:heavy_check_mark:|:heavy_check_mark:|:x:|:heavy_check_mark:|:x:|:heavy_check_mark:|:x:|:x:|:x:|
 |[Entrust](#entrust)|nShield|HSM |2022-11-22|:x:|:x:|:x:|:x:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x:|:x:|:x:|:x:|
 |[Entrust](#entrust)|PKIaaS|PKI|2022-11-22|:heavy_check_mark:|:x:|:x:|:x:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x:|:x:|:x:|:x:|
 |[Bouncy Castle](#bouncy-castle)|BC|API |2022-11-22|:heavy_check_mark:|:x:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
 |[Keyfactor](#keyfactor)|SignServer|Signing Software|2022-11-22|:x:|:x:|:x:|:x:|:x:|:x:|:heavy_check_mark:|:x:|:x:|:x:|:x:|
 |[Keyfactor](#keyfactor)|EJBCA|PKI|2022-11-22|:x:|:x:|:x:|:x:|:heavy_check_mark:|:x:|:x:|:x:|:x:|:x:|:x:|
-
-
 
 
 ## Securosys
@@ -78,19 +76,17 @@ EJBCA PKI software can issue X.509 certificates supporting Post-Quantum algorith
 # References
 
 The following table contains references to the PQC capabilities and algorithms.
-|Algorithm|Reference|Last updated|
-|:------|:-----------|:---|
-|<span id="A">Composite certificates</span>|https://datatracker.ietf.org/doc/draft-ounsworth-pq-composite-keys/|2022-11-28|
-|<span id="B">Hybrid certificates</span>|https://datatracker.ietf.org/doc/html/draft-truskovsky-lamps-pq-hybrid-x509-01|2022-11-28|
-|<span id="C">HSS/LMS</span>|https://www.rfc-editor.org/rfc/rfc8708.html|2022-11-28|
-|<span id="D">XMSS</span>|https://datatracker.ietf.org/doc/html/rfc8391|2022-11-28|
-|<span id="E">Falcon</span>|https://falcon-sign.info|2022-11-28|
-|<span id="F">Dilithium</span>|https://pq-crystals.org/dilithium/resources.shtml|2022-11-28|
-|<span id="G">SPHINCS+</span>|https://sphincs.org|2022-11-28|
-|<span id="H">Kyber</span>|https://pq-crystals.org/kyber/index.shtml|2022-11-28|
-|<span id="I">BIKE</span>|https://bikesuite.org|2022-11-28|
-|<span id="J">McEliece</span>|https://classic.mceliece.org|2022-11-28|
-|<span id="K">HQC</span>|https://pqc-hqc.org|2022-11-28|
-|NIST Recommendation for Stateful Hash-Based Signature Schemes|[SP800-208](https://csrc.nist.gov/publications/detail/sp/800-208/final)|2022-11-28
-
-
+|Algorithm|Reference|
+|:--|:--|
+|<span id="A">Composite certificates</span>|https://datatracker.ietf.org/doc/draft-ounsworth-pq-composite-keys/|
+|<span id="B">Hybrid certificates</span>|https://datatracker.ietf.org/doc/html/draft-truskovsky-lamps-pq-hybrid-x509-01|
+|<span id="C">HSS/LMS</span>|https://www.rfc-editor.org/rfc/rfc8708.html|
+|<span id="D">XMSS</span>|https://datatracker.ietf.org/doc/html/rfc8391|
+|<span id="E">Falcon</span>|https://falcon-sign.info|
+|<span id="F">Dilithium</span>|https://pq-crystals.org/dilithium/resources.shtml|
+|<span id="G">SPHINCS+</span>|https://sphincs.org|
+|<span id="H">Kyber</span>|https://pq-crystals.org/kyber/index.shtml|
+|<span id="I">BIKE</span>|https://bikesuite.org|
+|<span id="J">McEliece</span>|https://classic.mceliece.org|
+|<span id="K">HQC</span>|https://pqc-hqc.org|
+|NIST Recommendation for Stateful Hash-Based Signature Schemes|[SP800-208](https://csrc.nist.gov/publications/detail/sp/800-208/final)|
