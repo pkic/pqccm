@@ -44,7 +44,7 @@ QSafe firmware extension. Software simulator availabe, Dilithium in process of u
 
 ## Thales
 
-Functional module for Lune. Need functional modules enabled.
+Functional module for Luna. Need functional modules enabled.
 
 ## Bouncy Castle
 Java and C# APIs with all NIST candidate support, and some older ones. [Available as open source software](https://www.bouncycastle.org/). All NIST candidated available in Java from version 1.72 and C# from version 2.0.0.
