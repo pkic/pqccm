@@ -70,3 +70,8 @@ SignServer performs server side signing and is capable of Post-Quantum signature
 EJBCA
 
 EJBCA PKI software can issue X.509 certificates supporting Post-Quantum algorithms. Available for private test.
+
+# Links
+[Composite keys and signatures](https://datatracker.ietf.org/doc/draft-ounsworth-pq-composite-keys/)
+
+[Hybrid multiple algorithm certificates](https://datatracker.ietf.org/doc/draft-truskovsky-lamps-pq-hybrid-x509/)
