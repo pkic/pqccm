@@ -47,7 +47,9 @@ QSafe firmware extension. Software simulator availabe, Dilithium in process of u
 Functional module for Lune. Need functional modules enabled.
 
 ## Bouncy Castle
-Java and C# APIs with all NIST candidate support, and some older ones. Available as open source software.
+Java and C# APIs with all NIST candidate support, and some older ones. Available as open source software. All NIST candidated available in Java from version 1.72 and C# from version 2.0.0.
+
+The [Bouncy Castle for kotlin](https://github.com/bcgit/bc-kotlin) open source package provides a script/command line interface for generating certificate chains with different algorithms. 
 
 ## Entrust 
 nShield
