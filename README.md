@@ -75,3 +75,5 @@ EJBCA PKI software can issue X.509 certificates supporting Post-Quantum algorith
 [Composite keys and signatures](https://datatracker.ietf.org/doc/draft-ounsworth-pq-composite-keys/)
 
 [Hybrid multiple algorithm certificates](https://datatracker.ietf.org/doc/draft-truskovsky-lamps-pq-hybrid-x509/)
+
+NIST Recommendation for Stateful Hash-Based Signature Schemes [SP800-208](https://csrc.nist.gov/publications/detail/sp/800-208/final)
