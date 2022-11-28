@@ -78,8 +78,8 @@ The following table contains references to the PQC capabilities and algorithms.
 |:------|:-----------|:---|
 |<span id="A">Composite certificates</span>|https://datatracker.ietf.org/doc/draft-ounsworth-pq-composite-keys/|2022-11-28|
 |<span id="B">Hybrid certificates</span>|https://datatracker.ietf.org/doc/html/draft-truskovsky-lamps-pq-hybrid-x509-01|2022-11-28|
-|<span id="C">HSS/LMS</span>|https://www.rfc-editor.org/rfc/rfc8708.html|2022-11-28, https://csrc.nist.gov/publications/detail/sp/800-208/final|
-|<span id="D">XMSS</span>|https://datatracker.ietf.org/doc/html/rfc8391|2022-11-28, https://csrc.nist.gov/publications/detail/sp/800-208/final|
+|<span id="C">HSS/LMS</span>|https://www.rfc-editor.org/rfc/rfc8708.html|2022-11-28|
+|<span id="D">XMSS</span>|https://datatracker.ietf.org/doc/html/rfc8391|2022-11-28|
 |<span id="E">Falcon</span>|https://falcon-sign.info|2022-11-28|
 |<span id="F">Dilithium</span>|https://pq-crystals.org/dilithium/resources.shtml|2022-11-28|
 |<span id="G">SPHINCS+</span>|https://sphincs.org|2022-11-28|
@@ -87,6 +87,6 @@ The following table contains references to the PQC capabilities and algorithms.
 |<span id="I">BIKE</span>|https://bikesuite.org|2022-11-28|
 |<span id="J">McEliece</span>|https://classic.mceliece.org|2022-11-28|
 |<span id="K">HQC</span>|https://pqc-hqc.org|2022-11-28|
+|NIST Recommendation for Stateful Hash-Based Signature Schemes|[SP800-208](https://csrc.nist.gov/publications/detail/sp/800-208/final)|2022-11-28
 
 
-NIST Recommendation for Stateful Hash-Based Signature Schemes [SP800-208](https://csrc.nist.gov/publications/detail/sp/800-208/final)
