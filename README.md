@@ -26,6 +26,7 @@ No other activity besides what is listed under PQCCM DOs is under the purview of
 The table lists information from vendors related to support for Post Quantum Cryptography.
 | Vendor|Product     |Type|Last updated|X.509 Certs|Composite Certs|Hybrid Certs|HMS               |XMSS              |Falcon|Dilithium         |SPHINCS+|Kyber             |BIKE|McEliece|HQC|Other|
 |:------|:-----------|:---|:---------|:----------|:--------------|:-----------|:-----------------|:-----------------|:-----|:-----------------|:-------|:-----------------|:---|:-------|:--|:---|
+|[Securosys](#securosys)|Primus|HSM |2022-11-28|:x:|:heavy_check_mark:|:heavy_check_mark:|:x:|likely|likely|:heavy_check_mark:|:x:     |:heavy_check_mark:|:x: |:x:     |:x:|:x:|
 |[Utimaco](#utimaco)|CryptoServer|HSM |2022-11-22|:x:        |:x:            |:x:        |:heavy_check_mark:|:heavy_check_mark:|:x:   |:heavy_check_mark:|:x:     |:heavy_check_mark:|:x: |:x:     |:x:|:x:|
 |[Thales](#thales)|Luna|HSM |2022-11-22|:x:        |:x:            |:x:        |:heavy_check_mark:|:heavy_check_mark:|:x:   |:heavy_check_mark:|:x:     |:heavy_check_mark:|:x: |:x:     |:x:|:x:|
 |[Entrust](#entrust)|nShield|HSM |2022-11-22|:x:        |:x:            |:x:        |:x:|:x:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x:|:x: |:x:     |:x:|:heavy_check_mark:|
