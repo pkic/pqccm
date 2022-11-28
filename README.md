@@ -27,7 +27,7 @@ The table lists information from vendors related to support for Post Quantum Cry
 | Vendor|Product     |Type|Last updated|X.509 Certs|Composite Certs|Hybrid Certs|HMS               |XMSS              |Falcon|Dilithium         |SPHINCS+|Kyber             |BIKE|McEliece|HQC|Other|
 |:------|:-----------|:---|:---------|:----------|:--------------|:-----------|:-----------------|:-----------------|:-----|:-----------------|:-------|:-----------------|:---|:-------|:--|:---|
 |[Securosys](#securosys)|Primus|HSM |2022-11-28|:x:|:heavy_check_mark:|:heavy_check_mark:|:x:|:x:|:x:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x: |:x:     |:x:|:x:|
-|[Utimaco](#utimaco)|CryptoServer|HSM |2022-11-22|:x:        |:x:            |:x:        |:heavy_check_mark:|:heavy_check_mark:|:x:   |:heavy_check_mark:|:x:     |:heavy_check_mark:|:x: |:x:     |:x:|:x:|
+|[Utimaco](#utimaco)|CryptoServer|HSM |2022-11-28|:x:        |:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x: |:x:     |:x:|:x:|
 |[Thales](#thales)|Luna|HSM |2022-11-22|:x:        |:x:            |:x:        |:heavy_check_mark:|:heavy_check_mark:|:x:   |:heavy_check_mark:|:x:     |:heavy_check_mark:|:x: |:x:     |:x:|:x:|
 |[Entrust](#entrust)|nShield|HSM |2022-11-22|:x:        |:x:            |:x:        |:x:|:x:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x:|:x: |:x:     |:x:|:heavy_check_mark:|
 |[Entrust](#entrust)|PKIaaS|PKI Software |2022-11-22|:heavy_check_mark:|:heavy_check_mark:|:x:        |:x:|:x:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x:|:x: |:x:     |:x:|:x:|
@@ -40,7 +40,7 @@ Primus HSM (https://www.securosys.com/en/products/primus-hardware-security-modul
 
 ## Utimaco
 
-QSafe firmware extension. Software simulator availabe, Dilithium in process of updated to round 3 version
+uTrust Identiy and QSafe firmware extension. Software simulator availabe, Dilithium in process of updated to round 3 version
 
 ## Thales
 
