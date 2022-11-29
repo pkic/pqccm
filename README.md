@@ -35,7 +35,7 @@ The table lists information from vendors related to support for Post Quantum Cry
 |[Bouncy Castle](#bouncy-castle)|BC|API |2022-11-22|:heavy_check_mark:|:x:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
 |[Keyfactor](#keyfactor)|SignServer|Signing Software|2022-11-22|:x:|:x:|:x:|:x:|:x:|:clock1:|:heavy_check_mark:|:x:|:x:|:x:|:x:|
 |[Keyfactor](#keyfactor)|EJBCA|PKI|2022-11-22|:x:|:x:|:x:|:x:|:heavy_check_mark:|:clock1:|:x:|:x:|:x:|:x:|:x:|
-|[Fortanix](#fortanix)|FX2200|HSM|2022-11-28|:x:|:x:|:x:|:x:|:clock1:|:clock1:|:clock1:|:x:|:x:|:x:|:x:|
+|[Fortanix](#fortanix)|FX2200|HSM|2022-11-29|:x:|:x:|:heavy_check_mark:|:x:|:clock1:|:clock1:|:clock1:|:x:|:x:|:x:|:x:|
 
 
 ## Securosys
@@ -76,7 +76,7 @@ EJBCA PKI software can issue X.509 certificates supporting Post-Quantum algorith
 
 ## Fortanix
 
-Fortanix HSM have NIST candidate signature algorithms on the roadmap for first half of 2023.
+Fortanix DSM has NIST candidate signature algorithms on the roadmap for first half of 2023.
 
 # References
 
