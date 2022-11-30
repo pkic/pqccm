@@ -24,7 +24,7 @@ No other activity besides what is listed under PQCCM DOs is under the purview of
 # Capabilities
 
 The table lists information from vendors related to support for Post Quantum Cryptography.
-|Vendor|Product|Category|Last updated|[Composite certificates](#A)|[Hybrid certificates](#B)|[HSS/LMS](#C)|[XMSS](#D)|[Falcon](#E)|[Dilithium](#F)|[SPHINCS+](#G)|[Kyber](#H)|[BIKE](#I)|[McEliece](#J)|[HQC](#K)|
+|Vendor|Product|Category|Last updated|[Composite certificates](#A)|[Hybrid certificates](#B)|[LMS](#C)|[XMSS](#D)|[Falcon](#E)|[Dilithium](#F)|[SPHINCS+](#G)|[Kyber](#H)|[BIKE](#I)|[McEliece](#J)|[HQC](#K)|
 |:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|
 |[Securosys](#securosys)|Primus|HSM|2022-11-28|:clock1:|:clock1:|:x:|:x:|:x:|:clock1:|:clock1:|:clock1:|:x:|:x:|:x:|
 |[Utimaco](#utimaco)|Q-Safe|HSM|2022-11-28|:x:|:x:|:heavy_check_mark:|:heavy_check_mark:|:x:|:heavy_check_mark:|:x:|:heavy_check_mark:|:x:|:x:|:x:|
@@ -85,7 +85,7 @@ The following table contains references to the PQC capabilities and algorithms.
 |:--|:--|
 |<span id="A">Composite certificates</span>|https://datatracker.ietf.org/doc/draft-ounsworth-pq-composite-keys/|
 |<span id="B">Hybrid certificates</span>|https://datatracker.ietf.org/doc/html/draft-truskovsky-lamps-pq-hybrid-x509-01|
-|<span id="C">HSS/LMS</span>|https://www.rfc-editor.org/rfc/rfc8708.html|
+|<span id="C">LMS</span>|https://www.rfc-editor.org/rfc/rfc8708.html|
 |<span id="D">XMSS</span>|https://datatracker.ietf.org/doc/html/rfc8391|
 |<span id="E">Falcon</span>|https://falcon-sign.info|
 |<span id="F">Dilithium</span>|https://pq-crystals.org/dilithium/resources.shtml|
