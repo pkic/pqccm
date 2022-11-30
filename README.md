@@ -76,7 +76,7 @@ EJBCA PKI software can issue X.509 certificates supporting Post-Quantum algorith
 
 ## Fortanix
 
-Fortanix DSM has NIST candidate signature algorithms on the roadmap for first half of 2023.
+Fortanix DSM has LMS support, and NIST candidate signature algorithms on the roadmap for first half of 2023. See [Algorithm Support](https://support.fortanix.com/hc/en-us/articles/360016160411-Algorithm-Support)
 
 # References
 
