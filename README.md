@@ -37,6 +37,7 @@ The table lists information from vendors related to support for Post Quantum Cry
 |[Keyfactor](#keyfactor)|EJBCA|PKI|2022-11-22|:x:|:x:|:x:|:x:|:heavy_check_mark:|:clock1:|:x:|:x:|:x:|:x:|:x:|
 |[Fortanix](#fortanix)|FX2200|HSM|2022-11-29|:x:|:x:|:heavy_check_mark:|:x:|:clock1:|:clock1:|:clock1:|:x:|:x:|:x:|:x:|
 |[Open Quantum Safe](#open-quantum-safe)|liboqs|Software library|2022-11-30|:x:|:x:|:x:|:x:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+|[I4P](#i4p)|Trident|HSM|2022-12-01|:x:|:x:|:x:|:x:|:x:|:x:|:heavy_check_mark:|:heavy_check_mark:|:x:|:x:|:x:|
 
 > NOTE: HSS and XMSS<sup>MT</sup> are the multi tree variants of LMS and XMSS.
 
@@ -83,6 +84,14 @@ Fortanix DSM has LMS support, and NIST candidate signature algorithms on the roa
 ## Open Quantum Safe
 
 OQS is an open source software library that implements PQC [algorithms](https://openquantumsafe.org/liboqs/algorithms/), as well as integrations such as into OpenSSL.
+
+## I4P
+Trident HSM is a general purpose network HSM that combines the high-level hardware security and multi-party computation to provide the highest level of data protection required in business.
+It received the Common Criteria (CC) EAL4+ (EN 419221-5 as well as EN 419241-2) certification which is the highest level of certification available for HSM modules in Europe.
+
+The certified product is capable of post-quantum algorithms for signature creation and key encapsulation mechanisms. Supported algorithms are SPHINCS+,Kyber and NTRU.
+
+See more [Link](https://www.i4p.com/)
 
 # References
 
