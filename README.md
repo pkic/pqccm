@@ -37,7 +37,7 @@ The table lists information from vendors related to support for Post Quantum Cry
 |[Keyfactor](#keyfactor)|EJBCA|PKI|2022-11-22|:x:|:x:|:x:|:x:|:heavy_check_mark:|:clock1:|:x:|:x:|:x:|:x:|:x:|
 |[Fortanix](#fortanix)|FX2200|HSM|2022-11-29|:x:|:x:|:heavy_check_mark:|:x:|:clock1:|:clock1:|:clock1:|:x:|:x:|:x:|:x:|
 |[Open Quantum Safe](#open-quantum-safe)|liboqs|Software library|2022-11-30|:x:|:x:|:x:|:x:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
-|[3Key Company](#czertainly)|CZERTAINLY|Software|2022-12-03|:x:|:x:|:x:|:x:|:clock1:|:clock1:|:clock1:|:x:|:x:|:x:|:x:|
+|[3Key Company](#3key-company)|CZERTAINLY|Software|2022-12-03|:x:|:x:|:x:|:x:|:clock1:|:clock1:|:clock1:|:x:|:x:|:x:|:x:|
 
 > NOTE: HSS and XMSS<sup>MT</sup> are the multi tree variants of LMS and XMSS.
 
