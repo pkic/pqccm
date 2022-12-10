@@ -86,9 +86,7 @@ Fortanix DSM has LMS support, and NIST candidate signature algorithms on the roa
 OQS is an open source software library that implements PQC [algorithms](https://openquantumsafe.org/liboqs/algorithms/), as well as integrations such as into OpenSSL.
 
 ## I4P
-Trident HSM is a general purpose network HSM that combines the high-level hardware security and multi-party computation to provide the highest level of data protection required in business.
-It received the Common Criteria (CC) EAL4+ (EN 419221-5 as well as EN 419241-2) certification which is the highest level of certification available for HSM modules in Europe.
-
+Trident HSM is a general purpose network HSM that received the Common Criteria (CC) EAL4+ (EN 419221-5 as well as EN 419241-2) certification. Cryptographic applications are enabled to use Post-Quantum algorithms even in the CC restricted mode that helps with using hybrid solutions and the transition to PQC.
 The certified product is capable of post-quantum algorithms for signature creation and key encapsulation mechanisms. Supported algorithms are SPHINCS+,Kyber and NTRU.
 
 See more [Link](https://www.i4p.com/)
