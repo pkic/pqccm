@@ -89,7 +89,7 @@ Dilithium is on the roadmap for Q1 2023.
 
 **EJBCA**
 
-EJBCA PKI software can issue X.509 certificates supporting Post-Quantum algorithms. Available for private test.
+EJBCA PKI software can create CAs and issue X.509 certificates signed using Post-Quantum algorithms. Available for private test.
 Dilithium is on the roadmap for Q1 2023.
 
 ## Fortanix
