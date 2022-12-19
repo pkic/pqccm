@@ -18,11 +18,16 @@ What the PQCCM doesn't do:
 
 No other activity besides what is listed under PQCCM DOs is under the purview of PKI Consortium (unless explicitly stated otherwise)".
 
+## Legend
 
-
+|Symbol|Meaning|Comment|
+|:--|:--|:--|
+|:x:|The feature is currently not available||
+|:heavy_check_mark:|The feature is available for usage/test now||
+|:clock1:|The feature is planned on the product roadmap in the comming six months|Roadmap items must not be added if they are not really scheduled to be implemented in the coming six month period. Roadmap items should be noted in the vendor section with a specific time, i.e. "Q2 2023" or similar.|
 
 # Capabilities
-
+	
 The table lists information from vendors related to support for Post Quantum Cryptography.
 |Vendor|Product|Category|Last updated|[Composite certificates](#A)|[Hybrid certificates](#B)|[LMS](#C)|[XMSS](#D)|[Falcon](#E)|[Dilithium](#F)|[SPHINCS+](#G)|[Kyber](#H)|[BIKE](#I)|[McEliece](#J)|[HQC](#K)|
 |:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|
