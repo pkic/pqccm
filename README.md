@@ -40,8 +40,8 @@ The table lists information from vendors related to support for Post Quantum Cry
 |[Entrust](#entrust)|nShield|HSM |2022-11-22|:x:|:x:|:x:|:x:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x:|:x:|:x:|:x:|
 |[Entrust](#entrust)|PKIaaS|PKI|2022-11-22|:heavy_check_mark:|:x:|:x:|:x:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x:|:x:|:x:|:x:|
 |[Bouncy Castle](#bouncy-castle)|BC|Software library|2022-11-22|:heavy_check_mark:|:x:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
-|[Keyfactor](#keyfactor)|SignServer|Signing Software|2022-11-22|:x:|:x:|:x:|:x:|:x:|:clock1:|:heavy_check_mark:|:x:|:x:|:x:|:x:|
-|[Keyfactor](#keyfactor)|EJBCA|PKI|2022-11-22|:x:|:x:|:x:|:x:|:heavy_check_mark:|:clock1:|:x:|:x:|:x:|:x:|:x:|
+|[Keyfactor](#keyfactor)|SignServer|Signing Software|2022-12-19|:x:|:x:|:x:|:x:|:x:|:clock1:|:heavy_check_mark:|:x:|:x:|:x:|:x:|
+|[Keyfactor](#keyfactor)|EJBCA|PKI|2022-12-19|:x:|:x:|:x:|:x:|:heavy_check_mark:|:clock1:|:x:|:x:|:x:|:x:|:x:|
 |[Fortanix](#fortanix)|FX2200|HSM|2022-11-29|:x:|:x:|:heavy_check_mark:|:x:|:clock1:|:clock1:|:clock1:|:x:|:x:|:x:|:x:|
 |[Open Quantum Safe](#open-quantum-safe)|liboqs|Software library|2022-11-30|:x:|:x:|:x:|:x:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
 |[I4P](#i4p)|Trident|HSM|2022-12-01|:x:|:x:|:x:|:x:|:x:|:x:|:heavy_check_mark:|:heavy_check_mark:|:x:|:x:|:x:|
@@ -82,13 +82,15 @@ The Entrust PKI as a Service (PKIaaS) for Post-Quantum Beta Program supports all
 https://www.entrust.com/digital-security/certificate-solutions/products/pki/managed-services/pki-as-a-service
 
 ## Keyfactor
-SignServer
+**SignServer**
 
 SignServer performs server side signing and is capable of Post-Quantum signatures on CMS (RFC5662) messages. Available as open source software from [SignServer Community v5.9.1](https://doc.primekey.com/signserver/signserver-release-information/signserver-release-notes/signserver-community-5-9-1-release-notes).
+Dilithium is on the roadmap for Q1 2023.
 
-EJBCA
+**EJBCA**
 
-EJBCA PKI software can issue X.509 certificates supporting Post-Quantum algorithms. Available for private test.
+EJBCA PKI software can create CAs and issue X.509 certificates signed using Post-Quantum algorithms. Available for private test.
+Dilithium is on the roadmap for Q1 2023.
 
 ## Fortanix
 
