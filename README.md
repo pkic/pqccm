@@ -10,6 +10,7 @@ The PKI Consortium is actively working to promote the adoption of Post-Quantum C
 
 What the PQCCM do:
 * collect and aggregate information on PQC capabilities across the cybersecurity landspace (vendors, software, hardware, etc..)
+* list entries must be product the provide PQC functionality to the end user, not merely for example PQC enabled TLS access to a non PQC enabled service
 
 What the PQCCM doesn't do:
 * review, vet, verify or test implementations or interoperability
@@ -48,6 +49,8 @@ The table lists information from vendors related to support for Post Quantum Cry
 |[3Key Company](#3key-company)|CZERTAINLY|Software|2022-12-03|:x:|:x:|:x:|:x:|:clock1:|:clock1:|:clock1:|:x:|:x:|:x:|:x:|
 
 > NOTE: HSS and XMSS<sup>MT</sup> are the multi tree variants of LMS and XMSS.
+
+> NOTE: The table does not consider variants of algorithms, for example Dilithium has had many changes during the NIST rounds so a checkbox in the Dilithium column does not mean products are necessarily interoperable. Consult the vendor sections for details.
 
 ## Crypto4A
 
