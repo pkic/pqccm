@@ -47,6 +47,7 @@ The table lists information from vendors related to support for Post Quantum Cry
 |[Open Quantum Safe](#open-quantum-safe)|liboqs|Software library|2022-11-30|:x:|:x:|:x:|:x:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
 |[I4P](#i4p)|Trident|HSM|2022-12-01|:x:|:x:|:x:|:clock1:|:x:|:x:|:heavy_check_mark:|:heavy_check_mark:|:x:|:x:|:x:|
 |[3Key Company](#3key-company)|CZERTAINLY|Software|2022-12-03|:x:|:x:|:x:|:x:|:clock1:|:clock1:|:clock1:|:x:|:x:|:x:|:x:|
+|[IBM](#IBM)|4769/CCA/EP11|HSM|2023-01-11|:x:|:x:|:x:|:x:|:x:|:heavy_check_mark:|:x:|:x:|:x:|:x:|:x:|
 
 > NOTE: HSS and XMSS<sup>MT</sup> are the multi tree variants of LMS and XMSS.
 
@@ -112,6 +113,9 @@ Cryptographic applications are enabled to use Post-Quantum algorithms (SPHINCS+ 
 [CZERTAINLY](https://docs.czertainly.com/docs) is an open-source trust services lifecycle management platform supporting PQC algorithms and initially focusing on the signature schemes Falcon, Dilithium, and SPHINCS+ that are planned to be released as part of the platform in January 2023.
 
 Other PQC algorithms and encryption schemes are on the roadmap during 2023.
+
+## IBM
+The 4769 cryptographic hardware product supports post-quantum algorithms using the [CCA](https://www.ibm.com/security/cryptocards/pciecc4/cca) or [EP11](https://www.ibm.com/security/cryptocards/pciecc4/ep11) APIs.
 
 # References
 
