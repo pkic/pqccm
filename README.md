@@ -136,3 +136,8 @@ The following table contains references to the PQC capabilities and algorithms.
 |<span id="J">McEliece</span>|https://classic.mceliece.org|
 |<span id="K">HQC</span>|https://pqc-hqc.org|
 |NIST Recommendation for Stateful Hash-Based Signature Schemes|[SP800-208](https://csrc.nist.gov/publications/detail/sp/800-208/final)|
+
+# See also
+
+Other work by the PKI Consortium.
+* [Remote Key Attestation](https://github.com/pkic/remote-key-attestation)
