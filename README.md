@@ -30,7 +30,7 @@ No other activity besides what is listed under PQCCM DOs is under the purview of
 # Capabilities
 	
 The table lists information from vendors related to support for Post Quantum Cryptography.
-> The list is ordered alphabetically, there is no other meaning to the order.
+> The list is ordered alphabetically by vendor, there is no other meaning to the order.
 
 |Vendor|Product|Category|Last updated|[Composite certificates](#A)|[Hybrid certificates](#B)|[LMS](#C)|[XMSS](#D)|[Falcon](#E)|[Dilithium](#F)|[SPHINCS+](#G)|[Kyber](#H)|[BIKE](#I)|[McEliece](#J)|[HQC](#K)|
 |:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|
