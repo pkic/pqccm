@@ -65,7 +65,10 @@ Primus HSM (https://www.securosys.com/en/products/primus-hardware-security-modul
 
 ## Utimaco
 
-uTrust Identify and Q-Safe firmware extension. Software simulator availabe, Dilithium in process of updated to round 3 version
+uTrust Identify and Q-Safe firmware extension. Software simulator availabe, Dilithium in process of updated to round 3 version.
+
+Q-safe - https://utimaco.com/products/categories/further-solutions/q-safe
+u.trust Identify - https://utimaco.com/products/categories/identity-management/utrust-identify
 
 ## Thales
 
