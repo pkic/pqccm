@@ -45,6 +45,7 @@ The table lists information from vendors related to support for Post Quantum Cry
 |[IBM](#IBM)|4769/CCA/EP11|HSM|2023-01-11|:x:|:x:|:x:|:x:|:x:|:heavy_check_mark:|:x:|:x:|:x:|:x:|:x:|
 |[Keyfactor](#keyfactor)|SignServer|Signing Software|2022-12-19|:x:|:x:|:x:|:x:|:x:|:clock1:|:heavy_check_mark:|:x:|:x:|:x:|:x:|
 |[Keyfactor](#keyfactor)|EJBCA|PKI|2022-12-19|:x:|:x:|:x:|:x:|:heavy_check_mark:|:heavy_check_mark:|:x:|:x:|:x:|:x:|:x:|
+|[MTG AG](#mtg-ag)|Corporate PKI|PKI|2023-01-31|:x:|:x:|:x:|:x:|:x:|:x:|:heavy_check_mark:|:x:|:x:|:heavy_check_mark:|:x:|
 |[Open Quantum Safe](#open-quantum-safe)|liboqs|Software library|2022-11-30|:x:|:x:|:x:|:x:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
 |[Securosys](#securosys)|Primus|HSM|2022-11-28|:clock1:|:clock1:|:x:|:x:|:x:|:clock1:|:clock1:|:clock1:|:x:|:x:|:x:|
 |[Thales](#thales)|Luna|HSM |2022-11-22|:x:|:x:|:heavy_check_mark:|:heavy_check_mark:|:x:|:heavy_check_mark:|:x:|:heavy_check_mark:|:x:|:x:|:x:|
@@ -121,6 +122,11 @@ Other PQC algorithms and encryption schemes are on the roadmap during 2023.
 
 ## IBM
 The 4769 cryptographic hardware product supports post-quantum algorithms using the [CCA](https://www.ibm.com/security/cryptocards/pciecc4/cca) or [EP11](https://www.ibm.com/security/cryptocards/pciecc4/ep11) APIs.
+
+## MTG AG
+
+MTG Corporate PKI (https://www.mtg.de/en/public-key-infrastructures/corporate-pki/ ) consists of the two aligned product components MTG Certificate Authority (MTG CARA) and MTG Certificate Lifecycle Manager (CLM). A version supporting
+Post-Quantum algorithms and pure post quantum CA hierarchy is available for private test at https://pqc-pki.mtg.de.
 
 # References
 
