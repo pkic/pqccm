@@ -34,10 +34,10 @@ The table lists information from vendors related to support for Post Quantum Cry
 
 |Vendor|Product|Category|Last updated|[Composite certificates](#A)|[Hybrid certificates](#B)|[LMS](#C)|[XMSS](#D)|[Falcon](#E)|[Dilithium](#F)|[SPHINCS+](#G)|[Kyber](#H)|[BIKE](#I)|[McEliece](#J)|[HQC](#K)|
 |:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|
-|[3Key Company](#3key-company)|CZERTAINLY|Software|2022-12-03|:x:|:x:|:x:|:x:|:clock1:|:clock1:|:clock1:|:x:|:x:|:x:|:x:|
 |[Bouncy Castle](#bouncy-castle)|BC|Software library|2022-11-22|:heavy_check_mark:|:x:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
 |[Crypto4A](#Crypto4A)|QxEDGE|HSP|2022-12-04|:clock1:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:clock1:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x:|:heavy_check_mark:|:x:|
 |[Crypto4A](#Crypto4A)|QxHSM|HSM|2022-12-04|:clock1:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:clock1:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x:|:heavy_check_mark:|:x:|
+|[CZERTAINLY](#czertainly)|CZERTAINLY|Software|2023-02-19|:x:|:x:|:x:|:x:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x:|:x:|:x:|:x:|
 |[Entrust](#entrust)|nShield|HSM |2022-11-22|:x:|:x:|:x:|:x:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x:|:x:|:x:|:x:|
 |[Entrust](#entrust)|PKIaaS|PKI|2022-11-22|:heavy_check_mark:|:x:|:x:|:x:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x:|:x:|:x:|:x:|
 |[Fortanix](#fortanix)|FX2200|HSM|2022-11-29|:x:|:x:|:heavy_check_mark:|:x:|:clock1:|:clock1:|:clock1:|:x:|:x:|:x:|:x:|
@@ -113,11 +113,17 @@ Trident HSM is a general purpose network HSM developed by [I4P](https://www.i4p.
 
 Cryptographic applications are enabled to use Post-Quantum algorithms (SPHINCS+ and Kyber) even in the CC restricted mode that helps with using hybrid solutions and the transition to PQC.
 
-## 3Key Company
+## CZERTAINLY
 
-[CZERTAINLY](https://docs.czertainly.com/docs) is an open-source trust services lifecycle management platform supporting PQC algorithms and initially focusing on the signature schemes Falcon, Dilithium, and SPHINCS+ that are planned to be released as part of the platform in January 2023.
+[CZERTAINLY](https://docs.czertainly.com/docs) is an open-source platform that brings easy and convenient solution to protect baseline security in everyday digital communication by assuring trust lifecycle management and automation consisting of:
+- cryptographic keys
+- digital certificates
+- remote digital signatures
 
-Other PQC algorithms and encryption schemes are on the roadmap during 2023.
+The platform implements experimental support for post-quantum cryptography algorithms. The following PQC signature schemes are supported:
+- FALCON
+- CRYSTALS-Dilithium
+- SPHINCS+
 
 ## IBM
 The 4769 cryptographic hardware product supports post-quantum algorithms using the [CCA](https://www.ibm.com/security/cryptocards/pciecc4/cca) or [EP11](https://www.ibm.com/security/cryptocards/pciecc4/ep11) APIs.
