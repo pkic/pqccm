@@ -115,12 +115,7 @@ Cryptographic applications are enabled to use Post-Quantum algorithms (SPHINCS+ 
 
 ## CZERTAINLY
 
-[CZERTAINLY](https://docs.czertainly.com/docs) is an open-source platform that brings easy and convenient solution to protect baseline security in everyday digital communication by assuring trust lifecycle management and automation consisting of:
-- cryptographic keys
-- digital certificates
-- remote digital signatures
-
-The platform implements experimental support for post-quantum cryptography algorithms. The following PQC signature schemes are supported:
+Open source [CZERTAINLY](https://docs.czertainly.com/docs) platform implements experimental post-quantum cryptography algorithms support for certificate, cryptographic key, and digital signature lifecycle management and automation. The following PQC signature schemes are supported:
 - FALCON
 - CRYSTALS-Dilithium
 - SPHINCS+
