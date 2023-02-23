@@ -27,6 +27,9 @@ No other activity besides what is listed under PQCCM DOs is under the purview of
 |:heavy_check_mark:|The feature is available for usage/test now||
 |:clock1:|The feature is planned on the product roadmap in the comming six months|Roadmap items must not be added if they are not really scheduled to be implemented in the coming six month period. Roadmap items should be noted in the vendor section with a specific time, i.e. "Q2 2023" or similar.|
 
+# Latest PQC news
+22.2.2023 - CRYSTALS-Kyber was broken using recursive training AI and side channel attacks by researchers at the [KTH Royal Institute of Technology](https://www.kth.se/en)
+
 # Capabilities
 	
 The table lists information from vendors related to support for Post Quantum Cryptography.
@@ -54,9 +57,6 @@ The table lists information from vendors related to support for Post Quantum Cry
 > NOTE: HSS and XMSS<sup>MT</sup> are the multi tree variants of LMS and XMSS.
 
 > NOTE: The table does not consider variants of algorithms, for example Dilithium has had many changes during the NIST rounds so a checkbox in the Dilithium column does not mean products are necessarily interoperable. Consult the vendor sections for details.
-
-# Latest PQC news
-22.2.2023 - CRYSTALS-Kyber was broken using recursive training AI and side channel attacks by researchers at the [KTH Royal Institute of Technology](https://www.kth.se/en)
 
 ## Crypto4A
 
