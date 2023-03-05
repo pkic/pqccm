@@ -8,16 +8,17 @@ The list should be considered a living document and a starting point. Considerin
 
 The PKI Consortium is actively working to promote the adoption of Post-Quantum Cryptography, and the capabilities matrix is a key part of that effort.
 
-What the PQCCM do:
-* collect and aggregate information on PQC capabilities across the cybersecurity landspace (vendors, software, hardware, etc..)
-* list entries must be product the provide PQC functionality to the end user, not merely for example PQC enabled TLS access to a non PQC enabled service
+What the PQCCM does:
+* collects and aggregates information on PQC capabilities across the cybersecurity landspace (vendors, software, hardware, etc..)
+* lists products that provide PQC functionality to the end user, not merely for example PQC enabled TLS access to a non PQC enabled service
+
+No other activities besides those listed above are under the purview of PKI Consortium (unless explicitly stated otherwise).
 
 What the PQCCM doesn't do:
 * review, vet, verify or test implementations or interoperability
-* source code review, formal review of algorithms, etc.
+* perform source code review, formal review of algorithms, etc.
 * provide information, documentation or any recommended usage of Post Quantum Cryptography
 
-No other activity besides what is listed under PQCCM DOs is under the purview of PKI Consortium (unless explicitly stated otherwise)".
 
 ## Legend
 
@@ -43,6 +44,8 @@ The table lists information from vendors related to support for Post Quantum Cry
 |[Fortanix](#fortanix)|FX2200|HSM|2022-11-29|:x:|:x:|:heavy_check_mark:|:x:|:clock1:|:clock1:|:clock1:|:x:|:x:|:x:|:x:|
 |[I4P](#i4p)|Trident|HSM|2022-12-01|:x:|:x:|:x:|:clock1:|:x:|:x:|:heavy_check_mark:|:heavy_check_mark:|:x:|:x:|:x:|
 |[IBM](#IBM)|4769/CCA/EP11|HSM|2023-01-11|:x:|:x:|:x:|:x:|:x:|:heavy_check_mark:|:x:|:x:|:x:|:x:|:x:|
+|[ISC](#ISC)|CDK|Software library|2023-03-04|:x:|:x:|:heavy_check_mark:|:x:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x:|:heavy_check_mark:|:x:|
+|[ISC](#ISC)|CertAgent|PKI|2023-03-04|:x:|:x:|:clock1:|:x:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x:|:heavy_check_mark:|:x:|
 |[Keyfactor](#keyfactor)|SignServer|Signing Software|2022-12-19|:x:|:x:|:x:|:x:|:x:|:clock1:|:heavy_check_mark:|:x:|:x:|:x:|:x:|
 |[Keyfactor](#keyfactor)|EJBCA|PKI|2022-12-19|:x:|:x:|:x:|:x:|:heavy_check_mark:|:heavy_check_mark:|:x:|:x:|:x:|:x:|:x:|
 |[MTG AG](#mtg-ag)|Corporate PKI|PKI|2023-01-31|:x:|:x:|:x:|:x:|:x:|:x:|:heavy_check_mark:|:x:|:x:|:heavy_check_mark:|:x:|
@@ -128,6 +131,9 @@ The 4769 cryptographic hardware product supports post-quantum algorithms using t
 
 MTG Corporate PKI (https://www.mtg.de/en/public-key-infrastructures/corporate-pki/ ) consists of the two aligned product components MTG Certificate Authority (MTG CARA) and MTG Certificate Lifecycle Manager (CLM). A version supporting
 Post-Quantum algorithms and pure post quantum CA hierarchy is available for private test at https://pqc-pki.mtg.de.
+
+## ISC
+Among the PKI/PQC-enabled applications (https://infoseccorp.com/pki/) produced by ISC for enterprise use are: CertAgent, a NIAP/CSfC-approved X.509 certificate authority; CSP<sup>id</sup>, a virtual smartcard with central repository for certificates and private keys; DAS, a fully-audited webapp providing brokered encryption for communities of interest as well as brokered authentication for shared roles; and SecretAgent, an X.509 certificate-based encryption and digital signature utility. ISC also produces libraries that currently layer the leading post-quantum algorithms on top of a FIPS-validated core containing most ACVP-testable cryptographic schemes.
 
 # References
 
