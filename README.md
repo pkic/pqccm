@@ -35,7 +35,7 @@ The table lists information from vendors related to support for Post Quantum Cry
 
 |Vendor|Product|Category|Last updated|[Composite certificates](#A)|[Hybrid certificates](#B)|[LMS](#C)|[XMSS](#D)|[Falcon](#E)|[Dilithium](#F)|[SPHINCS+](#G)|[Kyber](#H)|[BIKE](#I)|[McEliece](#J)|[HQC](#K)|
 |:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|
-|[Bouncy Castle](#bouncy-castle)|BC|Software library|2022-11-22|:heavy_check_mark:|:x:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+|[Bouncy Castle](#bouncy-castle)|BC|Software library|2022-11-22|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
 |[Crypto4A](#Crypto4A)|QxEDGE|HSP|2022-12-04|:clock1:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:clock1:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x:|:heavy_check_mark:|:x:|
 |[Crypto4A](#Crypto4A)|QxHSM|HSM|2022-12-04|:clock1:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:clock1:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x:|:heavy_check_mark:|:x:|
 |[CZERTAINLY](#czertainly)|CZERTAINLY|Software|2023-02-19|:x:|:x:|:x:|:x:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:x:|:x:|:x:|:x:|
@@ -81,7 +81,7 @@ Functional module for Luna. Need functional modules enabled.
 ## Bouncy Castle
 Java and C# APIs with all NIST candidate support, and some older ones. [Available as open source software](https://www.bouncycastle.org/). All NIST candidated available in Java from version 1.72 and C# from version 2.0.0.
 
-The [Bouncy Castle for kotlin](https://github.com/bcgit/bc-kotlin) open source package provides a script/command line interface for generating certificate chains with different algorithms. 
+The [Bouncy Castle for kotlin](https://github.com/bcgit/bc-kotlin) open source package provides a script/command line interface for generating certificate chains with different algorithms, including hybrid certificates using X.509 section 9.8 alternative signatures. 
 
 ## Entrust 
 nShield
