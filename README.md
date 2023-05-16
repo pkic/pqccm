@@ -137,7 +137,7 @@ Post-Quantum algorithms and pure post quantum CA hierarchy is available for priv
 Among the PKI/PQC-enabled applications (https://infoseccorp.com/pki/) produced by ISC for enterprise use are: CertAgent, a NIAP/CSfC-approved X.509 certificate authority; CSP<sup>id</sup>, a virtual smartcard with central repository for certificates and private keys; DAS, a fully-audited webapp providing brokered encryption for communities of interest as well as brokered authentication for shared roles; and SecretAgent, an X.509 certificate-based encryption and digital signature utility. ISC also produces libraries that currently layer the leading post-quantum algorithms on top of a FIPS-validated core containing most ACVP-testable cryptographic schemes.
 
 ## Botan
-Botan is a C++ cryptography library released under the permissive Simplified BSD license. It offers the tools necessary to implement a range of systems, such as TLS protocol, X.509 certificates, AEAD ciphers, PKCS#11 and TPM hardware support, password hashing, and post quantum crypto schemes.
+[Botan](https://github.com/randombit/botan) is a C++ cryptography library released under the permissive Simplified BSD license. It offers the tools necessary to implement a range of systems, such as TLS protocol, X.509 certificates, AEAD ciphers, PKCS#11 and TPM hardware support, password hashing, and post quantum crypto schemes.
 
 # References
 
