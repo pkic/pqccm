@@ -80,7 +80,7 @@ The QxEDGE is a Hybrid Security Platform (HSP) which combines the features of a 
 
 ## Utimaco
 
-uTrust Identify and Q-Safe firmware extension. Software simulator availabe, Dilithium in process of updated to round 3 version.
+uTrust Identify and Q-Safe firmware extension. Software simulator available, Dilithium in process of updated to round 3 version.
 
 [Q-safe]https://utimaco.com/products/categories/further-solutions/q-safe)
 [u.trust Identify](https://utimaco.com/products/categories/identity-management/utrust-identify)
@@ -111,7 +111,7 @@ Dilithium is on the roadmap for Q1 2023.
 
 **EJBCA**
 
-EJBCA PKI software can create CAs and issue X.509 certificates signed using Post-Quantum algorithms. Available for private test, with public test avaialability scheduled for Q1 2023.
+EJBCA PKI software can create CAs and issue X.509 certificates signed using Post-Quantum algorithms. Available for private test, with public test availability scheduled for Q1 2023.
 
 ## Fortanix
 
