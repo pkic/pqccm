@@ -147,7 +147,7 @@ ISC produces PKI/PQC-enabled applications (https://infoseccorp.com/pki/): CertAg
 ## Botan
 [Botan](https://github.com/randombit/botan) is a C++ cryptography library released under the permissive Simplified BSD license. It offers the tools necessary to implement a range of systems, such as TLS protocol, X.509 certificates, AEAD ciphers, PKCS#11 and TPM hardware support, password hashing, and post quantum crypto schemes.
 
-# References
+## References
 
 The following table contains references to the PQC capabilities and algorithms.
 
