@@ -155,6 +155,7 @@ The following table contains references to the PQC capabilities and algorithms.
 | :------------------------------------------------------------ | :----------------------------------------------------------------------------- |
 | Composite certificates                                        | https://datatracker.ietf.org/doc/draft-ounsworth-pq-composite-keys/            |
 | Hybrid certificates                                           | https://datatracker.ietf.org/doc/html/draft-truskovsky-lamps-pq-hybrid-x509-01 |
+| X.509 Alternative Signatures (section 9.8)                    | https://www.itu.int/rec/T-REC-X.509-201910-I |
 | LMS                                                           | https://www.rfc-editor.org/rfc/rfc8708.html                                    |
 | XMSS                                                          | https://datatracker.ietf.org/doc/html/rfc8391                                  |
 | Falcon                                                        | https://falcon-sign.info                                                       |
