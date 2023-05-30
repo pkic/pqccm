@@ -101,7 +101,7 @@ The [Entrust nShield Post-Quantum SDK](https://www.entrust.com/-/media/documenta
 
 **PKIaaS**
 
-The Entrust ]PKI as a Service (PKIaaS)](https://www.entrust.com/digital-security/certificate-solutions/products/pki/managed-services/pki-as-a-service) for Post-Quantum Beta Program supports all three algorithms selected in round 3 of the NIST competition and can provide composite and pure quantum CA hierarchies.
+The Entrust [PKI as a Service (PKIaaS)](https://www.entrust.com/digital-security/certificate-solutions/products/pki/managed-services/pki-as-a-service) for Post-Quantum Beta Program supports all three algorithms selected in round 3 of the NIST competition and can provide composite and pure quantum CA hierarchies.
 
 ## Keyfactor
 **SignServer**
