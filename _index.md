@@ -110,7 +110,7 @@ SignServer performs server side signing and is capable of Post-Quantum signature
 
 **EJBCA**
 
-EJBCA PKI software can create CAs and issue X.509 certificates signed using Post-Quantum algorithms. Available as open source software and containers with support for Dilithium and Falcon from [EJBCA 8.0](https://www.keyfactor.com/press-releases/keyfactor-makes-quantum-leap-with-post-quantum-pki-and-signing-capabilities/).
+EJBCA PKI can create CAs and issue X.509 certificates signed using Post-Quantum algorithms. Available as open source software and containers with support for Dilithium and Falcon from [EJBCA 8.0](https://www.keyfactor.com/press-releases/keyfactor-makes-quantum-leap-with-post-quantum-pki-and-signing-capabilities/).
 
 ## Fortanix
 
