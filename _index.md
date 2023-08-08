@@ -106,12 +106,11 @@ The Entrust ]PKI as a Service (PKIaaS)](https://www.entrust.com/digital-security
 ## Keyfactor
 **SignServer**
 
-SignServer performs server side signing and is capable of Post-Quantum signatures on CMS (RFC5662) messages. Available as open source software from [SignServer Community v5.9.1](https://doc.primekey.com/signserver/signserver-release-information/signserver-release-notes/signserver-community-5-9-1-release-notes).
-Dilithium is on the roadmap for Q1 2023.
+SignServer performs server side signing and is capable of Post-Quantum signatures on CMS (RFC5662) messages as well as plain signatures. SPHINCS+ and Dilithium are supported from [SignServer 6.0](https://www.keyfactor.com/press-releases/keyfactor-makes-quantum-leap-with-post-quantum-pki-and-signing-capabilities/).
 
 **EJBCA**
 
-EJBCA PKI software can create CAs and issue X.509 certificates signed using Post-Quantum algorithms. Available for private test, with public test availability scheduled for Q1 2023.
+EJBCA PKI software can create CAs and issue X.509 certificates signed using Post-Quantum algorithms. Available as open source software and containers with support for Dilithium and Falcon from [EJBCA 8.0](https://www.keyfactor.com/press-releases/keyfactor-makes-quantum-leap-with-post-quantum-pki-and-signing-capabilities/).
 
 ## Fortanix
 
