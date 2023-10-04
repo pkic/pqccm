@@ -57,7 +57,7 @@ The table lists information from vendors related to support for Post Quantum Cry
 | [ISC](#isc)                             | CertAgent        | PKI              | 2023-03-04   |                  :x:                  |                :x:                 |      :clock1:      |         :x:         |  :heavy_check_mark:   |    :heavy_check_mark:    |   :heavy_check_mark:    |  :heavy_check_mark:  |         :x:         |   :heavy_check_mark:    |        :x:         |
 | [Keyfactor](#keyfactor)                 | SignServer       | Signing Software | 2022-12-19   |                  :x:                  |                :x:                 |        :x:         |         :x:         |          :x:          |    :heavy_check_mark:    |   :heavy_check_mark:    |         :x:          |         :x:         |           :x:           |        :x:         |
 | [Keyfactor](#keyfactor)                 | EJBCA            | PKI              | 2022-12-19   |                  :x:                  |                :x:                 |        :x:         |         :x:         |  :heavy_check_mark:   |    :heavy_check_mark:    |           :x:           |         :x:          |         :x:         |           :x:           |        :x:         |
-| [MTG AG](#mtg-ag)                       | Corporate PKI    | PKI              | 2023-01-31   |                  :x:                  |                :x:                 |        :x:         |         :x:         |          :x:          |           :x:            |   :heavy_check_mark:    |         :x:          |         :x:         |   :heavy_check_mark:    |        :x:         |
+| [MTG AG](#mtg-ag)                       | Corporate PKI    | PKI              | 2023-09-25   |                  :x:                  |                :x:                 |        :x:         |         :x:         |  :heavy_check_mark:   |    :heavy_check_mark:    |   :heavy_check_mark:    |       :clock1:       |         :x:         |   :heavy_check_mark:    |        :x:         |
 | [Open Quantum Safe](#open-quantum-safe) | liboqs           | Software library | 2022-11-30   |                  :x:                  |                :x:                 |        :x:         |         :x:         |  :heavy_check_mark:   |    :heavy_check_mark:    |   :heavy_check_mark:    |  :heavy_check_mark:  | :heavy_check_mark:  |   :heavy_check_mark:    | :heavy_check_mark: |
 | [Securosys](#securosys)                 | Primus           | HSM              | 2022-11-28   |               :clock1:                |              :clock1:              |        :x:         |         :x:         |          :x:          |         :clock1:         |        :clock1:         |       :clock1:       |         :x:         |           :x:           |        :x:         |
 | [Thales](#thales)                       | Luna             | HSM              | 2022-11-22   |                  :x:                  |                :x:                 | :heavy_check_mark: | :heavy_check_mark:  |          :x:          |    :heavy_check_mark:    |           :x:           |  :heavy_check_mark:  |         :x:         |           :x:           |        :x:         |
@@ -137,11 +137,16 @@ The 4769 cryptographic hardware product supports post-quantum algorithms using t
 
 ## MTG AG
 
-MTG Corporate PKI (https://www.mtg.de/en/public-key-infrastructures/corporate-pki/ ) consists of the two aligned product components MTG Certificate Authority (MTG CARA) and MTG Certificate Lifecycle Manager (CLM). A version supporting
-Post-Quantum algorithms and pure post quantum CA hierarchy is available for private test at https://pqc-pki.mtg.de.
+[MTG Corporate PKI](https://www.mtg.de/en/public-key-infrastructures/corporate-pki/ ) consists of the two aligned product components MTG Certificate Authority (MTG CARA) and MTG Certificate Lifecycle Manager (CLM).
+MTG CARA as been extended by the PQC algorithms ML-DSA (Dilithium), SLH-DSA (SPHINCS⁺), and Falcon.
+
+Furthermore, we provide an online demo of a PQC CARA version supporting
+the McEliece and SPHINCS⁺ post-quantum algorithms and a post quantum CA hierarchy that is available for private test at https://pqc-pki.mtg.de.
+
+
 
 ## ISC
-ISC produces PKI/PQC-enabled applications (https://infoseccorp.com/pki/): CertAgent, a certificate authority; CSP<sup>id</sup>, a virtual smartcard with central repository for certificates and private keys; DAS, a webapp providing brokered encryption and authentication; SecretAgent, an encryption and digital signature utility; and cryptograhic libraries that offer post-quantum algorithms.
+ISC produces PKI/PQC-enabled applications (https://infoseccorp.com/pki/): CertAgent, a certificate authority; CSP<sup>id</sup>, a virtual smartcard with central repository for certificates and private keys; DAS, a webapp providing brokered encryption and authentication; SecretAgent, an encryption and digital signature utility; and cryptographic libraries that offer post-quantum algorithms.
 
 ## Botan
 [Botan](https://github.com/randombit/botan) is a C++ cryptography library released under the permissive Simplified BSD license. It offers the tools necessary to implement a range of systems, such as TLS protocol, X.509 certificates, AEAD ciphers, PKCS#11 and TPM hardware support, password hashing, and post quantum crypto schemes.
