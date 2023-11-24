@@ -4,6 +4,9 @@ title: PQC Capabilities Matrix (PQCCM)
 
 heroTitle: PQC Capabilities Matrix (PQCCM)
 heroDescription: A list of software applications, libraries and hardware that includes support for Post Quantum Cryptography
+
+tags:
+- resource
 ---
 
 The PKI Consortium is managing a PQC Capabilities Matrix (PQCCM) of software applications, libraries and hardware that includes support for 
