@@ -28,7 +28,8 @@ No other activities besides those listed above are under the purview of PKI Cons
 * perform source code review, formal review of algorithms, etc.
 * provide information, documentation or any recommended usage of Post Quantum Cryptography
 
-**Contribute**:
+##Contribute
+
 This list is a collaborative effort. To contribute please raise an issue or a PR on the [GitHub Repository](https://github.com/pkic/pqccm).
 
 ## Legend
