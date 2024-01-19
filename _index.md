@@ -163,6 +163,7 @@ The following table contains references to the PQC capabilities and algorithms.
 
 | Algorithm                                                     | Reference                                                                      |
 | :------------------------------------------------------------ | :----------------------------------------------------------------------------- |
+| FIPS drafts for comment                                       | https://csrc.nist.gov/News/2023/three-draft-fips-for-post-quantum-cryptography |
 | Composite certificates                                        | https://datatracker.ietf.org/doc/draft-ounsworth-pq-composite-keys/            |
 | Hybrid certificates                                           | https://datatracker.ietf.org/doc/html/draft-truskovsky-lamps-pq-hybrid-x509-01 |
 | Chameleon certificates                                        | https://datatracker.ietf.org/doc/draft-bonnell-lamps-chameleon-certs/          |
