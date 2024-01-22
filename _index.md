@@ -141,7 +141,7 @@ Open source [CZERTAINLY](https://docs.czertainly.com/docs) platform implements e
 - SPHINCS+
 
 ## IBM
-The Crypto Express (CEX7S & CEX8S) cryptographic hardware security module products work with certain IBM Z® servers and the [Integrated Cryptographic Service Facility (ICSF)](https://www.ibm.com/docs/en/zos/3.1.0?topic=zos-cryptographic-services) to support post-quantum algorithms. Support is also available for [Linux on Z and LinuxONE}(https://www.ibm.com/docs/en/linux-on-z?topic=hw-crypto-express-features). The 4769 cryptographic hardware security module product supports post-quantum algorithms using the [CCA](https://www.ibm.com/products/pcie-cryptographic-coprocessor) APIs on x64 and IBM Power® servers.
+The Crypto Express (CEX7S & CEX8S) cryptographic hardware security module products work with certain IBM Z® servers and the [Integrated Cryptographic Service Facility (ICSF)](https://www.ibm.com/docs/en/zos/3.1.0?topic=zos-cryptographic-services) to support post-quantum algorithms. Support is also available for [Linux on Z and LinuxONE](https://www.ibm.com/docs/en/linux-on-z?topic=hw-crypto-express-features). The 4769 cryptographic hardware security module product supports post-quantum algorithms using the [CCA](https://www.ibm.com/products/pcie-cryptographic-coprocessor) APIs on x64 and IBM Power® servers.
 
 ## MTG AG
 
