@@ -56,6 +56,7 @@ The table lists information from vendors related to support for Post Quantum Cry
 | [CZERTAINLY](#czertainly)               | CZERTAINLY       | Software         | 2023-02-19   |                  :x:                  |                :x:                 |        :x:         |         :x:         |  :heavy_check_mark:   |    :heavy_check_mark:    |   :heavy_check_mark:    |         :x:          |         :x:         |           :x:           |        :x:         |
 | [Entrust](#entrust)                     | nShield          | HSM              | 2022-11-22   |                  :x:                  |                :x:                 |        :x:         |         :x:         |  :heavy_check_mark:   |    :heavy_check_mark:    |   :heavy_check_mark:    |         :x:          |         :x:         |           :x:           |        :x:         |
 | [Entrust](#entrust)                     | PKIaaS           | PKI              | 2022-11-22   |          :heavy_check_mark:           |                :x:                 |        :x:         |         :x:         |  :heavy_check_mark:   |    :heavy_check_mark:    |   :heavy_check_mark:    |         :x:          |         :x:         |           :x:           |        :x:         |
+| [EVERTRUST](#evertrust)                     | STREAM/HORIZON           | PKI              | 2023-09-07   |          :x:           |                :clock1:                 |        :x:         |         :x:         |  :clock1:   |    :clock1:    |   :clock1:    |         :x:          |         :x:         |           :x:           |        :x:         |
 | [Fortanix](#fortanix)                   | FX2200           | HSM              | 2022-11-29   |                  :x:                  |                :x:                 | :heavy_check_mark: |         :x:         |       :clock1:        |         :clock1:         |        :clock1:         |         :x:          |         :x:         |           :x:           |        :x:         |
 | [I4P](#i4p)                             | Trident          | HSM              | 2022-12-01   |                  :x:                  |                :x:                 |        :x:         |      :clock1:       |          :x:          |           :x:            |   :heavy_check_mark:    |  :heavy_check_mark:  |         :x:         |           :x:           |        :x:         |
 | [IBM](#ibm)                             | 4769/CCA         | HSM              | 2023-01-11   |                  :x:                  |                :x:                 |        :x:         |         :x:         |          :x:          |    :heavy_check_mark:    |           :x:           |         :x:          |         :x:         |           :x:           |        :x:         |
@@ -110,6 +111,10 @@ The [Entrust nShield Post-Quantum SDK](https://www.entrust.com/-/media/documenta
 **PKIaaS**
 
 The Entrust ]PKI as a Service (PKIaaS)](https://www.entrust.com/digital-security/certificate-solutions/products/pki/managed-services/pki-as-a-service) for Post-Quantum Beta Program supports all three algorithms selected in round 3 of the NIST competition and can provide composite and pure quantum CA hierarchies.
+
+## EVERTRUST
+
+EVERTRUST Stream is a PKI CA/VA/TSA and EVERTRUST Horizon is a PKI RA and CLM software. Both products are currently able to issue and manage pure-PQC and hybrid backard-compatible certificates based on Dilithium/Falcon/Sphincs+ algorithms. However the versions of the software that do so are yet unreleased. Release is planned upon completion of the standardization process.
 
 ## Keyfactor
 **SignServer**
