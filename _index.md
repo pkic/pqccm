@@ -67,7 +67,7 @@ The table lists information from vendors related to support for Post Quantum Cry
 | [Keyfactor](#keyfactor)                 | SignServer       | Signing Software | 2022-12-19   |                  :x:                  |                :x:                 |        :heavy_check_mark:         |         :x:         |          :x:          |    :heavy_check_mark:    |   :heavy_check_mark:    |         :x:          |         :x:         |           :x:           |        :x:         |
 | [Keyfactor](#keyfactor)                 | EJBCA            | PKI              | 2023-11-20   |                  :x:                  |                :clock1:          |        :x:         |         :x:         |  :heavy_check_mark:   |    :heavy_check_mark:    |           :x:           |         :x:          |         :x:         |           :x:           |        :x:         |
 | [MTG AG](#mtg-ag)                       | Corporate PKI    | PKI              | 2023-09-25   |                  :x:                  |                :x:                 |        :x:         |         :x:         |  :heavy_check_mark:   |    :heavy_check_mark:    |   :heavy_check_mark:    |       :clock1:       |         :x:         |   :heavy_check_mark:    |        :x:         |
-| [Nexus Group (IN Groupe)](#nexus-group-in-groupe)                       | Certificate Manager    | PKI              | 2024-03-13   |                  :x:                  |                :x:                 |        :x:         |         :x:         |  :clock1:   |    :clock1:    |   :clock1:    |       :x:       |         :x:         |   :x:    |        :x:         |
+| [Nexus Group](#nexus-group)                       | Certificate Manager    | PKI              | 2024-03-13   |                  :x:                  |                :x:                 |        :x:         |         :x:         |  :clock1:   |    :clock1:    |   :clock1:    |       :x:       |         :x:         |   :x:    |        :x:         |
 | [Open Quantum Safe](#open-quantum-safe) | liboqs           | Software library | 2022-11-30   |                  :x:                  |                :x:                 |        :x:         |         :x:         |  :heavy_check_mark:   |    :heavy_check_mark:    |   :heavy_check_mark:    |  :heavy_check_mark:  | :heavy_check_mark:  |   :heavy_check_mark:    | :heavy_check_mark: |
 | [Securosys](#securosys)                 | Primus           | HSM              | 2022-11-28   |               :clock1:                |              :clock1:              |        :x:         |         :x:         |          :x:          |         :clock1:         |        :clock1:         |       :clock1:       |         :x:         |           :x:           |        :x:         |
 | [Thales](#thales)                       | Luna             | HSM              | 2022-11-22   |                  :x:                  |                :x:                 | :heavy_check_mark: | :heavy_check_mark:  |          :x:          |    :heavy_check_mark:    |           :x:           |  :heavy_check_mark:  |         :x:         |           :x:           |        :x:         |
@@ -104,10 +104,8 @@ Java and C# APIs with all NIST candidate support, and some older ones. [Availabl
 
 The [Bouncy Castle for kotlin](https://github.com/bcgit/bc-kotlin) open source package provides a script/command line interface for generating certificate chains with different algorithms, including hybrid certificates using X.509 section 9.8 alternative signatures. 
 
-## Nexus Group (IN Groupe)
-PQC online test service available starting April 2024.
-Nexus Group secures society by enabling trusted identities for people and things. Our future-proof PKI helps organizations enable trust with certificate-based identities for citizens, employees, devices, applications, things, and IoT. Our PKI, Certificate Manager is certified Common Criteria (CC) EAL4+ and we deliver it on Premise and as Service.
-
+## Nexus Group
+PQC online test service available starting April 2024. Support for pure-PQC certificate with Dilithium, Falcon and Sphincs+ algorithms first. Later support for Hybrid and composite certificates will be added. General available version will be released depending on progress of standardization process.
 
 ## Entrust 
 **nShield**
