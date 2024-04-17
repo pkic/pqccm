@@ -49,6 +49,7 @@ The table lists information from vendors related to support for Post Quantum Cry
 
 | Vendor                                  | Product          | Category         | Last updated | [Composite certificates](#references) | [Hybrid certificates](#eferences) | [LMS](#references) | [XMSS](#references) | [Falcon](#references) | [Dilithium](#references) | [SPHINCS+](#references) | [Kyber](#references) | [BIKE](#references) | [McEliece](#references) | [HQC](#references) |
 | :-------------------------------------- | :--------------- | :--------------- | :----------- | :-----------------------------------: | :--------------------------------: | :----------------: | :-----------------: | :-------------------: | :----------------------: | :---------------------: | :------------------: | :-----------------: | :---------------------: | :----------------: |
+| [Ascertia](#ascertia)                   | ADSS             | PKI              | 2024-04-17   |                  :x:                  |                :x:                 |        :x:         |         :x:         |          :x:          |        :clock1:          |           :x:           |      :clock1:        |         :x:         |        :clock1:         |        :x:         |
 | [Botan](#botan)                         | Botan            | Software library | 2023-10-04   |                  :x:                  |                :x:                 |        :clock1:         | :heavy_check_mark:  |          :x:          |    :heavy_check_mark:    |           :heavy_check_mark:           |  :heavy_check_mark:  |         :x:         |   :clock1:    |        :x:         |
 | [Bouncy Castle](#bouncy-castle)         | BC               | Software library | 2022-11-22   |          :heavy_check_mark:           |         :heavy_check_mark:         | :heavy_check_mark: | :heavy_check_mark:  |  :heavy_check_mark:   |    :heavy_check_mark:    |   :heavy_check_mark:    |  :heavy_check_mark:  | :heavy_check_mark:  |   :heavy_check_mark:    | :heavy_check_mark: |
 | [Crypto4A](#crypto4a)                   | QxEDGE           | HSP              | 2022-12-04   |               :clock1:                |         :heavy_check_mark:         | :heavy_check_mark: | :heavy_check_mark:  |       :clock1:        |    :heavy_check_mark:    |   :heavy_check_mark:    |  :heavy_check_mark:  |         :x:         |   :heavy_check_mark:    |        :x:         |
@@ -160,13 +161,33 @@ MTG CARA as been extended by the PQC algorithms ML-DSA (Dilithium), SLH-DSA (SPH
 Furthermore, we provide an online demo of a PQC CARA version supporting
 the McEliece and SPHINCS⁺ post-quantum algorithms and a post quantum CA hierarchy that is available for private test at https://pqc-pki.mtg.de.
 
-
-
 ## ISC
 ISC produces PKI/PQC-enabled applications (https://infoseccorp.com/pki/): CertAgent, a certificate authority; CSP<sup>id</sup>, a virtual smartcard with central repository for certificates and private keys; DAS, a webapp providing brokered encryption and authentication; SecretAgent, an encryption and digital signature utility; and cryptographic libraries that offer post-quantum algorithms.
 
 ## Botan
 [Botan](https://github.com/randombit/botan) is a C++ cryptography library released under the permissive Simplified BSD license. It offers the tools necessary to implement a range of systems, such as TLS protocol, X.509 certificates, AEAD ciphers, PKCS#11 and TPM hardware support, password hashing, and post quantum crypto schemes.
+
+## Ascertia
+[Ascertia](https://www.ascertia.com/) PQC Matrix
+
+**ADSS Server**
+
+ADSS Server is a modular trust services platform that offers all services needed to operate a trust service provider. The following services are being updated to support Post-Quantum algorithms in the first half of 2024.
+
+**ADSS Signing Server**
+
+ADSS Signing Server performs server side signing and eSealing for users and business applications and will support CRYSTALS-Dilithium PKCS#1 and CMS signatures.
+
+**ADSS SAM Service**
+
+The ADSS SAM Server performs eIDAS compliant remote authorised server side signing and eSealing for users and business applications and will support CRYSTALS-Dilithium PKCS#1 signatures.
+
+**ADSS PKI Server**
+
+ADSS PKI Server can create CAs and issue X.509 certificates signed using Post-Quantum algorithms. The following PQC signature schemes are on the roadmap for 1st half of 2024:
+- CRYSTALS-Dilithium
+- Classic McEliece
+- Kyber
 
 ## References
 
