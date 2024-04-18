@@ -172,19 +172,19 @@ ISC produces PKI/PQC-enabled applications (https://infoseccorp.com/pki/): CertAg
 
 **ADSS Server**
 
-ADSS Server is a modular trust services platform that offers all services needed to operate a trust service provider. The following services are being updated to support Post-Quantum algorithms in the first half of 2024.
+ADSS Server is a modular trust services platform that offers PKI and digital signature services. The following services are being updated to support Post-Quantum algorithms in the first half of 2024.
 
 **ADSS Signing Server**
 
-ADSS Signing Server performs server side signing and eSealing for users and business applications and will support CRYSTALS-Dilithium PKCS#1 and CMS signatures.
+ADSS Signing Server performs server side signing and eSealing and will support CRYSTALS-Dilithium PKCS#1 and CMS signatures.
 
 **ADSS SAM Service**
 
-The ADSS SAM Server performs eIDAS compliant remote authorised server side signing and eSealing for users and business applications and will support CRYSTALS-Dilithium PKCS#1 signatures.
+The ADSS SAM Server performs eIDAS compliant remote authorised server side signing and eSealing will support CRYSTALS-Dilithium PKCS#1 signatures.
 
 **ADSS PKI Server**
 
-ADSS PKI Server can create CAs and issue X.509 certificates signed using Post-Quantum algorithms. The following PQC signature schemes are on the roadmap for 1st half of 2024:
+ADSS PKI Server can create CAs and issue X.509 certificates signed using Post-Quantum algorithms. The following PQC schemes are on the roadmap for 1st half of 2024:
 - CRYSTALS-Dilithium
 - Classic McEliece
 - Kyber
