@@ -90,7 +90,7 @@ The QxEDGE is a Hybrid Security Platform (HSP) which combines the features of a 
 ## Securosys
 
 [Primus HSM](https://www.securosys.com/en/products/primus-hardware-security-modules-hsm), [Primus X Cyber Vault](https://www.securosys.com/en/hsm/cyber-vault) and [HSM as-a-service](https://www.securosys.com/cloud-security/cloudhsm-overview) supports all common cryptographic algorithms, blockchain procedures including the PQC algorithms selected by NIST.
-Devices are under certification for FIPS140-3 Level 3 (in progress) and CC EN 419221-5 (eIDAS protection profile).
+Devices are under certification for FIPS140-3 Level 3 and CC EN 419221-5 (eIDAS protection profile).
 
 ## Utimaco
 
