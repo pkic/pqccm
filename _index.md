@@ -58,6 +58,7 @@ The table lists information from vendors related to support for Post Quantum Cry
 | [Entrust](#entrust)                     | nShield          | HSM              | 2022-11-22   |                  :x:                  |                :x:                 |        :x:         |         :x:         |  :heavy_check_mark:   |    :heavy_check_mark:    |   :heavy_check_mark:    |         :x:          |         :x:         |           :x:           |        :x:         |
 | [Entrust](#entrust)                     | PKIaaS           | PKI              | 2022-11-22   |          :heavy_check_mark:           |                :x:                 |        :x:         |         :x:         |  :heavy_check_mark:   |    :heavy_check_mark:    |   :heavy_check_mark:    |         :x:          |         :x:         |           :x:           |        :x:         |
 | [EVERTRUST](#evertrust)                     | STREAM/HORIZON           | PKI              | 2023-09-07   |          :x:           |                :clock1:                 |        :x:         |         :x:         |  :clock1:   |    :clock1:    |   :clock1:    |         :x:          |         :x:         |           :x:           |        :x:         |
+| [Eviden](#eviden)                     | Trustway Proteccio™ NetHSM          | HSM              | 2024-12-09  |          :heavy_check_mark:           |          :heavy_check_mark:           |         :x:         |         :x:         |         :x:         |   :heavy_check_mark:    |         :x:         |   :heavy_check_mark:    |         :x:         |         :x:         |         :x:         |
 | [Fortanix](#fortanix)                   | FX2200           | HSM              | 2024-06-21   |                  :x:                  |                :x:                 | :heavy_check_mark: |      :clock1:       |       :clock1:        |    :heavy_check_mark:    |        :clock1:         |  :heavy_check_mark:  |         :x:         |           :x:           |        :x:         |
 | [I4P](#i4p)                             | Trident          | HSM              | 2022-12-01   |                  :x:                  |                :x:                 |        :x:         |      :clock1:       |          :x:          |           :x:            |   :heavy_check_mark:    |  :heavy_check_mark:  |         :x:         |           :x:           |        :x:         |
 | [IBM](#ibm)                             | 4769/CCA         | HSM              | 2023-01-11   |                  :x:                  |                :x:                 |        :x:         |         :x:         |          :x:          |    :heavy_check_mark:    |           :x:           |         :x:          |         :x:         |           :x:           |        :x:         |
@@ -123,6 +124,10 @@ The Entrust ]PKI as a Service (PKIaaS)](https://www.entrust.com/digital-security
 ## EVERTRUST
 
 EVERTRUST Stream is a PKI CA/VA/TSA and EVERTRUST Horizon is a PKI RA and CLM software. Both products are currently able to issue and manage pure-PQC and hybrid backard-compatible certificates based on Dilithium/Falcon/Sphincs+ algorithms. However the versions of the software that do so are yet unreleased. Release is planned upon completion of the standardization process.
+
+## Eviden 
+
+The Eviden [Trustway Proteccio™ NetHSM](https://eviden.com/solutions/digital-security/data-encryption/trustway-proteccio-nethsm/) supports all common cryptographic algorithms including the PQC algorithms selected by NIST : CRYSTALS-Kyber and CRYSTALS-Dilithium. 
 
 ## Keyfactor
 **SignServer**
