@@ -123,7 +123,8 @@ The Entrust ]PKI as a Service (PKIaaS)](https://www.entrust.com/digital-security
 
 ## EVERTRUST
 
-[EVERTRUST Stream](https://evertrust.io/stream/) is a PKI CA/VA/TSA and [EVERTRUST Horizon](https://evertrust.io/horizon/) is a PKI RA and CLM software. Both products are currently able to issue and manage pure-PQC and hybrid backard-compatible certificates based on Dilithium/Falcon/Sphincs+ algorithms. Released versions have support for ML-DSA (with or without prehash), pure PQC certificates, and hybrid backward-compatible certificates as per ITU-T X.509 10/19. Other algorithms support as well as PKCS#11 support is available in beta versions.
+[EVERTRUST Stream](https://evertrust.io/stream/) is a PKI CA/VA/TSA and [EVERTRUST Horizon](https://evertrust.io/horizon/) is a PKI RA and CLM software. Both products are currently able to issue and manage pure-PQC and hybrid backard-compatible certificates based on Dilithium/Falcon/Sphincs+ algorithms. Released versions have support for ML-DSA (with or without prehash), pure PQC certificates, and hybrid backward-compatible certificates as per ITU-T X.509 10/19. 
+Other algorithms and some protocol support as well as PKCS#11 support is available in beta versions, as they depend on standards that are not yet published.
 
 ## Eviden 
 
