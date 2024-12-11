@@ -133,11 +133,11 @@ The Eviden [Trustway Proteccio™ NetHSM](https://eviden.com/solutions/digital-s
 ## Keyfactor
 **SignServer**
 
-SignServer performs server side signing and is capable of Post-Quantum signatures on CMS (RFC5662) messages as well as plain signatures. SPHINCS+ and Dilithium are supported from [SignServer 6.0](https://www.keyfactor.com/press-releases/keyfactor-makes-quantum-leap-with-post-quantum-pki-and-signing-capabilities/).
+SignServer performs server side signing and is capable of Post-Quantum signatures on CMS (RFC5662) messages as well as plain signatures. SPHINCS+ and Dilithium are supported from [SignServer 6.0](https://www.keyfactor.com/press-releases/keyfactor-makes-quantum-leap-with-post-quantum-pki-and-signing-capabilities/). SignServer 9.1 supports LMS, ML-DSA and SLH-DSA and dropped support for draft  algorithms that have now been standardized.
 
 **EJBCA**
 
-EJBCA PKI can create CAs and issue X.509 certificates signed using Post-Quantum algorithms. Available as open source software and containers with support for Dilithium and Falcon from [EJBCA 8.0](https://www.keyfactor.com/press-releases/keyfactor-makes-quantum-leap-with-post-quantum-pki-and-signing-capabilities/).
+EJBCA PKI can create CAs and issue X.509 certificates signed using Post-Quantum algorithms. Available as open source software and containers with support for Dilithium and Falcon from [EJBCA 8.0](https://www.keyfactor.com/press-releases/keyfactor-makes-quantum-leap-with-post-quantum-pki-and-signing-capabilities/). EJBCA 9.1 supports ML-DSA, ML-KEM and Falcon and dropped support for draft algorithms that have now been standardized.
 
 ## Fortanix
 
