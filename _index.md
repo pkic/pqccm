@@ -123,20 +123,21 @@ The Entrust ]PKI as a Service (PKIaaS)](https://www.entrust.com/digital-security
 
 ## EVERTRUST
 
-EVERTRUST Stream is a PKI CA/VA/TSA and EVERTRUST Horizon is a PKI RA and CLM software. Both products are currently able to issue and manage pure-PQC and hybrid backard-compatible certificates based on Dilithium/Falcon/Sphincs+ algorithms. However the versions of the software that do so are yet unreleased. Release is planned upon completion of the standardization process.
+[EVERTRUST Stream](https://evertrust.io/stream/) is a PKI CA/VA/TSA and [EVERTRUST Horizon](https://evertrust.io/horizon/) is a PKI RA and CLM software. Both products are currently able to issue and manage pure-PQC and hybrid backard-compatible certificates based on Dilithium/Falcon/Sphincs+ algorithms. Released versions have support for ML-DSA (with or without prehash), pure PQC certificates, and hybrid backward-compatible certificates as per ITU-T X.509 10/19. 
+Other algorithms and some protocol support as well as PKCS#11 support is available in beta versions, as they depend on standards that are not yet published.
 
-## Eviden 
+## Eviden
 
 The Eviden [Trustway Proteccio™ NetHSM](https://eviden.com/solutions/digital-security/data-encryption/trustway-proteccio-nethsm/) supports all common cryptographic algorithms including the PQC algorithms selected by NIST : CRYSTALS-Kyber and CRYSTALS-Dilithium. 
 
 ## Keyfactor
 **SignServer**
 
-SignServer performs server side signing and is capable of Post-Quantum signatures on CMS (RFC5662) messages as well as plain signatures. SPHINCS+ and Dilithium are supported from [SignServer 6.0](https://www.keyfactor.com/press-releases/keyfactor-makes-quantum-leap-with-post-quantum-pki-and-signing-capabilities/).
+SignServer performs server side signing and is capable of Post-Quantum signatures on CMS (RFC5662) messages as well as plain signatures. SPHINCS+ and Dilithium are supported from [SignServer 6.0](https://www.keyfactor.com/press-releases/keyfactor-makes-quantum-leap-with-post-quantum-pki-and-signing-capabilities/). SignServer 9.1 supports LMS, ML-DSA and SLH-DSA and dropped support for draft  algorithms that have now been standardized.
 
 **EJBCA**
 
-EJBCA PKI can create CAs and issue X.509 certificates signed using Post-Quantum algorithms. Available as open source software and containers with support for Dilithium and Falcon from [EJBCA 8.0](https://www.keyfactor.com/press-releases/keyfactor-makes-quantum-leap-with-post-quantum-pki-and-signing-capabilities/).
+EJBCA PKI can create CAs and issue X.509 certificates signed using Post-Quantum algorithms. Available as open source software and containers with support for Dilithium and Falcon from [EJBCA 8.0](https://www.keyfactor.com/press-releases/keyfactor-makes-quantum-leap-with-post-quantum-pki-and-signing-capabilities/). EJBCA 9.1 supports ML-DSA, ML-KEM and Falcon and dropped support for draft algorithms that have now been standardized.
 
 ## Fortanix
 
