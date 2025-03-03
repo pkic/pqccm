@@ -53,7 +53,7 @@ The list below lista algorithms standardized by FIPS. The previous list listing 
 | [Botan](#botan)                         | Botan            | Software library |2025-02-27 |:x: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark:|
 | [Bouncy Castle](#bouncy-castle)         | BC               | Software library |2025-02-27 |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark:|
 | [Crypto4A](#crypto4a)                   | QxEDGE           | HSP              |2025-02-27 |:clock1: |:heavy_check_mark:|:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
-| [EVERTRUST](#evertrust)                 | STREAM/HORIZON   | PKI              |2025-03-03 |:heavy_check_mark:|:x|:x:|:clock1:|:heavy_check_mark:|:clock1:|
+| [EVERTRUST](#evertrust)                 | STREAM/HORIZON   | PKI              |2025-03-03 |:heavy_check_mark:|:x:|:x:|:clock1:|:heavy_check_mark:|:clock1:|
 | [Fortanix](#fortanix)                   | FX2200           | HSM              |2025-02-27 |:x: |:heavy_check_mark: |:heavy_check_mark: |:clock1: |:clock1: |:clock1: |
 | [InfoSec Global](#infosecglobal)        |AgileSec Analytics| Software         |2025-02-27 |:x: |:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark: |
 | [Keyfactor](#keyfactor)                 | SignServer       | Signing Software |2025-02-27 |:x: |:heavy_check_mark: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |
