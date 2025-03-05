@@ -149,10 +149,10 @@ EJBCA PKI can create CAs and issue X.509 certificates signed using Post-Quantum 
 Forkbomb works with applied cryptography, focusing on digital identity (EUDIW and W3C-DID/VC), PQC and digital product passport.
 
 **Zenroom**
-Developed by the [Dyne.org Foundation](https://dyne.org/), Zenroom is an open source cryptographic virtual machine programmable in the near-natural English DSL "Zencode" (dialect of BDD), see [zenroom.org](https://zenroom.org/).
+Developed by the [Dyne.org Foundation](https://dyne.org/), Zenroom is a tiny, multiplatform, open source cryptographic virtual machine programmable in the near-natural English DSL [Zencode](https://dev.zenroom.org/#/pages/zencode-cookbook-intro) (inspired by BDD), supports wide range of algorithms (ecdsa, eddsa, Schnorr, BBS, ML-DSA, ML-KEM, SHA, Blake, RSA etc.) on multiple curves. See [zenroom.org](https://zenroom.org/).
 
 **PQC-Microservice**
-Open source microservice, with a tiny footprint (uses 3MB RAM), offering ML-DSA and ML-KEM, OpenAPI, includes applets with auto-generated GUI, also available on [AWS](https://aws.amazon.com/marketplace/pp/prodview-jvh6psf2baroy). See [deployment](https://pqc.api.forkbomb.eu/docs) and [source ](https://github.com/forkbombeu/tf-pqcrypto-scripts).	
+Open source microservice, with a tiny footprint (uses 3MB RAM), powered by [Zenroom](https://zenroom.org/) and [NCR](https://github.com/ForkbombEu/ncr) offering ML-DSA and ML-KEM, OpenAPI, includes applets with auto-generated GUI, also available on [AWS](https://aws.amazon.com/marketplace/pp/prodview-jvh6psf2baroy). See [deployment](https://pqc.api.forkbomb.eu/docs) and [source](https://github.com/forkbombeu/tf-pqcrypto-scripts).	
 
 
 ## Fortanix
