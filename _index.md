@@ -48,7 +48,7 @@ The table lists information from vendors related to support for Post Quantum Cry
 {.callout-info}
 
 
-| Vendor                                  | Product          | Category         | Last updated | [Composite certificates](#references) | [Hybrid certificates](#eferences) | [LMS](#references)  | [XMSS](#references) | [ML-DSA](#rferences-) | [ML-KEM](#rferences-) | [Falcon](#references)  | [Dilithium](#references) | [SPHINCS+](#references) | [Kyber](#references) | [BIKE](#references) | [McEliece](#references) | [HQC](#references) |
+| Vendor                                  | Product          | Category         | Last updated | [Composite certificates](#references) | [Hybrid certificates](#eferences) | [LMS](#references)  | [XMSS](#references) | [ML-DSA](#rferences) | [ML-KEM](#rferences) | [Falcon](#references)  | [Dilithium](#references) | [SPHINCS+](#references) | [Kyber](#references) | [BIKE](#references) | [McEliece](#references) | [HQC](#references) |
 | :-------------------------------------- | :--------------- | :--------------- | :----------- | :-----------------------------------: | :--------------------------------: | :----------------: | :-----------------: | :-----------------: | :-----------------: |  :-------------------: | :----------------------: | :---------------------: | :------------------: | :-----------------: | :---------------------: | :----------------: |
 | [Ascertia](#ascertia)                   | ADSS Server      | PKI              | 2024-09-03   |                  :x:                  |                :x:                 |        :x:         |         :x:         | :clock1:            | :clock1: |           :x:          |    :heavy_check_mark:    |           :x:           |  :heavy_check_mark:  |         :x:         |        :clock1:         |        :x:         |
 | [Botan](#botan)                         | Botan            | Software library | 2023-10-04   |                  :x:                  |                :x:                 |        :clock1:    | :heavy_check_mark:  | :clock1:             | :clock1: |           :x:          |    :heavy_check_mark:    |   :heavy_check_mark:    |  :heavy_check_mark:  |         :x:         |   :clock1:              |        :x:         |
@@ -157,7 +157,7 @@ Forkbomb works with applied cryptography, focusing on digital identity (EUDIW an
 Developed by the [Dyne.org Foundation](https://dyne.org/), Zenroom is an open source cryptographic virtual machine programmable in the near-natural English DSL "Zencode" (dialect of BDD), see [zenroom.org](https://zenroom.org/).
 
 **PQC-Microservice**
-Open source microservice, with a tiny footprint (uses 3MB RAM), offering ML-DSA and ML-KEM, OpenAPI, includes applets with auto-generated GUI, also available on [AWS](https://aws.amazon.com/marketplace/pp/prodview-jvh6psf2baroy). See [deployment](https://pqc.api.forkbomb.eu/docs) and [source ](https://github.com/forkbombeu/tf-pqcrypto-scripts).
+Open source microservice, with a tiny footprint (uses 3MB RAM), offering ML-DSA and ML-KEM, OpenAPI, includes applets with auto-generated GUI, also available on [AWS](https://aws.amazon.com/marketplace/pp/prodview-jvh6psf2baroy). See [deployment](https://pqc.api.forkbomb.eu/docs) and [source ](https://github.com/forkbombeu/tf-pqcrypto-scripts).	
 
 
 ## Fortanix
