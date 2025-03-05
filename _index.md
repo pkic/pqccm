@@ -146,7 +146,7 @@ EJBCA PKI can create CAs and issue X.509 certificates signed using Post-Quantum 
 
 ## Forkbomb
 
-Forkbomb works with applied cryptography, focusing on digital identity (EUDIW and W3C-DID/VC), PQC and digital product passport.
+[Forkbomb B.V.](https://forkbomb.solutions/) works with applied cryptography, focusing on digital identity (EUDIW and W3C-DID/VC), PQC and digital product passport.
 
 **Zenroom**
 Developed by the [Dyne.org Foundation](https://dyne.org/), Zenroom is a tiny, multiplatform, open source cryptographic virtual machine programmable in the near-natural English DSL [Zencode](https://dev.zenroom.org/#/pages/zencode-cookbook-intro) (inspired by BDD), supports wide range of algorithms (ecdsa, eddsa, Schnorr, BBS, ML-DSA, ML-KEM, SHA, Blake, RSA etc.) on multiple curves. See [zenroom.org](https://zenroom.org/).
