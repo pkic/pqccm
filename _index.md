@@ -49,6 +49,7 @@ The table lists information from vendors related to support for Post Quantum Cry
 
 | Vendor                                  | Product          | Category         | Last updated | [Composite certificates](#references) | [Hybrid certificates](#eferences) | [LMS](#references) | [XMSS](#references) | [Falcon](#references) | [Dilithium](#references) | [SPHINCS+](#references) | [Kyber](#references) | [BIKE](#references) | [McEliece](#references) | [HQC](#references) |
 | :-------------------------------------- | :--------------- | :--------------- | :----------- | :-----------------------------------: | :--------------------------------: | :----------------: | :-----------------: | :-------------------: | :----------------------: | :---------------------: | :------------------: | :-----------------: | :---------------------: | :----------------: |
+| [ANKATech](#ankatech)     | AnkaSecure   | REST API & SaaS | 2024-03-13 |       :x:       |      :x:      |       :x:       |       :x:       |  :heavy_check_mark:  |  :heavy_check_mark:  |  :heavy_check_mark:  |  :heavy_check_mark:  |       :x:       |      :x:       |       :x:       |
 | [Ascertia](#ascertia)                   | ADSS Server      | PKI              | 2024-09-03   |                  :x:                  |                :x:                 |        :x:         |         :x:         |          :x:          |    :heavy_check_mark:    |           :x:           |  :heavy_check_mark:  |         :x:         |        :clock1:         |        :x:         |
 | [Botan](#botan)                         | Botan            | Software library | 2023-10-04   |                  :x:                  |                :x:                 |        :clock1:         | :heavy_check_mark:  |          :x:          |    :heavy_check_mark:    |           :heavy_check_mark:           |  :heavy_check_mark:  |         :x:         |   :clock1:    |        :x:         |
 | [Bouncy Castle](#bouncy-castle)         | BC               | Software library | 2022-11-22   |          :heavy_check_mark:           |         :heavy_check_mark:         | :heavy_check_mark: | :heavy_check_mark:  |  :heavy_check_mark:   |    :heavy_check_mark:    |   :heavy_check_mark:    |  :heavy_check_mark:  | :heavy_check_mark:  |   :heavy_check_mark:    | :heavy_check_mark: |
@@ -83,6 +84,13 @@ The table lists information from vendors related to support for Post Quantum Cry
 
 > **NOTE:** The table does not consider variants of algorithms, for example Dilithium has had many changes during the NIST rounds so a checkbox in the Dilithium column does not mean products are necessarily interoperable. Consult the vendor sections for details.
 {.callout-info}
+
+## ANKATech  
+[AnkaSecure](https://ankatech.co) is a **REST API & SaaS** platform designed to help organizations implement **post-quantum cryptography (PQC) in real-world applications**. It provides **encryption, digital signatures, and key management** using the **NIST-standardized** PQC algorithms.
+
+AnkaSecure allows seamless integration of **CRYSTALS-Kyber (ML-KEM), CRYSTALS-Dilithium (ML-DSA), Falcon, and SPHINCS+ (SLH-DSA)** into existing systems through its API, enabling **secure communication, document signing, and data protection** against quantum threats.
+
+The solution is **enterprise-ready**, supporting **key lifecycle management** and **hybrid deployments** alongside classical cryptographic algorithms for a **smooth transition to quantum-safe security**.
 
 ## Crypto4A
 
