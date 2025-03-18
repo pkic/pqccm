@@ -58,7 +58,8 @@ The table lists information from vendors related to support for Post Quantum Cry
 | [Entrust](#entrust)                     | nShield          | HSM              | 2022-11-22   |                  :x:                  |                :x:                 |        :x:         |         :x:         |  :heavy_check_mark:   |    :heavy_check_mark:    |   :heavy_check_mark:    |         :x:          |         :x:         |           :x:           |        :x:         |
 | [Entrust](#entrust)                     | PKIaaS           | PKI              | 2022-11-22   |          :heavy_check_mark:           |                :x:                 |        :x:         |         :x:         |  :heavy_check_mark:   |    :heavy_check_mark:    |   :heavy_check_mark:    |         :x:          |         :x:         |           :x:           |        :x:         |
 | [EVERTRUST](#evertrust)                     | STREAM/HORIZON           | PKI              | 2024-12-10   |          :x:           |                :heavy_check_mark:                 |        :x:         |         :x:         |  :clock1:   |    :heavy_check_mark:    |   :clock1:    |         :x:          |         :x:         |           :x:           |        :x:         |
-| [Eviden](#eviden)                     | Trustway Proteccio™ NetHSM          | HSM              | 2024-12-09  |         :x:         |         :x:         |         :x:         |         :x:         |         :x:         |   :heavy_check_mark:    |         :x:         |   :heavy_check_mark:    |         :x:         |         :x:         |         :x:         |
+| [Eviden](#eviden)                     | IDnomic PKI          | PKI              | 2025-03-05  |         :heavy_check_mark:         |         :x:         |         :x:         |         :x:         |         :x:         |   :heavy_check_mark:    |         :x:         |   :heavy_check_mark:    |         :x:         |         :x:         |         :x:         |
+| [Eviden](#eviden)                     | Trustway Proteccio™ NetHSM          | HSM              | 2024-12-09  |         :x:         |         :x:         |         :x:         |         :x:         |         :x:         |   :heavy_check_mark:    |         :heavy_check_mark:         |   :heavy_check_mark:    |         :x:         |         :x:         |         :x:         |
 | [Fortanix](#fortanix)                   | FX2200           | HSM              | 2024-06-21   |                  :x:                  |                :x:                 | :heavy_check_mark: |      :clock1:       |       :clock1:        |    :heavy_check_mark:    |        :clock1:         |  :heavy_check_mark:  |         :x:         |           :x:           |        :x:         |
 | [I4P](#i4p)                             | Trident          | HSM              | 2022-12-01   |                  :x:                  |                :x:                 |        :x:         |      :clock1:       |          :x:          |           :x:            |   :heavy_check_mark:    |  :heavy_check_mark:  |         :x:         |           :x:           |        :x:         |
 | [IBM](#ibm)                             | 4769/CCA         | HSM              | 2023-01-11   |                  :x:                  |                :x:                 |        :x:         |         :x:         |          :x:          |    :heavy_check_mark:    |           :x:           |         :x:          |         :x:         |           :x:           |        :x:         |
@@ -127,8 +128,13 @@ The Entrust ]PKI as a Service (PKIaaS)](https://www.entrust.com/digital-security
 Other algorithms and some protocol support as well as PKCS#11 support is available in beta versions, as they depend on standards that are not yet published.
 
 ## Eviden
+**IDnomic PKI**
 
-The Eviden [Trustway Proteccio™ NetHSM](https://eviden.com/solutions/digital-security/data-encryption/trustway-proteccio-nethsm/) supports all common cryptographic algorithms including the PQC algorithms selected by NIST : CRYSTALS-Kyber and CRYSTALS-Dilithium. 
+The Eviden [IDnomic PKI](https://www.cryptovision.com/en/products/pki-solutions/idnomic-pki-3/) supports the published PQC algorithms standardized by NIST : ML-DSA and ML-KEM. Composite and pure quantum certificates hierarchies can be provided.
+
+**Trustway Proteccio™ NetHSM**
+
+The Eviden [Trustway Proteccio™ NetHSM](https://eviden.com/solutions/digital-security/data-encryption/trustway-proteccio-nethsm/) supports all common cryptographic algorithms including the PQC algorithms selected by NIST : ML-DSA, ML-KEM and SLH-DSA. 
 
 ## Keyfactor
 **SignServer**
