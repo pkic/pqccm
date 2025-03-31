@@ -74,6 +74,7 @@ The table lists information from vendors related to support for Post Quantum Cry
 | [MTG AG](#mtg-ag)                       | Corporate PKI    | PKI              | 2023-09-25   |                  :x:                  |                :x:                 |        :x:         |         :x:         |  :heavy_check_mark:   |    :heavy_check_mark:    |   :heavy_check_mark:    |       :clock1:       |         :x:         |   :heavy_check_mark:    |        :x:         |
 | [Nexus Group](#nexus-group)                       | Certificate Manager    | PKI              | 2024-03-13   |                  :x:                  |                :x:                 |        :x:         |         :x:         |  :clock1:   |    :clock1:    |   :clock1:    |       :x:       |         :x:         |   :x:    |        :x:         |
 | [Open Quantum Safe](#open-quantum-safe) | liboqs           | Software library | 2022-11-30   |                  :x:                  |                :x:                 |        :x:         |         :x:         |  :heavy_check_mark:   |    :heavy_check_mark:    |   :heavy_check_mark:    |  :heavy_check_mark:  | :heavy_check_mark:  |   :heavy_check_mark:    | :heavy_check_mark: |
+| [SafeLogic](#safelogic) | CryptoComply PQTLS | Software Library | :clock1: | :clock1: | :clock1: | :clock1: | :clock1: | :clock1:| :heavy_check_mark: | :clock1: | :clock1: | :clock1: | :clock1: | :clock1:  
 | [Securosys](#securosys)                 | Primus HSM X/X2-Series, Primus HSM E/E2-Series, CloudHSM| HSM              | 2024-10-24   |               :clock1:                |              :clock1:              |        :heavy_check_mark:         |         :heavy_check_mark:         |          :x:          |         :heavy_check_mark:         |        :heavy_check_mark:         |       :heavy_check_mark:       |         :x:         |           :x:           |        :x:         |
 | [Thales](#thales)                       | Luna             | HSM              | 2022-11-22   |                  :x:                  |                :x:                 | :heavy_check_mark: | :heavy_check_mark:  |          :x:          |    :heavy_check_mark:    |           :x:           |  :heavy_check_mark:  |         :x:         |           :x:           |        :x:         |
 | [Utimaco](#utimaco)                     | Q-Safe           | HSM              | 2022-11-28   |                  :x:                  |                :x:                 | :heavy_check_mark: | :heavy_check_mark:  |          :x:          |    :heavy_check_mark:    |           :x:           |  :heavy_check_mark:  |         :x:         |           :x:           |        :x:         |
@@ -207,6 +208,12 @@ ADSS PKI Server can create CAs and issue X.509 certificates signed using Post-Qu
 ## Infrasoft
 [Infrasoft](https://www.infrasoft.com.au) specialises in communication software with its uLinga product suite. The software supports Kyber-based hybrid key exchanges proposed for TLS 1.3 to secure sensitive data processed by the software.
 
+## SafeLogic
+[SafeLogic](https://www.safelogic.com) Cryptography Simplified! 
+
+**[CryptoComply PQ-TLS](https://www.safelogic.com/products-and-services/cryptocomply-pq-tls)**
+SafeLogic’s CryptoComply PQ TLS provides a drop-in, commercial-grade, quantum-resistant TLS solution. It leverages SafeLogic’s CAVP-certified implementation of the ML-KEM post-quantum cryptography algorithm to enable quantum-resistant TLS connections without the need for extensive ecosystem changes.
+
 ## References
 
 The following table contains references to the PQC capabilities and algorithms.
@@ -230,3 +237,5 @@ The following table contains references to the PQC capabilities and algorithms.
 | McEliece                                                      | https://classic.mceliece.org                                                   |
 | HQC                                                           | https://pqc-hqc.org                                                            |
 | NIST Recommendation for Stateful Hash-Based Signature Schemes | [SP800-208](https://csrc.nist.gov/publications/detail/sp/800-208/final)        |
+
+
