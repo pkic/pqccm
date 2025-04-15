@@ -64,7 +64,7 @@ The list below lista algorithms standardized by FIPS. The previous list listing 
 | [Keyfactor](#keyfactor)                 | EJBCA            | PKI              |2025-02-27 |:heavy_check_mark: |:heavy_check_mark: |:x: |:heavy_check_mark: |:heavy_check_mark: |:clock1: |
 | [Open Quantum Safe](#open-quantum-safe) | liboqs           | Software library |2025-02-27 |:x: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
 | [OpenSSL](#openssl) | libssl           | Software library |2025-04-15 |:x: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:x: |
-| [SafeLogic](#safelogic)                 | CryptoComply PQTLS | Software Library | :x: | :x: | :x: | :x: | :heavy_check_mark: | :x: | :x: |
+| [SafeLogic](#safelogic)                 | CryptoComply PQTLS | Software Library |2025-03-31 | :x: | :x: | :x: | :heavy_check_mark: | :x: | :x: |
 | [Securosys](#securosys)                 | Primus HSM       | HSM              |2025-02-27 |:x: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
 
 > **NOTE:** HSS and XMSS<sup>MT</sup> are the multi tree variants of LMS and XMSS. In the table both the simple and multi-tree versions may be supported if LMS/XMSS is checked.
