@@ -60,24 +60,32 @@ The list below lista algorithms standardized by FIPS. The previous list listing 
 | [Keyfactor](#keyfactor)                 | SignServer       | Signing Software |2025-02-27 |:x: |:heavy_check_mark: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |
 | [Keyfactor](#keyfactor)                 | EJBCA            | PKI              |2025-02-27 |:heavy_check_mark: |:heavy_check_mark: |:x: |:heavy_check_mark: |:heavy_check_mark: |:x: |
 | [Open Quantum Safe](#open-quantum-safe) | liboqs           | Software library |2025-02-27 |:x: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
+| [OpenSSL](#openssl) | libssl           | Software library |2025-04-15 |:x: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:x: |
 | [Securosys](#securosys)                 | Primus HSM       | HSM              |2025-02-27 |:x: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
 
 > **NOTE:** HSS and XMSS<sup>MT</sup> are the multi tree variants of LMS and XMSS. In the table both the simple and multi-tree versions may be supported if LMS/XMSS is checked.
 {.callout-info}
 
-## Crypto4A
-
-Crypto4A Technologies Inc. develops the crypto-agile and quantum-safe security products sold as the QxHSM™, a hardware security module (HSM) and the QxEDGE™, a hardware security platform (HSP). For more information about those products as well as the status of our FIPS 140-3 validation or CAVP algorithm list, please visit [www.crypto4a.com.
-
-## Securosys
-
-[Primus HSM](https://www.securosys.com/en/products/primus-hardware-security-modules-hsm), [Primus X Cyber Vault](https://www.securosys.com/en/hsm/cyber-vault) and [HSM as-a-service](https://www.securosys.com/cloud-security/cloudhsm-overview) supports all common cryptographic algorithms, blockchain procedures including the PQC algorithms selected by NIST.
-Devices are under certification for FIPS140-3 Level 3 and CC EN 419221-5 (eIDAS protection profile).
+## Botan
+[Botan](https://github.com/randombit/botan) is a C++ cryptography library released under the permissive Simplified BSD license. It offers the tools necessary to implement a range of systems, such as TLS protocol, X.509 certificates, AEAD ciphers, PKCS#11 and TPM hardware support, password hashing, and post quantum crypto schemes.
 
 ## Bouncy Castle
 Java and C# APIs with all NIST candidate support, and some older ones. [Available as open source software](https://www.bouncycastle.org/). All NIST standards are available in Java from version 1.79 and C# from version 3.0.0.
 
 The [Bouncy Castle for kotlin](https://github.com/bcgit/bc-kotlin) open source package provides a script/command line interface for generating certificate chains with different algorithms, including hybrid certificates using X.509 section 9.8 alternative signatures. 
+
+## Crypto4A
+
+Crypto4A Technologies Inc. develops the crypto-agile and quantum-safe security products sold as the QxHSM™, a hardware security module (HSM) and the QxEDGE™, a hardware security platform (HSP). For more information about those products as well as the status of our FIPS 140-3 validation or CAVP algorithm list, please visit [www.crypto4a.com.
+
+## EVERTRUST
+
+[EVERTRUST Stream](https://evertrust.io/stream/) is a PKI CA/VA/TSA and [EVERTRUST Horizon](https://evertrust.io/horizon/) is a PKI RA and CLM software. Both products are currently able to issue and manage pure-PQC and hybrid backard-compatible certificates based on Dilithium/Falcon/Sphincs+ algorithms. Released versions have support for ML-DSA (with or without prehash), pure PQC certificates, and hybrid backward-compatible certificates as per ITU-T X.509 10/19. 
+Other algorithms and some protocol support as well as PKCS#11 support is available in beta versions, as they depend on standards that are not yet published.
+
+## Fortanix
+
+Fortanix DSM has LMS available and ML-DSA, ML-KEM and SLH-DSA on the roadmap for 2025. See [Algorithm Support](https://support.fortanix.com/hc/en-us/articles/360016160411-Algorithm-Support).
 
 ## Keyfactor
 **SignServer**
@@ -88,21 +96,18 @@ SignServer performs server side signing and is capable of Post-Quantum signature
 
 EJBCA PKI can create CAs and issue X.509 certificates signed using Post-Quantum algorithms. Available as open source software and containers with support for ML-DSA and ML-KEM from [EJBCA 9.1](https://www.keyfactor.com/press-releases/keyfactor-makes-quantum-leap-with-post-quantum-pki-and-signing-capabilities/).
 
-## Fortanix
-
-Fortanix DSM has LMS available and ML-DSA, ML-KEM and SLH-DSA on the roadmap for 2025. See [Algorithm Support](https://support.fortanix.com/hc/en-us/articles/360016160411-Algorithm-Support).
-
 ## Open Quantum Safe
 
 OQS is an open source software library that implements PQC [algorithms](https://openquantumsafe.org/liboqs/algorithms/), as well as integrations such as into OpenSSL.
 
-## Botan
-[Botan](https://github.com/randombit/botan) is a C++ cryptography library released under the permissive Simplified BSD license. It offers the tools necessary to implement a range of systems, such as TLS protocol, X.509 certificates, AEAD ciphers, PKCS#11 and TPM hardware support, password hashing, and post quantum crypto schemes.
+## OpenSSL
 
-## EVERTRUST
+[OpenSSL](https://openssl-library.org/) is an open source software library that implements PQC algorithms from version 3.5.
 
-[EVERTRUST Stream](https://evertrust.io/stream/) is a PKI CA/VA/TSA and [EVERTRUST Horizon](https://evertrust.io/horizon/) is a PKI RA and CLM software. Both products are currently able to issue and manage pure-PQC and hybrid backard-compatible certificates based on Dilithium/Falcon/Sphincs+ algorithms. Released versions have support for ML-DSA (with or without prehash), pure PQC certificates, and hybrid backward-compatible certificates as per ITU-T X.509 10/19. 
-Other algorithms and some protocol support as well as PKCS#11 support is available in beta versions, as they depend on standards that are not yet published.
+## Securosys
+
+[Primus HSM](https://www.securosys.com/en/products/primus-hardware-security-modules-hsm), [Primus X Cyber Vault](https://www.securosys.com/en/hsm/cyber-vault) and [HSM as-a-service](https://www.securosys.com/cloud-security/cloudhsm-overview) supports all common cryptographic algorithms, blockchain procedures including the PQC algorithms selected by NIST.
+Devices are under certification for FIPS140-3 Level 3 and CC EN 419221-5 (eIDAS protection profile).
 
 ## References
 
