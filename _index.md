@@ -50,6 +50,7 @@ The list below lista algorithms standardized by FIPS. The previous list listing 
 
 | Vendor                                  | Product          | Category         | Last updated | [X.509 Hybrid certificates](#eferences) | [LMS](#references) | [XMSS](#references) | [ML-KEM/FIPS-203](#references) | [ML-DSA/FIPS-204](#references) | [SLH-DSA/FIPS-205](#references) |
 | :-------------------------------------- | :--------------- | :--------------- | :----------- | :-------------------------------------: | :----------------: | :-----------------: | :-----------------: | :-------------------: | :----------------------: |
+| [ANKATech](#ankatech)                   | AnkaSecure | REST API & SaaS |2025-03-13|:x: |:x: |:x: |:heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | [Botan](#botan)                         | Botan            | Software library |2025-02-27 |:x: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark:|
 | [Bouncy Castle](#bouncy-castle)         | BC               | Software library |2025-02-27 |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark:|
 | [Crypto4A](#crypto4a)                   | QxEDGE           | HSP              |2025-02-27 |:heavy_check_mark: |:heavy_check_mark:|:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
@@ -67,6 +68,9 @@ The list below lista algorithms standardized by FIPS. The previous list listing 
 
 > **NOTE:** HSS and XMSS<sup>MT</sup> are the multi tree variants of LMS and XMSS. In the table both the simple and multi-tree versions may be supported if LMS/XMSS is checked.
 {.callout-info}
+
+## ANKATech  
+[AnkaSecure](https://ankatech.co) is a **REST API & SaaS** platform designed to help organizations implement **post-quantum cryptography (PQC) in real-world applications**. It provides **encryption, digital signatures, and key management** using the **NIST-standardized** PQC algorithms. AnkaSecure supports ML-KEM, ML-DSA, SLH-DSA and Falcon through its API.
 
 ## Botan
 [Botan](https://github.com/randombit/botan) is a C++ cryptography library released under the permissive Simplified BSD license. It offers the tools necessary to implement a range of systems, such as TLS protocol, X.509 certificates, AEAD ciphers, PKCS#11 and TPM hardware support, password hashing, and post quantum crypto schemes.
