@@ -60,7 +60,7 @@ The list below lista algorithms standardized by FIPS. The previous list listing 
 | [Fortanix](#fortanix)                   | FX2200           | HSM              |2025-02-27 |:x: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
 | [InfoSec Global](#infosecglobal)        |AgileSec Analytics| Software         |2025-02-27 |:x: |:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark: |
 | [Keyfactor](#keyfactor)                 | SignServer       | Signing Software |2025-02-27 |:x: |:heavy_check_mark: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |
-| [Keyfactor](#keyfactor)                 | EJBCA            | PKI              |2025-02-27 |:heavy_check_mark: |:heavy_check_mark: |:x: |:heavy_check_mark: |:heavy_check_mark: |:x: |
+| [Keyfactor](#keyfactor)                 | EJBCA            | PKI              |2025-02-27 |:heavy_check_mark: |:heavy_check_mark: |:x: |:heavy_check_mark: |:heavy_check_mark: |:clock1: |
 | [Open Quantum Safe](#open-quantum-safe) | liboqs           | Software library |2025-02-27 |:x: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
 | [OpenSSL](#openssl) | libssl           | Software library |2025-04-15 |:x: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:x: |
 | [Securosys](#securosys)                 | Primus HSM       | HSM              |2025-02-27 |:x: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
