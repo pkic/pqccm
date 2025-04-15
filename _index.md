@@ -110,7 +110,7 @@ SignServer performs server side signing and is capable of Post-Quantum signature
 
 **EJBCA**
 
-EJBCA PKI can create CAs and issue X.509 certificates signed using Post-Quantum algorithms. Available as open source software and containers with support for ML-DSA and ML-KEM from [EJBCA 9.1](https://www.keyfactor.com/press-releases/keyfactor-makes-quantum-leap-with-post-quantum-pki-and-signing-capabilities/).
+EJBCA PKI can create CAs and issue X.509 certificates signed using Post-Quantum algorithms. Available as open source software and containers with support for LMS, ML-DSA and ML-KEM from [EJBCA 9.1](https://www.keyfactor.com/press-releases/keyfactor-makes-quantum-leap-with-post-quantum-pki-and-signing-capabilities/), and SLH-DSA from version 9.3.
 
 ## Open Quantum Safe
 
