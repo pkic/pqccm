@@ -64,13 +64,14 @@ The list below lista algorithms standardized by FIPS. The previous list listing 
 | [Keyfactor](#keyfactor)                 | EJBCA            | PKI              |2025-02-27 |:heavy_check_mark: |:heavy_check_mark: |:x: |:heavy_check_mark: |:heavy_check_mark: |:clock1: |
 | [Open Quantum Safe](#open-quantum-safe) | liboqs           | Software library |2025-02-27 |:x: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
 | [OpenSSL](#openssl) | libssl           | Software library |2025-04-15 |:x: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:x: |
+| [SafeLogic](#safelogic)                 | CryptoComply PQTLS | Software Library | :x: | :x: | :x: | :x: | :heavy_check_mark: | :x: | :x: |
 | [Securosys](#securosys)                 | Primus HSM       | HSM              |2025-02-27 |:x: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
 
 > **NOTE:** HSS and XMSS<sup>MT</sup> are the multi tree variants of LMS and XMSS. In the table both the simple and multi-tree versions may be supported if LMS/XMSS is checked.
 {.callout-info}
 
 ## ANKATech  
-[AnkaSecure](https://ankatech.co) is a **REST API & SaaS** platform designed to help organizations implement **post-quantum cryptography (PQC) in real-world applications**. It provides **encryption, digital signatures, and key management** using the **NIST-standardized** PQC algorithms. AnkaSecure supports ML-KEM, ML-DSA, SLH-DSA and Falcon through its API.
+[AnkaSecure](https://ankatech.co) is a REST API & SaaS platform designed to help organizations implement post-quantum cryptography (PQC) in real-world applications. It provides encryption, digital signatures, and key management using NIST standardized PQC algorithms. AnkaSecure supports ML-KEM, ML-DSA, SLH-DSA and Falcon through its API.
 
 ## Botan
 [Botan](https://github.com/randombit/botan) is a C++ cryptography library released under the permissive Simplified BSD license. It offers the tools necessary to implement a range of systems, such as TLS protocol, X.509 certificates, AEAD ciphers, PKCS#11 and TPM hardware support, password hashing, and post quantum crypto schemes.
@@ -118,6 +119,10 @@ OQS is an open source software library that implements PQC [algorithms](https://
 ## OpenSSL
 
 [OpenSSL](https://openssl-library.org/) is an open source software library that implements PQC algorithms from version 3.5.
+
+## SafeLogic
+
+[CryptoComply PQ-TLS](https://www.safelogic.com/products-and-services/cryptocomply-pq-tls) provides a drop-in TLS solution. It leverages SafeLogic’s CAVP-certified implementation of the ML-KEM algorithm to enable quantum-resistant TLS connections.
 
 ## Securosys
 
