@@ -60,7 +60,7 @@ The list below lista algorithms standardized by FIPS. The previous list listing 
 | [Eviden](#eviden)                       | IDnomic PKI      | PKI              |2025-03-05 |:x:|:x:|:x:|:heavy_check_mark:|:heavy_check_mark:|:x:|
 | [Eviden](#eviden)                     | Trustway Proteccio™ NetHSM | HSM      |2024-12-09 |:x:|:x:|:x:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
 | [Fortanix](#fortanix)                   | FX2200           | HSM              |2025-02-27 |:x: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
-| [I4P](#i4p)                             | Trident          | HSM              |2025-04-16 |:x: |:x: |:x: |:heavy_check_mark: |:x: |:heavy_check_mark: |
+| [I4P](#i4p)                             | Trident          | HSM              |2025-04-16 |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
 | [InfoSec Global](#infosecglobal)        |AgileSec Analytics| Software         |2025-02-27 |:x: |:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark: |
 | [Keyfactor](#keyfactor)                 | SignServer       | Signing Software |2025-02-27 |:x: |:heavy_check_mark: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |
 | [Keyfactor](#keyfactor)                 | EJBCA            | PKI              |2025-02-27 |:heavy_check_mark: |:heavy_check_mark: |:x: |:heavy_check_mark: |:heavy_check_mark: |:clock1: |
