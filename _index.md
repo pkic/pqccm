@@ -59,7 +59,7 @@ The list below lista algorithms standardized by FIPS. The previous list listing 
 | [EVERTRUST](#evertrust)                 | STREAM/HORIZON   | PKI              |2025-03-03 |:heavy_check_mark:|:x:|:x:|:clock1:|:heavy_check_mark:|:clock1:|
 | [Eviden](#eviden)                       | IDnomic PKI      | PKI              |2025-03-05 |:x:|:x:|:x:|:heavy_check_mark:|:heavy_check_mark:|:x:|
 | [Eviden](#eviden)                     | Trustway Proteccio™ NetHSM | HSM      |2024-12-09 |:x:|:x:|:x:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
-| [Fortanix](#fortanix)                   | FX2200           | HSM              |2025-02-27 |:x: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
+| [Fortanix](#fortanix)                   | DSM              | HSM              |2025-02-27 |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
 | [I4P](#i4p)                             | Trident          | HSM              |2025-04-16 |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
 | [InfoSec Global](#infosecglobal)        |AgileSec Analytics| Software         |2025-02-27 |:x: |:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark: |
 | [Keyfactor](#keyfactor)                 | SignServer       | Signing Software |2025-02-27 |:x: |:heavy_check_mark: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |
@@ -109,7 +109,7 @@ The Eviden [Trustway Proteccio™ NetHSM](https://eviden.com/solutions/digital-s
 
 ## Fortanix
 
-Fortanix DSM has LMS available and ML-DSA, ML-KEM and SLH-DSA on the roadmap for 2025. See [Algorithm Support](https://support.fortanix.com/hc/en-us/articles/360016160411-Algorithm-Support).
+Fortanix DSM support all NIST-approved PQC algorithms in FX 2200, available via SaaS and on-prem appliances. It enables enterprises to adopt quantum-safe cryptography today with full PKI support, including CA creation and X.509 certificates. Fortanix Key Insight provides key discovery and visibility, aiding PQC readiness.
 
 ## I4P
 Trident HSM is a general purpose network HSM developed by [I4P](https://www.i4p.com/) that received the Common Criteria (CC) EAL4+ (EN 419221-5 as well as EN 419241-2) certification. 
