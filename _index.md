@@ -30,7 +30,10 @@ No other activities besides those listed above are under the purview of PKI Cons
 
 ## Contribute
 
-This list is a collaborative effort. To contribute please raise an issue or a PR on the [GitHub Repository](https://github.com/pkic/pqccm).
+This list is a collaborative effort. To contribute please:
+* Create an issue on [GitHub](https://github.com/pkic/pqccm).
+* Create a pull request on [GitHub](https://github.com/pkic/pqccm).
+* Participate in PKIC and the PQC working group and send an email to the list.
 
 ## Legend
 
