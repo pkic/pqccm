@@ -62,6 +62,7 @@ The list below lista algorithms standardized by FIPS. The previous list listing 
 | [EVERTRUST](#evertrust)                 | STREAM/HORIZON   | PKI              |2025-03-03 |:heavy_check_mark:|:x:|:x:|:clock1:|:heavy_check_mark:|:clock1:|
 | [Eviden](#eviden)                       | IDnomic PKI      | PKI              |2025-03-05 |:x:|:x:|:x:|:heavy_check_mark:|:heavy_check_mark:|:x:|
 | [Eviden](#eviden)                     | Trustway Proteccio™ NetHSM | HSM      |2024-12-09 |:x:|:x:|:x:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+| [ExeQuantum](#exequantum)                   | ExeQuantum | REST API & SaaS |2025-04-29|:x: |:x: |:x: |:heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | [Fortanix](#fortanix)                   | DSM              | HSM              |2025-02-27 |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
 | [I4P](#i4p)                             | Trident          | HSM              |2025-04-16 |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
 | [InfoSec Global](#infosecglobal)        |AgileSec Analytics| Software         |2025-02-27 |:x: |:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark: |
