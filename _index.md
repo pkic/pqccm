@@ -69,6 +69,7 @@ The list below lista algorithms standardized by FIPS. The previous list listing 
 | [InfoSec Global](#infosecglobal)        |AgileSec Analytics| Software         |2025-02-27 |:x: |:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark: |
 | [Keyfactor](#keyfactor)                 | SignServer       | Signing Software |2025-02-27 |:x: |:heavy_check_mark: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |
 | [Keyfactor](#keyfactor)                 | EJBCA            | PKI              |2025-02-27 |:heavy_check_mark: |:heavy_check_mark: |:x: |:heavy_check_mark: |:heavy_check_mark: |:clock1: |
+| [MTG](#mtg-ag)                 | Corporate PKI       | PKI |2025-05-06 |:x: |:x: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |
 | [Nexus Group](#nexus-group)             | Certificate Manager | PKI           |2025-04-16 |:clock1: |:x: |:x: |:clock1: |:heavy_check_mark: |:heavy_check_mark: |
 | [Open Quantum Safe](#open-quantum-safe) | liboqs           | Software library |2025-02-27 |:x: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
 | [OpenSSL](#openssl) | libssl           | Software library |2025-04-15 |:x: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:x: |
@@ -132,6 +133,12 @@ SignServer performs server side signing and is capable of Post-Quantum signature
 **EJBCA**
 
 EJBCA PKI can create CAs and issue X.509 certificates signed using Post-Quantum algorithms. Available as open source software and containers with support for LMS, ML-DSA and ML-KEM from [EJBCA 9.1](https://www.keyfactor.com/press-releases/keyfactor-makes-quantum-leap-with-post-quantum-pki-and-signing-capabilities/), and SLH-DSA from version 9.3.
+
+## MTG AG
+
+[MTG Corporate PKI](https://www.mtg.de/en/public-key-infrastructures/corporate-pki/ ) consists of the two aligned product components MTG Certificate Authority (MTG CARA) and MTG Certificate Lifecycle Manager (CLM).
+MTG CARA as been extended by the PQC algorithms ML-DSA and SLH-DSA.
+
 
 ## Nexus Group
 **Certificate Manager**
