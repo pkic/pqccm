@@ -46,7 +46,7 @@ This list is a collaborative effort. To contribute please:
 ## Capabilities
 
 The table lists information from vendors related to support for Post Quantum Cryptography.
-The list below lista algorithms standardized by FIPS. The previous list listing support for draft algorithms can now be found in on the separate [draftalgorithms](draftalgorithms.md) page.
+The list below lista algorithms standardized by FIPS. The previous list listing support for draft algorithms can now be found in on the separate [draftalgorithms](./draftalgorithms/) page.
 
 > The list is ordered alphabetically by vendor, there is no other meaning to the order.
 {.callout-info}
