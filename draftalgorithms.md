@@ -37,7 +37,6 @@ This page is an archive of support for draft PQC algorithms, before standardizat
 | [ISC](#isc)                             | CertAgent        | PKI              | 2023-03-04   |                  :x:                  |                :x:                 |      :clock1:      |         :x:         |  :heavy_check_mark:   |    :heavy_check_mark:    |   :heavy_check_mark:    |  :heavy_check_mark:  |         :x:         |   :heavy_check_mark:    |        :x:         |
 | [Keyfactor](#keyfactor)                 | SignServer       | Signing Software | 2022-12-19   |                  :x:                  |                :x:                 |        :heavy_check_mark:         |         :x:         |          :x:          |    :heavy_check_mark:    |   :heavy_check_mark:    |         :x:          |         :x:         |           :x:           |        :x:         |
 | [Keyfactor](#keyfactor)                 | EJBCA            | PKI              | 2024-07-22   |                  :x:                  |                :heavy_check_mark:          |        :x:         |         :x:         |  :heavy_check_mark:   |    :heavy_check_mark:    |           :x:           |         :x:          |         :x:         |           :x:           |        :x:         |
-| [MTG AG](#mtg-ag)                       | Corporate PKI    | PKI              | 2023-09-25   |                  :x:                  |                :x:                 |        :x:         |         :x:         |  :heavy_check_mark:   |    :heavy_check_mark:    |   :heavy_check_mark:    |       :clock1:       |         :x:         |   :heavy_check_mark:    |        :x:         |
 | [Nexus Group](#nexus-group)                       | Certificate Manager    | PKI              | 2024-03-13   |                  :x:                  |                :x:                 |        :x:         |         :x:         |  :clock1:   |    :clock1:    |   :clock1:    |       :x:       |         :x:         |   :x:    |        :x:         |
 | [Open Quantum Safe](#open-quantum-safe) | liboqs           | Software library | 2022-11-30   |                  :x:                  |                :x:                 |        :x:         |         :x:         |  :heavy_check_mark:   |    :heavy_check_mark:    |   :heavy_check_mark:    |  :heavy_check_mark:  | :heavy_check_mark:  |   :heavy_check_mark:    | :heavy_check_mark: |
 | [Securosys](#securosys)                 | Primus HSM X/X2-Series, Primus HSM E/E2-Series, CloudHSM| HSM              | 2024-10-24   |               :clock1:                |              :clock1:              |        :heavy_check_mark:         |         :heavy_check_mark:         |          :x:          |         :heavy_check_mark:         |        :heavy_check_mark:         |       :heavy_check_mark:       |         :x:         |           :x:           |        :x:         |
@@ -128,14 +127,6 @@ Open source [CZERTAINLY](https://docs.czertainly.com/docs) platform implements e
 
 ## IBM
 The Crypto Express (CEX7S & CEX8S) cryptographic hardware security module products work with certain IBM Z® servers and the [Integrated Cryptographic Service Facility (ICSF)](https://www.ibm.com/docs/en/zos/3.1.0?topic=zos-cryptographic-services) to support post-quantum algorithms. Support is also available for [Linux on Z and LinuxONE](https://www.ibm.com/docs/en/linux-on-z?topic=hw-crypto-express-features). The 4769 cryptographic hardware security module product supports post-quantum algorithms using the [CCA](https://www.ibm.com/products/pcie-cryptographic-coprocessor) APIs on x64 and IBM Power® servers.
-
-## MTG AG
-
-[MTG Corporate PKI](https://www.mtg.de/en/public-key-infrastructures/corporate-pki/ ) consists of the two aligned product components MTG Certificate Authority (MTG CARA) and MTG Certificate Lifecycle Manager (CLM).
-MTG CARA as been extended by the PQC algorithms ML-DSA (Dilithium), SLH-DSA (SPHINCS⁺), and Falcon.
-
-Furthermore, we provide an online demo of a PQC CARA version supporting
-the McEliece and SPHINCS⁺ post-quantum algorithms and a post quantum CA hierarchy that is available for private test at https://pqc-pki.mtg.de.
 
 ## ISC
 ISC produces PKI/PQC-enabled applications (https://infoseccorp.com/pki/): CertAgent, a certificate authority; CSP<sup>id</sup>, a virtual smartcard with central repository for certificates and private keys; DAS, a webapp providing brokered encryption and authentication; SecretAgent, an encryption and digital signature utility; and cryptographic libraries that offer post-quantum algorithms.
