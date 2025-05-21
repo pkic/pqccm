@@ -60,7 +60,7 @@ The list below lista algorithms standardized by FIPS. The previous list listing 
 | [Crypto4A](#crypto4a)                   | QxEDGE           | HSP              |2025-02-27 |:heavy_check_mark: |:heavy_check_mark:|:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
 | [Crypto4A](#crypto4a)                   | QxHSM            | HSM              |2025-02-27 |:heavy_check_mark: |:heavy_check_mark:|:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
 | [Entrust](#entrust)                     | nShield          | HSM              |2025-03-01 |:x: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:x:|
-| [essendi it GmbH](#essendi it GmbH)     | essendi xc       | CLM              |2025-05-21 |:x: |:x: |:x: |:clock1: |:heavy_check_mark: |:clock1:|
+| [essendi it GmbH](#essendi)             | essendi xc       | CLM              |2025-05-21 |:x: |:x: |:x: |:clock1: |:heavy_check_mark: |:clock1:|
 | [EVERTRUST](#evertrust)                 | STREAM/HORIZON   | PKI              |2025-03-03 |:heavy_check_mark:|:x:|:x:|:clock1:|:heavy_check_mark:|:clock1:|
 | [Eviden](#eviden)                       | IDnomic PKI      | PKI              |2025-03-05 |:x:|:x:|:x:|:heavy_check_mark:|:heavy_check_mark:|:x:|
 | [Eviden](#eviden)                     | Trustway Proteccio™ NetHSM | HSM      |2024-12-09 |:x:|:x:|:x:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
