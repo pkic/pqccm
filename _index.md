@@ -60,6 +60,7 @@ The list below lista algorithms standardized by FIPS. The previous list listing 
 | [Crypto4A](#crypto4a)                   | QxEDGE           | HSP              |2025-02-27 |:heavy_check_mark: |:heavy_check_mark:|:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
 | [Crypto4A](#crypto4a)                   | QxHSM            | HSM              |2025-02-27 |:heavy_check_mark: |:heavy_check_mark:|:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
 | [Entrust](#entrust)                     | nShield          | HSM              |2025-03-01 |:x: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:x:|
+| [essendi it GmbH](#essendi it GmbH)     | essendi xc       | CLM              |2025-05-21 |:x: |:x: |:x: |:clock1: |:heavy_check_mark: |:clock1:|
 | [EVERTRUST](#evertrust)                 | STREAM/HORIZON   | PKI              |2025-03-03 |:heavy_check_mark:|:x:|:x:|:clock1:|:heavy_check_mark:|:clock1:|
 | [Eviden](#eviden)                       | IDnomic PKI      | PKI              |2025-03-05 |:x:|:x:|:x:|:heavy_check_mark:|:heavy_check_mark:|:x:|
 | [Eviden](#eviden)                     | Trustway Proteccio™ NetHSM | HSM      |2024-12-09 |:x:|:x:|:x:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
@@ -101,6 +102,9 @@ Crypto4A Technologies Inc. develops the crypto-agile and quantum-safe security p
 
 The [Entrust nShield Post-Quantum SDK](https://www.entrust.com/-/media/documentation/datasheets/entrust-pqc-option-pack-ds.pdf) enables post-quantum cryptographic applications for nShield HSMs with the CodeSafe SDK.
 
+## essendi it GmbH
+essendi it GmbH provides [essendi xc](https://xc.essendi.de/en/), a certificate management system that automates the lifecycle of digital certificates (CLM). The platform offers crypto agility, cryptographic inventory management, and supports organizations in the migration and transformation from classical cryptography to post-quantum cryptography (PQC). essendi xc enables the request, management, monitoring, and deployment of both classical and post-quantum certificates. ML-DSA (FIPS-204) is implemented, while ML-KEM (FIPS-203) and SLH-DSA (FIPS-205) are currently in development and on the product roadmap.
+
 ## EVERTRUST
 
 [EVERTRUST Stream](https://evertrust.io/stream/) is a PKI CA/VA/TSA and [EVERTRUST Horizon](https://evertrust.io/horizon/) is a PKI RA and CLM software. Both products are currently able to issue and manage pure-PQC and hybrid backard-compatible certificates based on Dilithium/Falcon/Sphincs+ algorithms. Released versions have support for ML-DSA (with or without prehash), pure PQC certificates, and hybrid backward-compatible certificates as per ITU-T X.509 10/19. 
@@ -117,7 +121,7 @@ The Eviden [Trustway Proteccio™ NetHSM](https://eviden.com/solutions/digital-s
 
 ## Fortanix
 
-Fortanix DSM support all NIST-approved PQC algorithms in FX 2200, available via SaaS and on-prem appliances. It enables enterprises to adopt quantum-safe cryptography today with full PKI support, including CA creation and X.509 certificates. Fortanix Key Insight provides key discovery and visibility, aiding PQC readiness.
+Fortanix DSM support all NIST-approved PQC algorithms in FX 2200, available via SaaS and on-prem appliances. It enables enterprises to adopt quantum-safe cryptography today with PKI support, including CA creation and X.509 certificates. Fortanix Key Insight provides key discovery and visibility, aiding PQC readiness.
 
 ## I4P
 Trident HSM is a general purpose network HSM developed by [I4P](https://www.i4p.com/) that received the Common Criteria (CC) EAL4+ (EN 419221-5 as well as EN 419241-2) certification. 
