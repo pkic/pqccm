@@ -69,7 +69,7 @@ The list below lista algorithms standardized by FIPS. The previous list listing 
 | [I4P](#i4p)                             | Trident          | HSM              |2025-04-16 |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
 | [InfoSec Global](#infosecglobal)        |AgileSec Analytics| Software         |2025-02-27 |:x: |:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark: |
 | [Keyfactor](#keyfactor)                 | SignServer       | Signing Software |2025-02-27 |:x: |:heavy_check_mark: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |
-| [Keyfactor](#keyfactor)                 | EJBCA            | PKI              |2025-02-27 |:heavy_check_mark: |:heavy_check_mark: |:x: |:heavy_check_mark: |:heavy_check_mark: |:clock1: |
+| [Keyfactor](#keyfactor)                 | EJBCA            | PKI              |2025-02-27 |:heavy_check_mark: |:heavy_check_mark: |:x: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
 | [MTG](#mtg-ag)                          | Corporate PKI    | PKI              |2025-05-06 |:x: |:x: |:x: |:clock1: |:clock1: |:clock1: |
 | [Nexus Group](#nexus-group)             | Certificate Manager | PKI           |2025-04-16 |:clock1: |:x: |:x: |:clock1: |:heavy_check_mark: |:heavy_check_mark: |
 | [Open Quantum Safe](#open-quantum-safe) | liboqs           | Software library |2025-02-27 |:x: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
@@ -132,11 +132,11 @@ Cryptographic applications are enabled to use Post-Quantum algorithms even in th
 ## Keyfactor
 **SignServer**
 
-SignServer performs server side signing and is capable of Post-Quantum signatures on CMS (RFC5662) messages as well as plain signatures. LMS, SLH-DSA and ML-DSA are supported from [SignServer 9.1](https://www.keyfactor.com/press-releases/keyfactor-makes-quantum-leap-with-post-quantum-pki-and-signing-capabilities/).
+SignServer performs server side signing and is capable of post-quantum signatures on CMS (RFC5662) messages as well as plain signatures. Available as open source software and containers with support for LMS, SLH-DSA and ML-DSA from [SignServer 7.1](https://www.keyfactor.com/press-releases/keyfactor-makes-quantum-leap-with-post-quantum-pki-and-signing-capabilities/).
 
 **EJBCA**
 
-EJBCA PKI can create CAs and issue X.509 certificates signed using Post-Quantum algorithms. Available as open source software and containers with support for LMS, ML-DSA and ML-KEM from [EJBCA 9.1](https://www.keyfactor.com/press-releases/keyfactor-makes-quantum-leap-with-post-quantum-pki-and-signing-capabilities/), and SLH-DSA from version 9.3.
+EJBCA PKI can create CAs and issue pure and hybrid X.509 certificates signed using post-quantum algorithms. Available as open source software and containers with support for LMS, ML-DSA and ML-KEM from [EJBCA 9.1](https://www.keyfactor.com/press-releases/keyfactor-makes-quantum-leap-with-post-quantum-pki-and-signing-capabilities/), and SLH-DSA from version 9.3.
 
 ## MTG AG
 
