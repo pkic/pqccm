@@ -42,6 +42,7 @@ This list is a collaborative effort. To contribute please:
 |        :x:         | The feature is currently not available                                 |                                                                                                                                                                                                                         |
 | :heavy_check_mark: | The feature is available for usage/test now                            |                                                                                                                                                                                                                         |
 |      :clock1:      | The feature is planned on the product roadmap in the coming six months | Roadmap items must not be added if they are not really scheduled to be implemented in the coming six month period. Roadmap items should be noted in the vendor section with a specific time, i.e. "Q2 2023" or similar. |
+|        N/A         | The feature is not applicable for this type of product, it can for instance be a product the implements cryptographic algorithm where certificate generstion is not applicable|         
 
 ## Capabilities
 
