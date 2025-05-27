@@ -52,7 +52,7 @@ The list below lista algorithms standardized by FIPS. The previous list listing 
 > The list is ordered alphabetically by vendor, there is no other meaning to the order.
 {.callout-info}
 
-| Vendor                                  | Product          | Category         | Last updated | [X.509 Hybrid certificates](#eferences) | [LMS](#references) | [XMSS](#references) | [ML-KEM/FIPS-203](#references) | [ML-DSA/FIPS-204](#references) | [SLH-DSA/FIPS-205](#references) |
+| Vendor                                  | Product          | Category         | Last updated | [X.509 Hybrid certificates](#references) | [LMS](#references) | [XMSS](#references) | [ML-KEM/FIPS-203](#references) | [ML-DSA/FIPS-204](#references) | [SLH-DSA/FIPS-205](#references) |
 | :-------------------------------------- | :--------------- | :--------------- | :----------- | :-------------------------------------: | :----------------: | :-----------------: | :-----------------: | :-------------------: | :----------------------: |
 | [ANKATech](#ankatech)                   | AnkaSecure | REST API & SaaS |2025-03-13|:x: |:x: |:x: |:heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | [AppViewX](#appviewx)                   | AVX ONE PKIaaS | PKI |2025-04-21|:heavy_check_mark: |:clock1: |:clock1: |:x: | :heavy_check_mark: | :heavy_check_mark: |
@@ -73,7 +73,7 @@ The list below lista algorithms standardized by FIPS. The previous list listing 
 | [Keyfactor](#keyfactor)                 | EJBCA            | PKI              |2025-05-22 |:heavy_check_mark: |:heavy_check_mark: |:x: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
 | [MTG](#mtg-ag)                          | Corporate PKI    | PKI              |2025-05-06 |:x: |:x: |:x: |:clock1: |:clock1: |:clock1: |
 | [Nexus Group](#nexus-group)             | Certificate Manager | PKI           |2025-04-16 |:clock1: |:x: |:x: |:clock1: |:heavy_check_mark: |:heavy_check_mark: |
-| [Open Quantum Safe](#open-quantum-safe) | liboqs           | Software library |2025-02-27 |:x: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
+| [Open Quantum Safe](#open-quantum-safe) | liboqs           | Software library |2025-05-27 |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:x: |
 | [OpenSSL](#openssl)                     | libssl           | Software library |2025-04-15 |:x: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:x: |
 | [SafeLogic](#safelogic)                 | CryptoComply PQTLS | Software Library |2025-03-31 | :x: | :x: | :x: | :heavy_check_mark: | :x: | :x: |
 | [Securosys](#securosys)                 | Primus HSM       | HSM              |2025-02-27 |N/A |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
