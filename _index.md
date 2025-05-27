@@ -74,7 +74,7 @@ The list below lista algorithms standardized by FIPS. The previous list listing 
 | [MTG](#mtg-ag)                          | Corporate PKI    | PKI              |2025-05-06 |:x: |:x: |:x: |:clock1: |:clock1: |:clock1: |
 | [Nexus Group](#nexus-group)             | Certificate Manager | PKI           |2025-04-16 |:clock1: |:x: |:x: |:clock1: |:heavy_check_mark: |:heavy_check_mark: |
 | [Open Quantum Safe](#open-quantum-safe) | liboqs           | Software library |2025-05-27 |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:x: |
-| [OpenSSL](#openssl)                     | libssl           | Software library |2025-04-15 |:x: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:x: |
+| [OpenSSL](#openssl)                     | libssl           | Software library |2025-04-15 |:x: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
 | [SafeLogic](#safelogic)                 | CryptoComply PQTLS | Software Library |2025-03-31 | :x: | :x: | :x: | :heavy_check_mark: | :x: | :x: |
 | [Securosys](#securosys)                 | Primus HSM       | HSM              |2025-02-27 |N/A |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
 
