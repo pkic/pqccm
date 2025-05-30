@@ -54,7 +54,7 @@ The list below lista algorithms standardized by FIPS. The previous list listing 
 
 | Vendor                                  | Product          | Category         | Last updated | [X.509 Hybrid certificates](#references) | [LMS](#references) | [XMSS](#references) | [ML-KEM/FIPS-203](#references) | [ML-DSA/FIPS-204](#references) | [SLH-DSA/FIPS-205](#references) |
 | :-------------------------------------- | :--------------- | :--------------- | :----------- | :-------------------------------------: | :----------------: | :-----------------: | :-----------------: | :-------------------: | :----------------------: |
-| [ANKATech](#ankatech)                   | AnkaSecure | REST API & SaaS |2025-03-13|:x: |:x: |:x: |:heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| [ANKATech](#ankatech)                   | ANKASecure | REST API & SaaS |2025-05-30|:x: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | [AppViewX](#appviewx)                   | AVX ONE PKIaaS | PKI |2025-04-21|:heavy_check_mark: |:clock1: |:clock1: |:x: | :heavy_check_mark: | :heavy_check_mark: |
 | [Botan](#botan)                         | Botan            | Software library |2025-02-27 |:x: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark:|
 | [Bouncy Castle](#bouncy-castle)         | BC               | Software library |2025-02-27 |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark:|
@@ -82,7 +82,7 @@ The list below lista algorithms standardized by FIPS. The previous list listing 
 {.callout-info}
 
 ## ANKATech  
-[AnkaSecure](https://ankatech.co) is a REST API & SaaS platform designed to help organizations implement post-quantum cryptography (PQC) in real-world applications. It provides encryption, digital signatures, and key management using NIST standardized PQC algorithms. AnkaSecure supports ML-KEM, ML-DSA, SLH-DSA and Falcon through its API.
+[ANKASecure](https://ankatech.co) is a REST API & SaaS platform designed to implement post-quantum cryptography (PQC) in real-world applications. It provides encryption, digital signatures, and key management using a range of PQC algorithms standardized by NIST, as well as additional schemes recognized by ETSI and ENISA. AnkaSecure supports ML-KEM, ML-DSA, SLH-DSA, Falcon, LMS, and XMSS through its API. It also enables organizations to establish cryptographic sovereignty and seamlessly migrate from classical to post-quantum cryptography.
 
 ## AppViewX
 [AppViewX](https://www.appviewx.com) - AVX ONE PKIaaS is a cloud-based PKI offering that supports the creation of CAs & issuance of X.509 certificates using post-quantum cryptographic algorithms, with current support for ML-DSA and SLH-DSA, along with the capability to issue hybrid certificates that combine classical and quantum-safe algorithms. Support for additional algorithms such as ML-KEM and composite signatures is currently under evaluation.
