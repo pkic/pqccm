@@ -105,7 +105,7 @@ The [Bouncy Castle for kotlin](https://github.com/bcgit/bc-kotlin) open source p
 Crypto4A Technologies Inc. develops the crypto-agile and quantum-safe security products sold as the QxHSM™, a hardware security module (HSM) and the QxEDGE™, a hardware security platform (HSP). For more information about those products as well as the status of our FIPS 140-3 validation or CAVP algorithm list, please visit [www.crypto4a.com].
 
 ## DigiCert
-DigiCert, the world leader in **PKI** and **Digital Trust**, supports NIST-approved PQC algorithms throughout its platform and solutions. The DigiCert ONE platform and solutions support ML-DSA, SLH-DSA, with ML-KEM and FN-DSA support coming soon. DigiCert also supports non-standardized algorithms at [labs.digicert.com]. 
+DigiCert, a provider of **PKI** and **Digital Trust** solutions, supports NIST-approved PQC algorithms throughout its platform and solutions. The DigiCert ONE platform and solutions support ML-DSA, SLH-DSA, with ML-KEM and FN-DSA support coming soon. DigiCert also supports non-standardized algorithms at [labs.digicert.com]. 
 
 ## Entrust
 **nShield**
