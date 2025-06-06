@@ -60,6 +60,11 @@ The list below lista algorithms standardized by FIPS. The previous list listing 
 | [Bouncy Castle](#bouncy-castle)         | BC               | Software library |2025-02-27 |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark:|
 | [Crypto4A](#crypto4a)                   | QxEDGE           | HSP              |2025-02-27 |N/A |:heavy_check_mark:|:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
 | [Crypto4A](#crypto4a)                   | QxHSM            | HSM              |2025-02-27 |N/A |:heavy_check_mark:|:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
+| [DigiCert](#digicert)                   | Private CA       | PKI              |2025-06-05 |:x: |:x: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |
+| [DigiCert](#digicert)                   | Software Trust Manager | Signing software |2025-06-05 |:x: |:x: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |
+| [DigiCert](#digicert)                   | Trust Lifecycle Manager | CLM software |2025-06-05 |:x: |:x: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |
+| [DigiCert](#digicert)                   | Device Trust Manager | IoT device mgmt software |2025-06-05 |:x: |:x: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |
+| [DigiCert](#digicert)                   | TrustCore SDK    | Software library             |2025-06-05 |:x: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
 | [Entrust](#entrust)                     | nShield          | HSM              |2025-03-01 |N/A |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:x:|
 | [essendi it GmbH](#essendi-it-gmbh)     | essendi xc       | CLM              |2025-05-21 |:x: |:x: |:x: |:clock1: |:heavy_check_mark: |:clock1:|
 | [EVERTRUST](#evertrust)                 | STREAM/HORIZON   | PKI              |2025-03-03 |:heavy_check_mark:|:x:|:x:|:clock1:|:heavy_check_mark:|:clock1:|
@@ -98,6 +103,9 @@ The [Bouncy Castle for kotlin](https://github.com/bcgit/bc-kotlin) open source p
 ## Crypto4A
 
 Crypto4A Technologies Inc. develops the crypto-agile and quantum-safe security products sold as the QxHSM™, a hardware security module (HSM) and the QxEDGE™, a hardware security platform (HSP). For more information about those products as well as the status of our FIPS 140-3 validation or CAVP algorithm list, please visit [www.crypto4a.com].
+
+## DigiCert
+DigiCert, a provider of **PKI** and **Digital Trust** solutions, supports NIST-approved PQC algorithms throughout its platform and solutions. The DigiCert ONE platform and solutions support ML-DSA, SLH-DSA, with ML-KEM and FN-DSA support coming soon. DigiCert also supports non-standardized algorithms at [labs.digicert.com]. 
 
 ## Entrust
 **nShield**
