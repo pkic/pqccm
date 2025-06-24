@@ -77,6 +77,7 @@ The list below lista algorithms standardized by FIPS. The previous list listing 
 | [InfoSec Global](#infosecglobal)        |AgileSec Analytics| Software         | 2025-02-27   |:x: |:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark: |
 | [Keyfactor](#keyfactor)                 | SignServer       | Signing Software | 2025-02-27   |:x: |:heavy_check_mark: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |
 | [Keyfactor](#keyfactor)                 | EJBCA            | PKI              | 2025-05-22   |:heavy_check_mark: |:heavy_check_mark: |:x: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
+| [Keyfactor](#keyfactor)                 | Command          | PKI              | 2025-06-23   | :heavy_check_mark: | :x: | :x: | :x: | :heavy_check_mark: |:clock1: |
 | [MTG](#mtg-ag)                          | Corporate PKI    | PKI              | 2025-05-06   |:x: |:x: |:x: |:clock1: |:clock1: |:clock1: |
 | [Nexus Group](#nexus-group)             | Certificate Manager | PKI           | 2025-04-16   |:clock1: |:x: |:x: |:clock1: |:heavy_check_mark: |:heavy_check_mark: |
 | [Open Quantum Safe](#open-quantum-safe) | liboqs           | Software library | 2025-05-27   |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:x: |
@@ -151,6 +152,10 @@ SignServer performs server side signing and is capable of post-quantum signature
 **EJBCA**
 
 EJBCA PKI can create CAs and issue pure and hybrid X.509 certificates signed using post-quantum algorithms. Available as open source software and containers with support for LMS, ML-DSA and ML-KEM from [EJBCA 9.1](https://www.keyfactor.com/press-releases/keyfactor-makes-quantum-leap-with-post-quantum-pki-and-signing-capabilities/), and SLH-DSA from version 9.3.
+
+**Command**
+
+[Command 25.2](https://www.keyfactor.com/press-releases/keyfactor-makes-quantum-leap-with-post-quantum-pki-and-signing-capabilities/) is an enterprise CLM platform that can issue and manage post-quantum certificates. Available as a cloud-hosted offering, or installable in on-prem environments. Features support for hybrid and and ML-DSA certificates, with upcoming SLH-DSA support in 25.3.
 
 ## MTG AG
 
