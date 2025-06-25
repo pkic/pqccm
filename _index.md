@@ -82,6 +82,7 @@ The list below lista algorithms standardized by FIPS. The previous list listing 
 | [Nexus Group](#nexus-group)             | Certificate Manager | PKI           | 2025-04-16   |:clock1: |:x: |:x: |:clock1: |:heavy_check_mark: |:heavy_check_mark: |
 | [Open Quantum Safe](#open-quantum-safe) | liboqs           | Software library | 2025-05-27   |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:x: |
 | [OpenSSL](#openssl)                     | libssl           | Software library | 2025-04-15   |:x: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
+| [PQ Code Package](#pq-code-package) | PQCP           | Software library | 2025-06-24   | N/A |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:clock1: |
 | [SafeLogic](#safelogic)                 | CryptoComply PQTLS | Software Library | 2025-03-31   | :x: | :x: | :x: | :heavy_check_mark: | :x: | :x: |
 | [Securosys](#securosys)                 | Primus HSM       | HSM              | 2025-02-27   |N/A |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
 
@@ -174,6 +175,10 @@ OQS is an open source software library that implements PQC [algorithms](https://
 ## OpenSSL
 
 [OpenSSL](https://openssl-library.org/) is an open source software library that implements PQC algorithms from version 3.5.
+
+## PQ Code Package
+
+[PQ Code Package](https://github.com/pq-code-package) is a collection of open source projects aiming to build high-assurance software implementations of standards-track post-quantum cryptography algorithms.  The PQCP is a project within the [Linux Foundation](https://linuxfoundation.org/) as part of the [Post-Quantum Cryptography Alliance](https://pqca.org/).
 
 ## SafeLogic
 
