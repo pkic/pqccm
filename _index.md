@@ -192,7 +192,7 @@ Devices are under certification for FIPS140-3 Level 3 and CC EN 419221-5 (eIDAS 
 
 ## Thales
 
-[Luna HSM] support PQC algorithm, including ML-DSA and ML-KEM since firmware version [7.9.0](https://thalesdocs.com/gphsm/luna/7/docs/network/Content/CRN/Luna/firmware/7-9-0.htm).
+[Luna HSM](https://cpl.thalesgroup.com/encryption/hardware-security-modules/network-hsms) support PQC algorithm, including ML-DSA and ML-KEM since firmware version [7.9.0](https://thalesdocs.com/gphsm/luna/7/docs/network/Content/CRN/Luna/firmware/7-9-0.htm).
 
 ## References
 
