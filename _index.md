@@ -79,7 +79,7 @@ The list below lista algorithms standardized by FIPS. The previous list listing 
 | [Keyfactor](#keyfactor)                 | EJBCA            | PKI              | 2025-05-22   |:heavy_check_mark: |:heavy_check_mark: |:x: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
 | [Keyfactor](#keyfactor)                 | Command          | PKI              | 2025-06-23   | :heavy_check_mark: | :x: | :x: | :x: | :heavy_check_mark: |:clock1: |
 | [MTG](#mtg-ag)                          | Corporate PKI    | PKI              | 2025-05-06   |:x: |:x: |:x: |:clock1: |:clock1: |:clock1: |
-| [Nexus Group](#nexus-group)             | Certificate Manager | PKI           | 2025-04-16   |:clock1: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
+| [Nexus Group](#nexus-group)             | Certificate Manager | PKI           | 2025-07-14   |:clock1: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
 | [Open Quantum Safe](#open-quantum-safe) | liboqs           | Software library | 2025-05-27   |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:x: |
 | [OpenSSL](#openssl)                     | libssl           | Software library | 2025-04-15   |:x: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
 | [PQ Code Package](#pq-code-package) | PQCP           | Software library | 2025-06-24   | N/A |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:clock1: |
