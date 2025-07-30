@@ -158,12 +158,12 @@ EJBCA PKI can create CAs and issue pure and hybrid X.509 certificates signed usi
 
 **Command**
 
-[Command 25.2](https://www.keyfactor.com/press-releases/keyfactor-makes-quantum-leap-with-post-quantum-pki-and-signing-capabilities/) is an enterprise CLM platform that can issue and manage post-quantum certificates. Available as a cloud-hosted offering, or installable in on-prem environments. Features support for hybrid and and ML-DSA certificates, with upcoming SLH-DSA support in 25.3.
+[Command 25.2](https://www.keyfactor.com/press-releases/keyfactor-makes-quantum-leap-with-post-quantum-pki-and-signing-capabilities/) is an enterprise CLM platform that can issue and manage post-quantum certificates. Available as a cloud-hosted offering, or installable in on-prem environments. Features support for hybrid and ML-DSA certificates, with upcoming SLH-DSA support in 25.3.
 
 ## MTG AG
 
 [MTG Corporate PKI](https://www.mtg.de/en/public-key-infrastructures/corporate-pki/ ) consists of the two product components MTG Certificate Authority (MTG CARA) and MTG Certificate Lifecycle Manager (CLM).
-Official MTG CARA releases feature the PQC algorithms ML-DSA and SLH-DSA. ML-KEM is planned to be added by Q3 2025.
+Official MTG CARA releases feature the PQC algorithms ML-DSA and SLH-DSA. ML-KEM is planned to be added by Q3 2025. CLM will support PQC support by Q4.
 
 ## Nexus Group
 **Certificate Manager**
