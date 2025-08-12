@@ -54,6 +54,9 @@ The list below lista algorithms standardized by FIPS. The previous list listing 
 
 | Vendor                                  | Product          | Category         | Last updated | [X.509 Hybrid certificates](#references) | [LMS](#references) | [XMSS](#references) | [ML-KEM/FIPS-203](#references) | [ML-DSA/FIPS-204](#references) | [SLH-DSA/FIPS-205](#references) |
 | :-------------------------------------- | :--------------- | :--------------- |:-------------| :-------------------------------------: | :----------------: | :-----------------: | :-----------------: | :-------------------: | :----------------------: |
+| [Ascertia](#ascertia)                   | ADSS PKI Server  | PKI              | 2025-08-12   |:x: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:clock1: |
+| [Ascertia](#ascertia)                   | ADSS Signing Server | Signing software | 2025-08-12 |:x: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:clock1: |
+| [Ascertia](#ascertia)                   | ADSS Server SAM Service\Appliance | Signing software\Signature Activation Module | 2025-08-12 |:x: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:clock1: |
 | [ANKATech](#ankatech)                   | ANKASecure | REST API & SaaS | 2025-05-30   |:x: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | [AppViewX](#appviewx)                   | AVX ONE PKIaaS | PKI | 2025-04-21   |:heavy_check_mark: |:clock1: |:clock1: |:x: | :heavy_check_mark: | :heavy_check_mark: |
 | [Botan](#botan)                         | Botan            | Software library | 2025-02-27   |:x: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark:|
@@ -194,6 +197,28 @@ Devices are under certification for FIPS140-3 Level 3 and CC EN 419221-5 (eIDAS 
 ## Thales
 
 [Luna HSM](https://cpl.thalesgroup.com/encryption/hardware-security-modules/network-hsms) support PQC algorithm, including ML-DSA and ML-KEM since firmware version [7.9.0](https://thalesdocs.com/gphsm/luna/7/docs/network/Content/CRN/Luna/firmware/7-9-0.htm).
+
+## Ascertia
+[Ascertia](https://www.ascertia.com/) PQC Matrix
+
+**ADSS Server**
+
+ADSS Server is a modular trust services platform that offers PKI and digital signature services. The following services offer support for Post-Quantum algorithms.
+
+**ADSS Signing Server**
+
+ADSS Signing Server performs server side signing and eSealing, ADSS Signing Server support’s ML-KEM/FIPS-203, and ML-DSA/FIPS-204, PKCS#1 and CMS signatures. The ADSS Server Signing Service will support SLH-DSA/FIPS-205 in the 2nd half of 2025.
+
+**ADSS SAM Service**
+
+The ADSS SAM Server performs eIDAS compliant remote authorised server side signing and eSealing supports ML-KEM/FIPS-203, and ML-DSA/FIPS-204,  PKCS#1 signatures. ADSS SAM Server will support SLH-DSA/FIPS-205 in the 2nd half of 2025.
+
+**ADSS PKI Server**
+
+ADSS PKI Server can create CAs and issue X.509 certificates signed using Post-Quantum algorithms. The following PQC schemes are supported:
+- ML-KEM/FIPS-203
+- ML-DSA/FIPS-204
+- Classic McEliece
 
 ## References
 
