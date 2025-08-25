@@ -61,6 +61,8 @@ The list below lista algorithms standardized by FIPS. The previous list listing 
 | [AppViewX](#appviewx)                   | AVX ONE PKIaaS | PKI | 2025-04-21   |:heavy_check_mark: |:clock1: |:clock1: |:x: | :heavy_check_mark: | :heavy_check_mark: |
 | [Botan](#botan)                         | Botan            | Software library | 2025-02-27   |:x: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark:|
 | [Bouncy Castle](#bouncy-castle)         | BC               | Software library | 2025-02-27   |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark:|
+| [Codegic](#codegic)                   | Khatim PKI Server | PKI | 2025-08-25 |:x: |:x: |:clock1: |:clock1: |:heavy_check_mark: |:clock1: |
+| [Codegic](#codegic)                   | Khatim Sign Server | Signing Software | 2025-08-25 |:x: |:x: |:clock1: |:clock1: |:heavy_check_mark: |:clock1: |
 | [Cryptomathic](#cryptomathic)           | CrystalKey 360   | KM & Signing Software | 2025-08-14   |N/A |:heavy_check_mark:|:heavy_check_mark: |:clock1: |:heavy_check_mark: |:x: |
 | [Crypto4A](#crypto4a)                   | QxEDGE           | HSP              | 2025-02-27   |N/A |:heavy_check_mark:|:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
 | [Crypto4A](#crypto4a)                   | QxHSM            | HSM              | 2025-02-27   |N/A |:heavy_check_mark:|:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
@@ -108,6 +110,20 @@ The list below lista algorithms standardized by FIPS. The previous list listing 
 Java and C# APIs with all NIST candidate support, and some older ones. [Available as open source software](https://www.bouncycastle.org/). All NIST standards are available in Java from version 1.79 and C# from version 3.0.0.
 
 The [Bouncy Castle for kotlin](https://github.com/bcgit/bc-kotlin) open source package provides a script/command line interface for generating certificate chains with different algorithms, including hybrid certificates using X.509 section 9.8 alternative signatures. 
+
+## Codegic
+**Khatim PKI Server**
+
+Khatim PKI Server helps PKI admins to setup CAs and issue X.509 certificates signed using post-quantum algorithms. Also supports signing OCSP & CRL using ML-DSA. Supported from [Khatim PKI Server 5.0](https://www.codegic.com/khatim-pki-server-post-quantum-cryptography-pqc/). ML-KEM, SL-DSA is scheduled.
+
+**Khatim Sign Server**
+
+Khatim Sign Server performs server side signing using post-quantum signatures for PKCS#1 signatures. Support for PQC started from [Khatim Sign Server 5.0](https://www.codegic.com/khatim-pki-server-post-quantum-cryptography-pqc/). SL-DSA is scheduled.
+
+**Khatim Timestamp Server**
+
+Khatim Timestamp performs timestamp generation using ML-DSA. Support for PQC started from [Khatim Timestamp Server 5.0](https://www.codegic.com/khatim-pki-server-post-quantum-cryptography-pqc/). SL-DSA is scheduled.
+
 
 ## Cryptomathic
 
