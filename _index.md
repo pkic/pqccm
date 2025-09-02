@@ -59,6 +59,7 @@ The list below lista algorithms standardized by FIPS. The previous list listing 
 | [Ascertia](#ascertia)                   | ADSS Server SAM Service\Appliance | Signing software\Signature Activation Module | 2025-08-12 |:x: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:clock1: |
 | [ANKATech](#ankatech)                   | ANKASecure | REST API & SaaS | 2025-05-30   |:x: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | [AppViewX](#appviewx)                   | AVX ONE PKIaaS | PKI | 2025-04-21   |:heavy_check_mark: |:clock1: |:clock1: |:x: | :heavy_check_mark: | :heavy_check_mark: |
+| [AWS](#aws)                             | AWS KMS        | HSM | 2025-09-02   |N/A |:x: |:x: |:x: | :heavy_check_mark: | :x: |
 | [Botan](#botan)                         | Botan            | Software library | 2025-02-27   |:x: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark:|
 | [Bouncy Castle](#bouncy-castle)         | BC               | Software library | 2025-02-27   |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark:|
 | [Codegic](#codegic)                   | Khatim PKI Server | PKI | 2025-08-25 |:x: |:x: |:clock1: |:clock1: |:heavy_check_mark: |:clock1: |
@@ -102,6 +103,9 @@ The list below lista algorithms standardized by FIPS. The previous list listing 
 
 ## AppViewX
 [AppViewX](https://www.appviewx.com) - AVX ONE PKIaaS is a cloud-based PKI offering that supports the creation of CAs & issuance of X.509 certificates using post-quantum cryptographic algorithms, with current support for ML-DSA and SLH-DSA, along with the capability to issue hybrid certificates that combine classical and quantum-safe algorithms. Support for additional algorithms such as ML-KEM and composite signatures is currently under evaluation.
+
+## AWS
+AWS have support for [ML-DSA signatures](https://docs.aws.amazon.com/kms/latest/developerguide/mldsa.html).
 
 ## Botan
 [Botan](https://github.com/randombit/botan) is a C++ cryptography library released under the permissive Simplified BSD license. It offers the tools necessary to implement a range of systems, such as TLS protocol, X.509 certificates, AEAD ciphers, PKCS#11 and TPM hardware support, password hashing, and post quantum crypto schemes.
