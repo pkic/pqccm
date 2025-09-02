@@ -105,7 +105,7 @@ The list below lista algorithms standardized by FIPS. The previous list listing 
 [AppViewX](https://www.appviewx.com) - AVX ONE PKIaaS is a cloud-based PKI offering that supports the creation of CAs & issuance of X.509 certificates using post-quantum cryptographic algorithms, with current support for ML-DSA and SLH-DSA, along with the capability to issue hybrid certificates that combine classical and quantum-safe algorithms. Support for additional algorithms such as ML-KEM and composite signatures is currently under evaluation.
 
 ## AWS
-AWS have support for [ML-DSA signatures](https://docs.aws.amazon.com/kms/latest/developerguide/mldsa.html).
+AWS KMS have support for [ML-DSA signatures](https://docs.aws.amazon.com/kms/latest/developerguide/mldsa.html).
 
 ## Botan
 [Botan](https://github.com/randombit/botan) is a C++ cryptography library released under the permissive Simplified BSD license. It offers the tools necessary to implement a range of systems, such as TLS protocol, X.509 certificates, AEAD ciphers, PKCS#11 and TPM hardware support, password hashing, and post quantum crypto schemes.
