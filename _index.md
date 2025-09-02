@@ -94,6 +94,7 @@ The list below lista algorithms standardized by FIPS. The previous list listing 
 | [SafeLogic](#safelogic)                 | CryptoComply PQTLS | Software Library | 2025-03-31   | :x: | :x: | :x: | :heavy_check_mark: | :x: | :x: |
 | [Securosys](#securosys)                 | Primus HSM       | HSM              | 2025-02-27   |N/A |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
 | [Thales](#thales)                       | Luna             | HSM              | 2025-06-30   |N/A |:heavy_check_mark: |:x: |:heavy_check_mark: |:heavy_check_mark: |:x: |
+| [Utimaco](#utimaco)                     | uTrust           | HSM              | 2025-09-02   |N/A |:heavy_check_mark: |:x: |:heavy_check_mark: |:heavy_check_mark: |:x: |
 
 > **NOTE:** HSS and XMSS<sup>MT</sup> are the multi tree variants of LMS and XMSS. In the table both the simple and multi-tree versions may be supported if LMS/XMSS is checked.
 {.callout-info}
@@ -244,6 +245,10 @@ ADSS PKI Server can create CAs and issue X.509 certificates signed using Post-Qu
 - ML-KEM/FIPS-203
 - ML-DSA/FIPS-204
 - Classic McEliece
+
+**Utimaco**
+
+uTrust Identify have [Quantum Protect firmware](https://utimaco.com/data-protection/gp-hsm/application-package/quantum-protect). Software simulator available.
 
 ## References
 
