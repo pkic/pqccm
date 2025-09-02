@@ -246,7 +246,7 @@ ADSS PKI Server can create CAs and issue X.509 certificates signed using Post-Qu
 - ML-DSA/FIPS-204
 - Classic McEliece
 
-**Utimaco**
+## Utimaco
 
 uTrust Identify have [Quantum Protect firmware](https://utimaco.com/data-protection/gp-hsm/application-package/quantum-protect). Software simulator available.
 
