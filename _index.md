@@ -80,7 +80,7 @@ The list below lista algorithms standardized by FIPS. The previous list listing 
 | [Eviden](#eviden)                       | Trustway Proteccio™ NetHSM | HSM      | 2024-12-09   |N/A |:x:|:x:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
 | [ExeQuantum](#exequantum)               | ExeQuantum       | REST API & SaaS | 2025-04-29   |:x: |:x: |:x: |:heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | [Fortanix](#fortanix)                   | DSM              | HSM              | 2025-02-27   |N/A |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
-| [I4P](#i4p)                             | Trident          | HSM              | 2025-04-16   |N/A |:x: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
+| [I4P](#i4p)                             | Trident          | HSM              | 2025-04-16   |N/A |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
 | [InfoSec Global](#infosecglobal)        |AgileSec Analytics| Software         | 2025-02-27   |:x: |:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark: |
 | [Keyfactor](#keyfactor)                 | SignServer       | Signing Software | 2025-02-27   |:x: |:heavy_check_mark: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |
 | [Keyfactor](#keyfactor)                 | EJBCA            | PKI              | 2025-05-22   |:heavy_check_mark: |:heavy_check_mark: |:x: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
