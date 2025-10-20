@@ -94,7 +94,6 @@ The list below lista algorithms standardized by FIPS. The previous list listing 
 | [SafeLogic](#safelogic)                 | CryptoComply PQTLS | Software Library | 2025-03-31   | :x: | :x: | :x: | :heavy_check_mark: | :x: | :x: |
 | [Securosys](#securosys)                 | Primus HSM       | HSM              | 2025-02-27   |N/A |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
 | [Smallstep](#smallstep)                 | step-ca          | PKI              | 2025-10-02   | :x: | :x: | :x: | :heavy_check_mark: | :x: | :x: |
-| [Smallstep](#smallstep)                 | Step CA Pro      | PKI              | 2025-10-02   | :x: | :x: | :x: | :heavy_check_mark: | :x: | :x: |
 | [Thales](#thales)                       | Luna             | HSM              | 2025-06-30   |N/A |:heavy_check_mark: |:x: |:heavy_check_mark: |:heavy_check_mark: |:x: |
 | [Utimaco](#utimaco)                     | uTrust           | HSM              | 2025-09-02   |N/A |:heavy_check_mark: |:x: |:heavy_check_mark: |:heavy_check_mark: |:x: |
 
@@ -224,13 +223,7 @@ Devices are under certification for FIPS140-3 Level 3 and CC EN 419221-5 (eIDAS 
 
 ## Smallstep
 
-[Smallstep](https://smallstep.com/) offers open source and commercial PKI software with SaaS, self-hosted, and on-prem options.
-
-**step-ca**
-Our open source [step-ca](https://smallstep.com/open-source/) is a private CA and ACME server for secure automated certificate management.
-
-**Step CA Pro**
-Step CA Pro is our commercial version of step-ca, which adds active revocation, ACME EAB, FIPS compliance, and commercial support options.
+[Smallstep](https://smallstep.com/) offers [open source](https://smallstep.com/open-source/) and commercial PKI software with SaaS, self-hosted, and on-prem options.
 
 ## Thales
 
