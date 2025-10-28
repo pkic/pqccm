@@ -68,6 +68,8 @@ The list below lista algorithms standardized by FIPS. The previous list listing 
 | [Crypto4A](#crypto4a)                   | QxEDGE           | HSP              | 2025-02-27   |N/A |:heavy_check_mark:|:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
 | [Crypto4A](#crypto4a)                   | QxHSM            | HSM              | 2025-02-27   |N/A |:heavy_check_mark:|:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
 | [CZERTAINLY](#czertainly)               | CZERTAINLY       | PKI              | 2025-06-22   |:heavy_check_mark: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
+| [Dell Technologies](#dell-technologies) | BSAFE™ Crypto Module for C | Software library | 2025-10-28 |N/A |:heavy_check_mark: |:x: |:clock1: |:heavy_check_mark: | :x: |
+| [Dell Technologies](#dell-technologies) | BSAFE™ Crypto-J   | Software library | 2025-10-28   |:x: |:heavy_check_mark: |:x: |:clock1: |:heavy_check_mark: | :x: |
 | [DigiCert](#digicert)                   | Private CA       | PKI              | 2025-06-05   |:x: |:x: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |
 | [DigiCert](#digicert)                   | Software Trust Manager | Signing software | 2025-06-05   |:x: |:x: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |
 | [DigiCert](#digicert)                   | Trust Lifecycle Manager | CLM software | 2025-06-05   |:x: |:x: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |
@@ -142,6 +144,10 @@ Crypto4A Technologies Inc. develops the crypto-agile and quantum-safe security p
 ## CZERTAINLY
 
 Open source [CZERTAINLY](https://docs.czertainly.com) platform implements post-quantum cryptography algorithms support for certificate, cryptographic key, and digital signature lifecycle management and automation, including support for alternative extensions in X.509 certificates as per ITU-T X.509 section 9.8. The platform supports ML-DSA, ML-KEM, and SLH-DSA algorithms. FN-DSA has experimental support and expected to be available once the standards are finalized.
+
+## Dell Technologies
+
+[Dell Technologies](https://www.dell.com) owns and develops _Dell BSAFE™ Crypto Module for C_ and _Dell BSAFE™ Crypto-J_ software cryptographic modules. These modules are used within different Dell Technologies server, storage and networking offerings, and other customer solutions to provide FIPS 140-3 validated cryptography. The modules also provide cryptograhic implementations for the BSAFE™ TLS libraries, namely BSAFE™ TLS-C and BSAFE™ SSL-J. 
 
 ## DigiCert
 DigiCert, a provider of **PKI** and **Digital Trust** solutions, supports NIST-approved PQC algorithms throughout its platform and solutions. The DigiCert ONE platform and solutions support ML-DSA, SLH-DSA, with ML-KEM and FN-DSA support coming soon. DigiCert also supports non-standardized algorithms at [labs.digicert.com]. 
