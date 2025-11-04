@@ -1,6 +1,7 @@
 ---
 date: 2023-03-21T7:00:00Z
 title: Draft Algorithm Support (Archived) - PQC Capabilities Matrix (PQCCM)
+description: This page is an archive of support for draft PQC algorithms, before standardization was completed. Most products remove support for the draft algorithms as standard algorithms are implemented.
 
 heroTitle: Draft Algorithm Support (Archived)
 heroDescription: PQC Capabilities Matrix (PQCCM)
