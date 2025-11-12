@@ -60,8 +60,11 @@ The list below lista algorithms standardized by FIPS. The previous list listing 
 | [ANKATech](#ankatech)                   | ANKASecure | REST API & SaaS | 2025-05-30   |:x: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | [AppViewX](#appviewx)                   | AVX ONE PKIaaS | PKI | 2025-04-21   |:heavy_check_mark: |:clock1: |:clock1: |:x: | :heavy_check_mark: | :heavy_check_mark: |
 | [AWS](#aws)                             | AWS KMS        | HSM | 2025-09-02   |N/A |:x: |:x: |:x: | :heavy_check_mark: | :x: |
+| [BERTEN](#berten)                       | MLDS-B235             | IP Core          | 2025-11-12   |:x: |:x: |:x: |:x: |:heavy_check_mark: |:x: |
+| [BERTEN](#berten)                       | MLKE-B135             | IP Core          | 2025-11-12   |:x: |:x: |:x: |:heavy_check_mark: |:x: |:x: |
 | [Botan](#botan)                         | Botan            | Software library | 2025-02-27   |:x: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark:|
 | [Bouncy Castle](#bouncy-castle)         | BC               | Software library | 2025-02-27   |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark:|
+| [CAST Inc](#cast-inc)                   | KiviPQC-KEM      | IP Core          | 2025-11-12   |:x: |:x: |:x: |:heavy_check_mark: |:x: |:x: |
 | [Codegic](#codegic)                   | Khatim PKI Server | PKI | 2025-08-25 |:x: |:x: |:clock1: |:clock1: |:heavy_check_mark: |:clock1: |
 | [Codegic](#codegic)                   | Khatim Sign Server | Signing Software | 2025-08-25 |:x: |:x: |:clock1: |:clock1: |:heavy_check_mark: |:clock1: |
 | [Cryptomathic](#cryptomathic)           | CrystalKey 360   | KM & Signing Software | 2025-08-14   |N/A |:heavy_check_mark:|:heavy_check_mark: |:clock1: |:heavy_check_mark: |:x: |
@@ -83,8 +86,8 @@ The list below lista algorithms standardized by FIPS. The previous list listing 
 | [ExeQuantum](#exequantum)               | ExeQuantum       | REST API & SaaS | 2025-04-29   |:x: |:x: |:x: |:heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | [Fortanix](#fortanix)                   | DSM              | HSM              | 2025-02-27   |N/A |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
 | [I4P](#i4p)                             | Trident          | HSM              | 2025-04-16   |N/A |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
-| [InfoSec Global](#infosecglobal)        |AgileSec Analytics| Software         | 2025-02-27   |:x: |:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark: |
-| [IP Cores Inc](#ipcoresinc)             | PQC1             | IP Core          | 2025-11-10   |:x: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:x: |
+| [InfoSec Global](#infosec-global)       |AgileSec Analytics| Software         | 2025-02-27   |:x: |:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark: |
+| [IP Cores Inc](#ip-cores-inc)           | PQC1             | IP Core          | 2025-11-10   |:x: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:x: |
 | [Keyfactor](#keyfactor)                 | SignServer       | Signing Software | 2025-02-27   |:x: |:heavy_check_mark: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |
 | [Keyfactor](#keyfactor)                 | EJBCA            | PKI              | 2025-05-22   |:heavy_check_mark: |:heavy_check_mark: |:x: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
 | [Keyfactor](#keyfactor)                 | Command          | PKI              | 2025-06-23   | :heavy_check_mark: | :x: | :x: | :x: | :heavy_check_mark: |:clock1: |
@@ -94,11 +97,15 @@ The list below lista algorithms standardized by FIPS. The previous list listing 
 | [Open Quantum Safe](#open-quantum-safe) | liboqs           | Software library | 2025-05-27   |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:x: |
 | [OpenSSL](#openssl)                     | libssl           | Software library | 2025-04-15   |:x: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
 | [PQ Code Package](#pq-code-package) | PQCP           | Software library | 2025-06-24   | N/A |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:clock1: |
+| [PQShield](#pqshield)                   | UltraPQ-Suite    | IP Core and Software library | 2025-11-12 |:x: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:x: |
+| [Resquant](#resquant)                   | Customizable Cryptography Accelerator | IP Core | 2025-11-12 |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark:|
 | [SafeLogic](#safelogic)                 | CryptoComply PQTLS | Software Library | 2025-03-31   | :x: | :x: | :x: | :heavy_check_mark: | :x: | :x: |
+| [Secure-IC](#secure-ic)                 | Securyzr         | IP Core          | 2025-11-12   |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:x: |
 | [Securosys](#securosys)                 | Primus HSM       | HSM              | 2025-02-27   |N/A |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
 | [Smallstep](#smallstep)                 | step-ca          | PKI              | 2025-10-02   | :x: | :x: | :x: | :heavy_check_mark: | :x: | :x: |
 | [Thales](#thales)                       | Luna             | HSM              | 2025-06-30   |N/A |:heavy_check_mark: |:x: |:heavy_check_mark: |:heavy_check_mark: |:x: |
 | [Utimaco](#utimaco)                     | uTrust           | HSM              | 2025-09-02   |N/A |:heavy_check_mark: |:x: |:heavy_check_mark: |:heavy_check_mark: |:x: |
+| [Xiphera](#xiphera)                     | xQlave           | IP Core          | 2025-11-12   |:x: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:x: |
 
 > **NOTE:** HSS and XMSS<sup>MT</sup> are the multi tree variants of LMS and XMSS. In the table both the simple and multi-tree versions may be supported if LMS/XMSS is checked.
 {.callout-info}
@@ -112,6 +119,9 @@ The list below lista algorithms standardized by FIPS. The previous list listing 
 ## AWS
 AWS KMS have support for [ML-DSA signatures](https://docs.aws.amazon.com/kms/latest/developerguide/mldsa.html).
 
+## BERTEN
+BERTEN offers [PQC IP Cores](https://www.bertendsp.com/products/mlds-b235/) for FPGA and ASIC.
+
 ## Botan
 [Botan](https://github.com/randombit/botan) is a C++ cryptography library released under the permissive Simplified BSD license. It offers the tools necessary to implement a range of systems, such as TLS protocol, X.509 certificates, AEAD ciphers, PKCS#11 and TPM hardware support, password hashing, and post quantum crypto schemes.
 
@@ -119,6 +129,9 @@ AWS KMS have support for [ML-DSA signatures](https://docs.aws.amazon.com/kms/lat
 Java and C# APIs with all NIST candidate support, and some older ones. [Available as open source software](https://www.bouncycastle.org/). All NIST standards are available in Java from version 1.79 and C# from version 3.0.0.
 
 The [Bouncy Castle for kotlin](https://github.com/bcgit/bc-kotlin) open source package provides a script/command line interface for generating certificate chains with different algorithms, including hybrid certificates using X.509 section 9.8 alternative signatures. 
+
+## CAST Inc
+CAST Inc offers [PQC IP Cores](https://www.cast-inc.com/security/encryption-primitives/kivipqc-kem) for FPGA and ASIC.
 
 ## Codegic
 **Khatim PKI Server**
@@ -222,9 +235,18 @@ OQS is an open source software library that implements PQC [algorithms](https://
 
 [PQ Code Package](https://github.com/pq-code-package) is a collection of open source projects aiming to build high-assurance software implementations of standards-track post-quantum cryptography algorithms.  The PQCP is a project within the [Linux Foundation](https://linuxfoundation.org/) as part of the [Post-Quantum Cryptography Alliance](https://pqca.org/).
 
+## PQShield
+PQShield offers [PQC Software and IP Cores](https://pqshield.com/products/) for FPGA and ASIC.
+
+## Resquant
+Resquant offers [PQC IP Cores](https://www.resquant.com/) for FPGA and ASIC.
+
 ## SafeLogic
 
 [CryptoComply PQ-TLS](https://www.safelogic.com/products-and-services/cryptocomply-pq-tls) provides a drop-in TLS solution. It leverages SafeLogic’s CAVP-certified implementation of the ML-KEM algorithm to enable quantum-resistant TLS connections.
+
+## Secure-IC
+Secure-IC offers [PQC IP Cores](https://www.secure-ic.com/products/securyzr/security-ip/tunable-cryptography/#pqc) for FPGA and ASIC.
 
 ## Securosys
 
@@ -238,6 +260,9 @@ Devices are under certification for FIPS140-3 Level 3 and CC EN 419221-5 (eIDAS 
 ## Thales
 
 [Luna HSM](https://cpl.thalesgroup.com/encryption/hardware-security-modules/network-hsms) support PQC algorithm, including ML-DSA and ML-KEM since firmware version [7.9.0](https://thalesdocs.com/gphsm/luna/7/docs/network/Content/CRN/Luna/firmware/7-9-0.htm).
+
+## Xiphera
+Xiphera offers [PQC IP Cores](https://xiphera.com/post-quantum-cryptography/#products) for FPGA and ASIC.
 
 ## Ascertia
 [Ascertia](https://www.ascertia.com/) PQC Matrix
