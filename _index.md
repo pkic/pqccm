@@ -64,7 +64,7 @@ The list below lista algorithms standardized by FIPS. The previous list listing 
 | [BERTEN](#berten)                       | MLKE-B135             | IP Core          | 2025-11-12   |:x: |:x: |:x: |:heavy_check_mark: |:x: |:x: |
 | [Botan](#botan)                         | Botan            | Software library | 2025-02-27   |:x: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark:|
 | [Bouncy Castle](#bouncy-castle)         | BC               | Software library | 2025-02-27   |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark:|
-| [CAST Inc](#castinc)                    | KiviPQC-KEM      | IP Core          | 2025-11-12   |:x: |:x: |:x: |:heavy_check_mark: |:x: |:x: |
+| [CAST Inc](#cast-inc)                   | KiviPQC-KEM      | IP Core          | 2025-11-12   |:x: |:x: |:x: |:heavy_check_mark: |:x: |:x: |
 | [Codegic](#codegic)                   | Khatim PKI Server | PKI | 2025-08-25 |:x: |:x: |:clock1: |:clock1: |:heavy_check_mark: |:clock1: |
 | [Codegic](#codegic)                   | Khatim Sign Server | Signing Software | 2025-08-25 |:x: |:x: |:clock1: |:clock1: |:heavy_check_mark: |:clock1: |
 | [Cryptomathic](#cryptomathic)           | CrystalKey 360   | KM & Signing Software | 2025-08-14   |N/A |:heavy_check_mark:|:heavy_check_mark: |:clock1: |:heavy_check_mark: |:x: |
@@ -86,8 +86,8 @@ The list below lista algorithms standardized by FIPS. The previous list listing 
 | [ExeQuantum](#exequantum)               | ExeQuantum       | REST API & SaaS | 2025-04-29   |:x: |:x: |:x: |:heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | [Fortanix](#fortanix)                   | DSM              | HSM              | 2025-02-27   |N/A |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
 | [I4P](#i4p)                             | Trident          | HSM              | 2025-04-16   |N/A |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
-| [InfoSec Global](#infosecglobal)        |AgileSec Analytics| Software         | 2025-02-27   |:x: |:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark: |
-| [IP Cores Inc](#ipcoresinc)             | PQC1             | IP Core          | 2025-11-10   |:x: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:x: |
+| [InfoSec Global](#infosec-global)       |AgileSec Analytics| Software         | 2025-02-27   |:x: |:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark: |
+| [IP Cores Inc](#ip-cores-inc)           | PQC1             | IP Core          | 2025-11-10   |:x: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:x: |
 | [Keyfactor](#keyfactor)                 | SignServer       | Signing Software | 2025-02-27   |:x: |:heavy_check_mark: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |
 | [Keyfactor](#keyfactor)                 | EJBCA            | PKI              | 2025-05-22   |:heavy_check_mark: |:heavy_check_mark: |:x: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
 | [Keyfactor](#keyfactor)                 | Command          | PKI              | 2025-06-23   | :heavy_check_mark: | :x: | :x: | :x: | :heavy_check_mark: |:clock1: |
@@ -100,7 +100,7 @@ The list below lista algorithms standardized by FIPS. The previous list listing 
 | [PQShield](#pqshield)                   | UltraPQ-Suite    | IP Core and Software library | 2025-11-12 |:x: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:x: |
 | [Resquant](#resquant)                   | Customizable Cryptography Accelerator | IP Core | 2025-11-12 |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark:|
 | [SafeLogic](#safelogic)                 | CryptoComply PQTLS | Software Library | 2025-03-31   | :x: | :x: | :x: | :heavy_check_mark: | :x: | :x: |
-| [Secure-IC](#securyzr)                  | Securyzr         | IP Core          | 2025-11-12   |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:x: |
+| [Secure-IC](#secure-ic)                 | Securyzr         | IP Core          | 2025-11-12   |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:x: |
 | [Securosys](#securosys)                 | Primus HSM       | HSM              | 2025-02-27   |N/A |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
 | [Smallstep](#smallstep)                 | step-ca          | PKI              | 2025-10-02   | :x: | :x: | :x: | :heavy_check_mark: | :x: | :x: |
 | [Thales](#thales)                       | Luna             | HSM              | 2025-06-30   |N/A |:heavy_check_mark: |:x: |:heavy_check_mark: |:heavy_check_mark: |:x: |
