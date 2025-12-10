@@ -59,14 +59,14 @@ The list below lists algorithms standardized by FIPS. The previous list listing 
 | [Ascertia](#ascertia)                   | ADSS Server SAM Service\Appliance | Signing software\Signature Activation Module | 2025-08-12 |:x: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:clock1: |
 | [ANKATech](#ankatech)                   | ANKASecure | REST API & SaaS | 2025-05-30   |:x: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | [AppViewX](#appviewx)                   | AVX ONE PKIaaS | PKI | 2025-04-21   |:heavy_check_mark: |:clock1: |:clock1: |:x: | :heavy_check_mark: | :heavy_check_mark: |
-| [AWS](#aws)                             | AWS KMS        | HSM | 2025-09-02   |N/A |:x: |:x: |:x: | :heavy_check_mark: | :x: |
-| [BERTEN](#berten)                       | MLDS-B235             | IP Core          | 2025-11-12   |:x: |:x: |:x: |:x: |:heavy_check_mark: |:x: |
-| [BERTEN](#berten)                       | MLKE-B135             | IP Core          | 2025-11-12   |:x: |:x: |:x: |:heavy_check_mark: |:x: |:x: |
+| [AWS](#aws)                             | AWS KMS          | HSM | 2025-09-02   |N/A |:x: |:x: |:x: | :heavy_check_mark: | :x: |
+| [BERTEN](#berten)                       | MLDS-B235        | IP Core          | 2025-11-12   |:x: |:x: |:x: |:x: |:heavy_check_mark: |:x: |
+| [BERTEN](#berten)                       | MLKE-B135        | IP Core          | 2025-11-12   |:x: |:x: |:x: |:heavy_check_mark: |:x: |:x: |
 | [Botan](#botan)                         | Botan            | Software library | 2025-02-27   |:x: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark:|
 | [Bouncy Castle](#bouncy-castle)         | BC               | Software library | 2025-02-27   |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark:|
 | [CAST Inc](#cast-inc)                   | KiviPQC-KEM      | IP Core          | 2025-11-12   |:x: |:x: |:x: |:heavy_check_mark: |:x: |:x: |
-| [Codegic](#codegic)                   | Khatim PKI Server | PKI | 2025-08-25 |:x: |:x: |:clock1: |:clock1: |:heavy_check_mark: |:clock1: |
-| [Codegic](#codegic)                   | Khatim Sign Server | Signing Software | 2025-08-25 |:x: |:x: |:clock1: |:clock1: |:heavy_check_mark: |:clock1: |
+| [Codegic](#codegic)                     | Khatim PKI Server | PKI | 2025-08-25 |:x: |:x: |:clock1: |:clock1: |:heavy_check_mark: |:clock1: |
+| [Codegic](#codegic)                     | Khatim Sign Server | Signing Software | 2025-08-25 |:x: |:x: |:clock1: |:clock1: |:heavy_check_mark: |:clock1: |
 | [Cryptomathic](#cryptomathic)           | CrystalKey 360   | KM & Signing Software | 2025-08-14   |N/A |:heavy_check_mark:|:heavy_check_mark: |:clock1: |:heavy_check_mark: |:x: |
 | [Crypto4A](#crypto4a)                   | QxEDGE           | HSP              | 2025-02-27   |N/A |:heavy_check_mark:|:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
 | [Crypto4A](#crypto4a)                   | QxHSM            | HSM              | 2025-02-27   |N/A |:heavy_check_mark:|:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
@@ -85,6 +85,7 @@ The list below lists algorithms standardized by FIPS. The previous list listing 
 | [Eviden](#eviden)                       | Trustway Proteccio™ NetHSM | HSM      | 2024-12-09   |N/A |:x:|:x:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
 | [ExeQuantum](#exequantum)               | ExeQuantum       | REST API & SaaS | 2025-04-29   |:x: |:x: |:x: |:heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | [Fortanix](#fortanix)                   | DSM              | HSM              | 2025-02-27   |N/A |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
+| [FutureX](#futurex)                     | CryptoHub HSM    | HSM, HSMaaS, PKI | 2025-12-10   |:heavy_check_mark: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
 | [I4P](#i4p)                             | Trident          | HSM              | 2025-04-16   |N/A |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
 | [InfoSec Global](#infosec-global)       |AgileSec Analytics| Software         | 2025-02-27   |:x: |:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark: |
 | [IP Cores Inc](#ip-cores-inc)           | PQC1             | IP Core          | 2025-11-10   |:x: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:x: |
@@ -191,6 +192,10 @@ The Eviden [Trustway Proteccio™ NetHSM](https://eviden.com/solutions/digital-s
 ## Fortanix
 
 Fortanix DSM support all NIST-approved PQC algorithms in FX 2200, available via SaaS and on-prem appliances. It enables enterprises to adopt quantum-safe cryptography today with PKI support, including CA creation and X.509 certificates. Fortanix Key Insight provides key discovery and visibility, aiding PQC readiness.
+
+## FutureX
+
+Futurex offers a crypto-agile HSM and key management platform built for high performance and seamless migration to post-quantum cryptography. Our solution supports ML-DSA, ML-KEM and SLH-DSA in hybrid deployment mode. We provide full lifecycle key management, certificate issuance (including hybrid certificates), and operational support across on-prem, cloud, and virtualized environments.
 
 ## I4P
 Trident HSM is a general purpose network HSM developed by [I4P](https://www.i4p.com/) that received the Common Criteria (CC) EAL4+ (EN 419221-5 as well as EN 419241-2) certification. 
