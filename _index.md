@@ -68,6 +68,7 @@ The list below lists algorithms standardized by FIPS. The previous list listing 
 | [Codegic](#codegic)                     | Khatim PKI Server | PKI | 2025-08-25 |:x: |:x: |:clock1: |:clock1: |:heavy_check_mark: |:clock1: |
 | [Codegic](#codegic)                     | Khatim Sign Server | Signing Software | 2025-08-25 |:x: |:x: |:clock1: |:clock1: |:heavy_check_mark: |:clock1: |
 | [Cryptomathic](#cryptomathic)           | CrystalKey 360   | KM & Signing Software | 2025-08-14   |N/A |:heavy_check_mark:|:heavy_check_mark: |:clock1: |:heavy_check_mark: |:x: |
+| [CryptoNext Security](#cryptonext-security) | Quantum-Safe Library | Software Library | 2025-12-15 |:heavy_check_mark: |:heavy_check_mark:|:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
 | [Crypto4A](#crypto4a)                   | QxEDGE           | HSP              | 2025-02-27   |N/A |:heavy_check_mark:|:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
 | [Crypto4A](#crypto4a)                   | QxHSM            | HSM              | 2025-02-27   |N/A |:heavy_check_mark:|:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
 | [CZERTAINLY](#czertainly)               | CZERTAINLY       | PKI              | 2025-06-22   |:heavy_check_mark: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
@@ -151,6 +152,22 @@ Khatim Timestamp performs timestamp generation using ML-DSA. Support for PQC sta
 ## Cryptomathic
 
 [CrystalKey 360](https://www.cryptomathic.com/products/crystalkey-360) is a crypto-agile key management and data security platform supporting full key lifecycle management and signing for both classical and post-quantum algorithms. Current capabilities include XMSS, LMS, and ML-DSA, with ML-KEM planned.
+
+## CryptoNext Security
+
+[CryptoNext Security](https://www.cryptonext-security.com/) is a software vendor specialized in post-quantum cryptography.
+
+**CryptoNext Quantum Safe Library & SDK**
+
+The [CryptoNext Quantum Safe Library & SDK](https://www.cryptonext-security.com/en/products-pqc-remediation/) is a secure post-quantum cryptographic library in C language with multi-language wrappers (Rust, Python, Java) and specific environment portability (low memory, secure hardware). It supports all standardized algorithms support (NIST & ISO) and provides implementation, build and side-channel protections.
+
+**CryptoNext COMPASS**
+
+[CryptoNext COMPASS](https://www.cryptonext-security.com/en/products-cryptography-discovery-and-inventory/) is a cryptography discovery and inventory platform to accelerate PQC migration.
+
+**CryptoNext CAPTAIN**
+
+[CryptoNext CAPTAIN](https://www.cryptonext-security.com/en/products-cryptographic-policy-management/) is a cryptographic management framework to provide centralized crypto-agility across all applications.
 
 ## Crypto4A
 
