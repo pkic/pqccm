@@ -93,8 +93,8 @@ The list below lists algorithms standardized by FIPS. The previous list listing 
 | [Keyfactor](#keyfactor)                 | SignServer       | Signing Software | 2025-02-27   |:x: |:heavy_check_mark: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |
 | [Keyfactor](#keyfactor)                 | EJBCA            | PKI              | 2025-05-22   |:heavy_check_mark: |:heavy_check_mark: |:x: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
 | [Keyfactor](#keyfactor)                 | Command          | PKI              | 2025-06-23   | :heavy_check_mark: | :x: | :x: | :x: | :heavy_check_mark: |:clock1: |
-| [MTG](#mtg-ag)                          | CARA    | PKI              | 2025-05-06   |:x: |:x: |:x: |:clock1: |:heavy_check_mark: |:heavy_check_mark: |
-| [MTG](#mtg-ag)                          | CLM    | PKI              | 2025-05-06   |:x: |:x: |:x: |:clock1: |:clock1: |:clock1: |
+| [MTG](#mtg-ag)                          | CARA    | PKI              | 2026-01-08   |:x: |:x: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |
+| [MTG](#mtg-ag)                          | CLM    | PKI              | 2026-01-08   |:x: |:x: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |
 | [Nexus Group](#nexus-group)             | Certificate Manager | PKI           | 2025-07-14   |:clock1: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
 | [Open Quantum Safe](#open-quantum-safe) | liboqs           | Software library | 2025-05-27   |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:x: |
 | [OpenSSL](#openssl)                     | libssl           | Software library | 2025-04-15   |:x: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
@@ -238,7 +238,7 @@ EJBCA PKI can create CAs and issue pure and hybrid X.509 certificates signed usi
 ## MTG AG
 
 [MTG Corporate PKI](https://www.mtg.de/en/public-key-infrastructures/corporate-pki/ ) consists of the two product components MTG Certificate Authority (MTG CARA) and MTG Certificate Lifecycle Manager (CLM).
-Official MTG CARA releases feature the PQC algorithms ML-DSA and SLH-DSA. ML-KEM is planned to be added by Q3 2025. CLM will support PQC support by Q4.
+Official MTG CARA and CLM releases feature the PQC algorithms ML-DSA and SLH-DSA. Support for ML-KEM, hybrid algorithms, LMS, and XMSS is planned to be added in the course of 2026.
 
 ## Nexus Group
 **Certificate Manager**
