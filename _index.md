@@ -266,7 +266,7 @@ Official MTG CARA and CLM releases feature the PQC algorithms ML-DSA and SLH-DSA
 
 ## Microsoft
 
-Post-Quantum Cryptography (PQC) algorithms are now generally available in the cryptographic library [SymCrypt](https://github.com/microsoft/SymCrypt), [Windows Server 2025 and Windows 11 clients (24H2, 25H2) and .NET 10]([PQC Algorithms Debut in Windows Server 2025, Windows 11, and .NET 10](https://techcommunity.microsoft.com/blog/microsoft-security-blog/post-quantum-cryptography-apis-now-generally-available-on-microsoft-platforms/4469093)).
+Post-Quantum Cryptography (PQC) algorithms are now generally available in the cryptographic library [SymCrypt](https://github.com/microsoft/SymCrypt), [Windows Server 2025 and Windows 11 clients and .NET 10](https://techcommunity.microsoft.com/blog/microsoft-security-blog/post-quantum-cryptography-apis-now-generally-available-on-microsoft-platforms/4469093).
 
 ## Nexus Group
 **Certificate Manager**
