@@ -52,7 +52,7 @@ The list below lists algorithms standardized by FIPS. The previous list listing 
 > The list is ordered alphabetically by vendor, there is no other meaning to the order.
 {.callout-info}
 
-| Vendor                                  | Product          | Category         | Last updated | [X.509 Hybrid certificates](#references) | [LMS](#references) | [XMSS](#references) | [ML-KEM/FIPS-203](#references) | [ML-DSA/FIPS-204](#references) | [SLH-DSA/FIPS-205](#references) |
+| Vendor                                  | Product          | Category         | Last updated | [X.509 Chimera/Catalyst certificates](#references) | [LMS](#references) | [XMSS](#references) | [ML-KEM/FIPS-203](#references) | [ML-DSA/FIPS-204](#references) | [SLH-DSA/FIPS-205](#references) |
 | :-------------------------------------- | :--------------- | :--------------- |:-------------| :-------------------------------------: | :----------------: | :-----------------: | :-----------------: | :-------------------: | :----------------------: |
 | [Ascertia](#ascertia)                   | ADSS PKI Server  | PKI              | 2025-08-12   |:x: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:clock1: |
 | [Ascertia](#ascertia)                   | ADSS Signing Server | Signing software | 2025-08-12 |:x: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:clock1: |
@@ -321,16 +321,16 @@ The following table contains references to the PQC capabilities and algorithms.
 | FIPS 203 (ML-KEM)                                             | https://csrc.nist.gov/pubs/fips/203/final                                      |
 | FIPS 204 (ML-DSA)                                             | https://csrc.nist.gov/pubs/fips/204/final                                      |
 | FIPS 205 (SLH-DSA)                                            | https://csrc.nist.gov/pubs/fips/205/final                                      |
-| Composite certificates                                        | https://datatracker.ietf.org/doc/draft-ounsworth-pq-composite-keys/            |
-| Hybrid certificates                                           | https://datatracker.ietf.org/doc/html/draft-truskovsky-lamps-pq-hybrid-x509-01 |
+| Composite certificates                                        | https://datatracker.ietf.org/doc/draft-ietf-lamps-pq-composite-sigs/           |
+| Chimera/Catalyst Hybrid certificates                          | https://datatracker.ietf.org/doc/html/draft-truskovsky-lamps-pq-hybrid-x509-01 |
 | Chameleon certificates                                        | https://datatracker.ietf.org/doc/draft-bonnell-lamps-chameleon-certs/          |
 | X.509 Alternative Signatures (section 9.8)                    | https://www.itu.int/rec/T-REC-X.509-201910-I                                   |
 | LMS                                                           | https://www.rfc-editor.org/rfc/rfc8708.html                                    |
 | XMSS                                                          | https://datatracker.ietf.org/doc/html/rfc8391                                  |
-| Falcon                                                        | https://falcon-sign.info                                                       |
-| Dilithium                                                     | https://pq-crystals.org/dilithium/resources.shtml                              |
-| SPHINCS+                                                      | https://sphincs.org                                                            |
-| Kyber                                                         | https://pq-crystals.org/kyber/index.shtml                                      |
+| Falcon (to be standardized as FN-DSA)                         | https://falcon-sign.info                                                       |
+| Kyber (superseded by FIPS 203)                                | https://pq-crystals.org/kyber/index.shtml                                      |
+| Dilithium (superseded by FIPS 204)                            | https://pq-crystals.org/dilithium/resources.shtml                              |
+| SPHINCS+ (superseded by FIPS 205)                             | https://sphincs.org                                                            |
 | BIKE                                                          | https://bikesuite.org                                                          |
 | McEliece                                                      | https://classic.mceliece.org                                                   |
 | HQC                                                           | https://pqc-hqc.org                                                            |
