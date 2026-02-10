@@ -95,6 +95,7 @@ The list below lists algorithms standardized by FIPS. The previous list listing 
 | [Keyfactor](#keyfactor)                 | Command          | PKI              | 2025-06-23   | :heavy_check_mark: | :x: | :x: | :x: | :heavy_check_mark: |:clock1: |
 | [MTG](#mtg-ag)                          | CARA    | PKI              | 2026-01-08   |:x: |:x: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |
 | [MTG](#mtg-ag)                          | CLM    | PKI              | 2026-01-08   |:x: |:x: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |
+| [Microsoft](#microsoft)                 | SymCrypt/Windows/.NET | Software library/OS| 2026-02-10   |:x: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:x: |
 | [Nexus Group](#nexus-group)             | Certificate Manager | PKI           | 2025-07-14   |:clock1: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
 | [Open Quantum Safe](#open-quantum-safe) | liboqs           | Software library | 2025-05-27   |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:x: |
 | [OpenSSL](#openssl)                     | libssl           | Software library | 2025-04-15   |:x: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
@@ -112,11 +113,34 @@ The list below lists algorithms standardized by FIPS. The previous list listing 
 > **NOTE:** HSS and XMSS<sup>MT</sup> are the multi tree variants of LMS and XMSS. In the table both the simple and multi-tree versions may be supported if LMS/XMSS is checked.
 {.callout-info}
 
+
+**ADSS Server**
+
+ADSS Server is a modular trust services platform that offers PKI and digital signature services. The following services offer support for Post-Quantum algorithms.
+
+**ADSS Signing Server**
+
+ADSS Signing Server performs server side signing and eSealing, ADSS Signing Server support’s ML-KEM/FIPS-203, and ML-DSA/FIPS-204, PKCS#1 and CMS signatures. The ADSS Server Signing Service will support SLH-DSA/FIPS-205 in the 2nd half of 2025.
+
+**ADSS SAM Service**
+
+The ADSS SAM Server performs eIDAS compliant remote authorised server side signing and eSealing supports ML-KEM/FIPS-203, and ML-DSA/FIPS-204,  PKCS#1 signatures. ADSS SAM Server will support SLH-DSA/FIPS-205 in the 2nd half of 2025.
+
+**ADSS PKI Server**
+
+ADSS PKI Server can create CAs and issue X.509 certificates signed using Post-Quantum algorithms. The following PQC schemes are supported:
+- ML-KEM/FIPS-203
+- ML-DSA/FIPS-204
+- Classic McEliece
+
 ## ANKATech  
 [ANKASecure](https://ankatech.co) is a REST API & SaaS platform designed to implement post-quantum cryptography (PQC) in real-world applications. It provides encryption, digital signatures, and key management using a range of PQC algorithms standardized by NIST, as well as additional schemes recognized by ETSI and ENISA. AnkaSecure supports ML-KEM, ML-DSA, SLH-DSA, Falcon, LMS, and XMSS through its API. It also enables organizations to establish cryptographic sovereignty and seamlessly migrate from classical to post-quantum cryptography.
 
 ## AppViewX
 [AppViewX](https://www.appviewx.com) - AVX ONE PKIaaS is a cloud-based PKI offering that supports the creation of CAs & issuance of X.509 certificates using post-quantum cryptographic algorithms, with current support for ML-DSA and SLH-DSA, along with the capability to issue hybrid certificates that combine classical and quantum-safe algorithms. Support for additional algorithms such as ML-KEM and composite signatures is currently under evaluation.
+
+## Ascertia
+[Ascertia](https://www.ascertia.com/) PQC Matrix
 
 ## AWS
 AWS KMS have support for [ML-DSA signatures](https://docs.aws.amazon.com/kms/latest/developerguide/mldsa.html).
@@ -240,18 +264,22 @@ EJBCA PKI can create CAs and issue pure and hybrid X.509 certificates signed usi
 [MTG Corporate PKI](https://www.mtg.de/en/public-key-infrastructures/corporate-pki/ ) consists of the two product components MTG Certificate Authority (MTG CARA) and MTG Certificate Lifecycle Manager (CLM).
 Official MTG CARA and CLM releases feature the PQC algorithms ML-DSA and SLH-DSA. Support for ML-KEM, hybrid algorithms, LMS, and XMSS is planned to be added in the course of 2026.
 
+## Microsoft
+
+Post-Quantum Cryptography (PQC) algorithms are now generally available in the cryptographic library [SymCrypt](https://github.com/microsoft/SymCrypt), [Windows Server 2025 and Windows 11 clients (24H2, 25H2) and .NET 10](PQC Algorithms Debut in Windows Server 2025, Windows 11, and .NET 10).
+
 ## Nexus Group
 **Certificate Manager**
 
 Nexus Certificate Manager supports signing CA and X.509 certificates using ML-DSA and SLH-DSA algorithms from version 8.12 [CM](https://doc.nexusgroup.com/pub/smart-id-certificate-manager). ML-KEM supported from CM 8.13.
 
-## Open Quantum Safe
-
-OQS is an open source software library that implements PQC [algorithms](https://openquantumsafe.org/liboqs/algorithms/), as well as integrations such as into OpenSSL.
-
 ## OpenSSL
 
 [OpenSSL](https://openssl-library.org/) is an open source software library that implements PQC algorithms from version 3.5.
+
+## Open Quantum Safe
+
+OQS is an open source software library that implements PQC [algorithms](https://openquantumsafe.org/liboqs/algorithms/), as well as integrations such as into OpenSSL.
 
 ## PQ Code Package
 
@@ -283,34 +311,12 @@ Devices are under certification for FIPS140-3 Level 3 and CC EN 419221-5 (eIDAS 
 
 [Luna HSM](https://cpl.thalesgroup.com/encryption/hardware-security-modules/network-hsms) support PQC algorithm, including ML-DSA and ML-KEM since firmware version [7.9.0](https://thalesdocs.com/gphsm/luna/7/docs/network/Content/CRN/Luna/firmware/7-9-0.htm).
 
-## Xiphera
-Xiphera offers [PQC IP Cores](https://xiphera.com/post-quantum-cryptography/#products) for FPGA and ASIC.
-
-## Ascertia
-[Ascertia](https://www.ascertia.com/) PQC Matrix
-
-**ADSS Server**
-
-ADSS Server is a modular trust services platform that offers PKI and digital signature services. The following services offer support for Post-Quantum algorithms.
-
-**ADSS Signing Server**
-
-ADSS Signing Server performs server side signing and eSealing, ADSS Signing Server support’s ML-KEM/FIPS-203, and ML-DSA/FIPS-204, PKCS#1 and CMS signatures. The ADSS Server Signing Service will support SLH-DSA/FIPS-205 in the 2nd half of 2025.
-
-**ADSS SAM Service**
-
-The ADSS SAM Server performs eIDAS compliant remote authorised server side signing and eSealing supports ML-KEM/FIPS-203, and ML-DSA/FIPS-204,  PKCS#1 signatures. ADSS SAM Server will support SLH-DSA/FIPS-205 in the 2nd half of 2025.
-
-**ADSS PKI Server**
-
-ADSS PKI Server can create CAs and issue X.509 certificates signed using Post-Quantum algorithms. The following PQC schemes are supported:
-- ML-KEM/FIPS-203
-- ML-DSA/FIPS-204
-- Classic McEliece
-
 ## Utimaco
 
 uTrust Identify have [Quantum Protect firmware](https://utimaco.com/data-protection/gp-hsm/application-package/quantum-protect). Software simulator available.
+
+## Xiphera
+Xiphera offers [PQC IP Cores](https://xiphera.com/post-quantum-cryptography/#products) for FPGA and ASIC.
 
 ## References
 
