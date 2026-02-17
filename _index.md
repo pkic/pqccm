@@ -109,6 +109,7 @@ The list below lists algorithms standardized by FIPS. The previous list listing 
 | [Thales](#thales)                       | Luna             | HSM              | 2025-06-30   |N/A |:heavy_check_mark: |:x: |:heavy_check_mark: |:heavy_check_mark: |:x: |
 | [Utimaco](#utimaco)                     | uTrust           | HSM              | 2025-09-02   |N/A |:heavy_check_mark: |:x: |:heavy_check_mark: |:heavy_check_mark: |:x: |
 | [Xiphera](#xiphera)                     | xQlave           | IP Core          | 2025-11-12   |:x: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:x: |
+| [XiPKI](#xipki)                         | XiPKI            | PKI              | 2026-02-16   |:x: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:x: |
 
 > **NOTE:** HSS and XMSS<sup>MT</sup> are the multi tree variants of LMS and XMSS. In the table both the simple and multi-tree versions may be supported if LMS/XMSS is checked.
 {.callout-info}
@@ -317,6 +318,9 @@ uTrust Identify have [Quantum Protect firmware](https://utimaco.com/data-protect
 
 ## Xiphera
 Xiphera offers [PQC IP Cores](https://xiphera.com/post-quantum-cryptography/#products) for FPGA and ASIC.
+
+## XiPKI
+XiPKI offers open source (apache license) PKI (CA & OCSP) software (https://github.com/xipki/xipki). Beside ML-DSA and ML-KEM, it supports also composite MLDSA and composte MLKEM.
 
 ## References
 
