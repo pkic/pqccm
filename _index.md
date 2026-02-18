@@ -332,9 +332,9 @@ The following table contains references to the PQC capabilities and algorithms.
 | FIPS 204 (ML-DSA)                                             | https://csrc.nist.gov/pubs/fips/204/final                                      |
 | FIPS 205 (SLH-DSA)                                            | https://csrc.nist.gov/pubs/fips/205/final                                      |
 | Composite certificates                                        | https://datatracker.ietf.org/doc/draft-ietf-lamps-pq-composite-sigs/           |
-| Chimera/Catalyst Hybrid certificates                          | https://datatracker.ietf.org/doc/html/draft-truskovsky-lamps-pq-hybrid-x509-01 |
-| Chameleon certificates                                        | https://datatracker.ietf.org/doc/draft-bonnell-lamps-chameleon-certs/          |
+| Chimera/Catalyst Hybrid certificates (use the X.509 standard) | https://datatracker.ietf.org/doc/html/draft-truskovsky-lamps-pq-hybrid-x509-01 |
 | X.509 Alternative Signatures (section 9.8)                    | https://www.itu.int/rec/T-REC-X.509-201910-I                                   |
+| Chameleon certificates                                        | https://datatracker.ietf.org/doc/draft-bonnell-lamps-chameleon-certs/          |
 | LMS                                                           | https://www.rfc-editor.org/rfc/rfc8708.html                                    |
 | XMSS                                                          | https://datatracker.ietf.org/doc/html/rfc8391                                  |
 | Falcon (to be standardized as FN-DSA)                         | https://falcon-sign.info                                                       |
