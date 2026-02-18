@@ -47,7 +47,7 @@ This list is a collaborative effort. To contribute please:
 ## Capabilities
 
 The table lists information from vendors related to support for Post Quantum Cryptography.
-The list below lists algorithms standardized by FIPS. The previous list listing support for draft algorithms can now be found in on the now-archived [Draft Algorithm Support](./draftalgorithms/) page.
+The list below lists algorithms and formats standardized by FIPS/IETF/ITU-T. The previous list listing support for draft algorithms can now be found in on the now-archived [Draft Algorithm Support](./draftalgorithms/) page.
 
 > The list is ordered alphabetically by vendor, there is no other meaning to the order.
 {.callout-info}
