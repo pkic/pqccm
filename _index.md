@@ -5,6 +5,9 @@ title: PQC Capabilities Matrix (PQCCM)
 heroTitle: PQC Capabilities Matrix (PQCCM)
 heroDescription: A list of software applications, libraries and hardware that includes support for Post Quantum Cryptography
 
+aliases:
+- /pqccm
+
 tags:
 - resource
 ---
