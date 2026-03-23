@@ -96,9 +96,9 @@ The list below lists algorithms and formats standardized by FIPS/IETF/ITU-T. The
 | [Keyfactor](#keyfactor)                 | SignServer       | Signing sw | 2025-02-27   |:x: |:heavy_check_mark: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |
 | [Keyfactor](#keyfactor)                 | EJBCA            | PKI              | 2025-05-22   |:heavy_check_mark: |:heavy_check_mark: |:x: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
 | [Keyfactor](#keyfactor)                 | Command          | PKI              | 2025-06-23   | :heavy_check_mark: | :x: | :x: | :x: | :heavy_check_mark: |:clock1: |
-| [MTG](#mtg-ag)                          | CARA    | PKI              | 2026-01-08   |:x: |:x: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |
-| [MTG](#mtg-ag)                          | CLM    | PKI              | 2026-01-08   |:x: |:x: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |
 | [Microsoft](#microsoft)                 | SymCrypt/Windows/.NET | Sw library/OS| 2026-02-10   |:x: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:x: |
+| [MTG](#mtg-ag)                          | CARA    | PKI              | 2026-01-08   |:heavy_check_mark: |:clock1: |:x: |:clock1: |:heavy_check_mark: |:heavy_check_mark: |
+| [MTG](#mtg-ag)                          | CLM    | PKI              | 2026-01-08   |:clock1: |:clock1: |:x: |:clock1: |:heavy_check_mark: |:heavy_check_mark: |
 | [Nexus Group](#nexus-group)             | Certificate Manager | PKI           | 2025-07-14   |:clock1: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
 | [Open Quantum Safe](#open-quantum-safe) | liboqs           | Sw library | 2025-05-27   |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:x: |
 | [OpenSSL](#openssl)                     | libssl           | Sw library | 2025-04-15   |:x: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
@@ -266,7 +266,7 @@ EJBCA PKI can create CAs and issue pure and hybrid X.509 certificates signed usi
 ## MTG AG
 
 [MTG Corporate PKI](https://www.mtg.de/en/public-key-infrastructures/corporate-pki/ ) consists of the two product components MTG Certificate Authority (MTG CARA) and MTG Certificate Lifecycle Manager (CLM).
-Official MTG CARA and CLM releases feature the PQC algorithms ML-DSA and SLH-DSA. Support for ML-KEM, hybrid algorithms, LMS, and XMSS is planned to be added in the course of 2026.
+Official MTG CARA and CLM releases feature the PQC algorithms ML-DSA and SLH-DSA. CARA further features composite (i.e., hybrid) signatures according to draft-ietf-lamps-pq-composite-sigs-15 (thus still in an experimentally state), currently only with software key storage. Support for ML-KEM, complete support of ML-DSA and ML-KEM composite algorithms, LMS, and XMSS in CARA and CLM is planned to be added until the end of Q2 2026.
 
 ## Microsoft
 
