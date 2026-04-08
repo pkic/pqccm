@@ -74,7 +74,6 @@ The list below lists algorithms and formats standardized by FIPS/IETF/ITU-T. The
 | [CryptoNext Security](#cryptonext-security) | Quantum-Safe Library                  | Sw Library | 2025-12-15 |:heavy_check_mark: |:heavy_check_mark:|:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
 | [Crypto4A](#crypto4a)                       | QxEDGE                                | HSP              | 2025-02-27   |N/A |:heavy_check_mark:|:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
 | [Crypto4A](#crypto4a)                       | QxHSM                                 | HSM              | 2025-02-27   |N/A |:heavy_check_mark:|:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
-| [OmniTrust](#omnitrust)                     | ILM                                   | PKI              | 2025-06-22   |:heavy_check_mark: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
 | [Dell Technologies](#dell-technologies)     | BSAFE™ Crypto Module for C            | Sw library | 2025-10-28 |N/A |:heavy_check_mark: |:x: |:clock1: |:heavy_check_mark: | :x: |
 | [Dell Technologies](#dell-technologies)     | BSAFE™ Crypto-J                       | Sw library | 2025-10-28   |:x: |:heavy_check_mark: |:x: |:clock1: |:heavy_check_mark: | :x: |
 | [DigiCert](#digicert)                       | Private CA                            | PKI              | 2025-06-05   |:x: |:x: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |
@@ -101,6 +100,7 @@ The list below lists algorithms and formats standardized by FIPS/IETF/ITU-T. The
 | [MTG](#mtg-ag)                              | CLM                                   | PKI              | 2026-03-27   | :x:  | :clock1:  | :x:  | :clock1:  | :heavy_check_mark:  | :heavy_check_mark:  |
 | [MTG](#mtg-ag)                              | KMS                                   | PKI              | 2026-03-27   | :x:  | :x:       | :x:  | :x:       | :heavy_check_mark:  | :heavy_check_mark:  |
 | [Nexus Group](#nexus-group)                 | Certificate Manager                   | PKI           | 2025-07-14   |:clock1: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
+| [OmniTrust](#omnitrust)                     | ILM                                   | PKI              | 2025-06-22   |:heavy_check_mark: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
 | [Open Quantum Safe](#open-quantum-safe)     | liboqs                                | Sw library | 2025-05-27   |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:x: |
 | [OpenSSL](#openssl)                         | libssl                                | Sw library | 2025-04-15   |:x: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
 | [PQ Code Package](#pq-code-package)         | PQCP                                  | Sw library | 2025-06-24   | N/A |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:clock1: |
@@ -202,10 +202,6 @@ The [CryptoNext Quantum Safe Library & SDK](https://www.cryptonext-security.com/
 
 Crypto4A Technologies Inc. develops the crypto-agile and quantum-safe security products sold as the QxHSM™, a hardware security module (HSM) and the QxEDGE™, a hardware security platform (HSP). For more information about those products as well as the status of our FIPS 140-3 validation or CAVP algorithm list, please visit [www.crypto4a.com].
 
-## OmniTrust
-
-Open source [Identity Lifecycle Management (ILM)](https://docs.otilm.com) platform implements post-quantum cryptography algorithms support for certificate, cryptographic key, and digital signature lifecycle management and automation, including support for alternative extensions in X.509 certificates as per ITU-T X.509 section 9.8. The platform supports ML-DSA, ML-KEM, and SLH-DSA algorithms. FN-DSA has experimental support and is expected to be available once the standards are finalized.
-
 ## Dell Technologies
 
 [Dell Technologies](https://www.dell.com) owns and develops _Dell BSAFE™ Crypto Module for C_ and _Dell BSAFE™ Crypto-J_ software cryptographic modules. These modules are used within different Dell Technologies server, storage and networking offerings, and other customer solutions to provide FIPS 140-3 validated cryptography. The modules also provide cryptograhic implementations for the BSAFE™ TLS libraries, namely BSAFE™ TLS-C and BSAFE™ SSL-J. 
@@ -279,6 +275,10 @@ Post-Quantum Cryptography (PQC) algorithms are now generally available in the cr
 **Certificate Manager**
 
 Nexus Certificate Manager supports signing CA and X.509 certificates using ML-DSA and SLH-DSA algorithms from version 8.12 [CM](https://doc.nexusgroup.com/pub/smart-id-certificate-manager). ML-KEM supported from CM 8.13.
+
+## OmniTrust
+
+Open source [Identity Lifecycle Management (ILM)](https://docs.otilm.com) platform implements post-quantum cryptography algorithms support for certificate, cryptographic key, and digital signature lifecycle management and automation, including support for alternative extensions in X.509 certificates as per ITU-T X.509 section 9.8. The platform supports ML-DSA, ML-KEM, and SLH-DSA algorithms. FN-DSA has experimental support and is expected to be available once the standards are finalized.
 
 ## OpenSSL
 
