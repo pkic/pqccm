@@ -55,65 +55,65 @@ The list below lists algorithms and formats standardized by FIPS/IETF/ITU-T. The
 > The list is ordered alphabetically by vendor, there is no other meaning to the order.
 {.callout-info}
 
-| Vendor                                  | Product          | Category         | Last updated | [X.509 Chimera/Catalyst certificates](#references) | [LMS](#references) | [XMSS](#references) | [ML-KEM/FIPS-203](#references) | [ML-DSA/FIPS-204](#references) | [SLH-DSA/FIPS-205](#references) |
-| :-------------------------------------- | :--------------- | :--------------- |:-------------| :-------------------------------------: | :----------------: | :-----------------: | :-----------------: | :-------------------: | :----------------------: |
-| [Ascertia](#ascertia)                   | ADSS PKI Server  | PKI              | 2025-08-12   |:x: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:clock1: |
-| [Ascertia](#ascertia)                   | ADSS Signing Server | Signing sw | 2025-08-12 |:x: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:clock1: |
-| [Ascertia](#ascertia)                   | ADSS Server/SAM | Signing sw\SAM | 2025-08-12 |:x: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:clock1: |
-| [ANKATech](#ankatech)                   | ANKASecure | API | 2025-05-30   |:x: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
-| [AppViewX](#appviewx)                   | AVX ONE PKIaaS | PKI | 2025-04-21   |:heavy_check_mark: |:clock1: |:clock1: |:x: | :heavy_check_mark: | :heavy_check_mark: |
-| [AWS](#aws)                             | AWS KMS          | HSM | 2025-09-02   |N/A |:x: |:x: |:x: | :heavy_check_mark: | :x: |
-| [BERTEN](#berten)                       | MLDS-B235        | IP Core          | 2025-11-12   |:x: |:x: |:x: |:x: |:heavy_check_mark: |:x: |
-| [BERTEN](#berten)                       | MLKE-B135        | IP Core          | 2025-11-12   |:x: |:x: |:x: |:heavy_check_mark: |:x: |:x: |
-| [Botan](#botan)                         | Botan            | Sw library | 2025-02-27   |:x: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark:|
-| [Bouncy Castle](#bouncy-castle)         | BC               | Sw library | 2025-02-27   |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark:|
-| [CAST Inc](#cast-inc)                   | KiviPQC-KEM      | IP Core          | 2025-11-12   |:x: |:x: |:x: |:heavy_check_mark: |:x: |:x: |
-| [Codegic](#codegic)                     | Khatim PKI Server | PKI | 2025-08-25 |:x: |:x: |:clock1: |:clock1: |:heavy_check_mark: |:clock1: |
-| [Codegic](#codegic)                     | Khatim Sign Server | Signing sw | 2025-08-25 |:x: |:x: |:clock1: |:clock1: |:heavy_check_mark: |:clock1: |
-| [Cryptomathic](#cryptomathic)           | CrystalKey 360   | KM & Signing Ssw | 2025-08-14   |N/A |:heavy_check_mark:|:heavy_check_mark: |:clock1: |:heavy_check_mark: |:x: |
-| [CryptoNext Security](#cryptonext-security) | Quantum-Safe Library | Sw Library | 2025-12-15 |:heavy_check_mark: |:heavy_check_mark:|:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
-| [Crypto4A](#crypto4a)                   | QxEDGE           | HSP              | 2025-02-27   |N/A |:heavy_check_mark:|:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
-| [Crypto4A](#crypto4a)                   | QxHSM            | HSM              | 2025-02-27   |N/A |:heavy_check_mark:|:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
-| [CZERTAINLY](#czertainly)               | CZERTAINLY       | PKI              | 2025-06-22   |:heavy_check_mark: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
-| [Dell Technologies](#dell-technologies) | BSAFE™ Crypto Module for C | Sw library | 2025-10-28 |N/A |:heavy_check_mark: |:x: |:clock1: |:heavy_check_mark: | :x: |
-| [Dell Technologies](#dell-technologies) | BSAFE™ Crypto-J   | Sw library | 2025-10-28   |:x: |:heavy_check_mark: |:x: |:clock1: |:heavy_check_mark: | :x: |
-| [DigiCert](#digicert)                   | Private CA       | PKI              | 2025-06-05   |:x: |:x: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |
-| [DigiCert](#digicert)                   | Software Trust Manager | Signing sw | 2025-06-05   |:x: |:x: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |
-| [DigiCert](#digicert)                   | Trust Lifecycle Manager | CLM | 2025-06-05   |:x: |:x: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |
-| [DigiCert](#digicert)                   | Device Trust Manager | IoT device mgmt | 2025-06-05   |:x: |:x: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |
-| [DigiCert](#digicert)                   | TrustCore SDK    | Sw library             | 2025-06-05   |:x: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
-| [Entrust](#entrust)                     | nShield          | HSM              | 2025-03-01   |N/A |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:x:|
-| [essendi it GmbH](#essendi-it-gmbh)     | essendi xc       | CLM              | 2025-05-21   |:x: |:x: |:x: |:clock1: |:heavy_check_mark: |:clock1:|
-| [EVERTRUST](#evertrust)                 | STREAM/HORIZON   | PKI              | 2025-03-03   |:heavy_check_mark:|:x:|:x:|:clock1:|:heavy_check_mark:|:clock1:|
-| [Eviden](#eviden)                       | IDnomic PKI      | PKI              | 2025-03-05   |:x:|:x:|:x:|:heavy_check_mark:|:heavy_check_mark:|:x:|
-| [Eviden](#eviden)                       | Trustway Proteccio™ NetHSM | HSM      | 2024-12-09   |N/A |:x:|:x:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
-| [ExeQuantum](#exequantum)               | ExeQuantum       | API | 2025-04-29   |:x: |:x: |:x: |:heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
-| [Fortanix](#fortanix)                   | DSM              | HSM              | 2025-02-27   |N/A |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
-| [FutureX](#futurex)                     | CryptoHub HSM    | HSM, PKI | 2025-12-10   |:heavy_check_mark: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
-| [I4P](#i4p)                             | Trident          | HSM              | 2025-04-16   |N/A |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
-| [InfoSec Global](#infosec-global)       |AgileSec Analytics| CPM         | 2025-02-27   |:x: |:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark: |
-| [IP Cores Inc](#ip-cores-inc)           | PQC1             | IP Core          | 2025-11-10   |:x: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:x: |
-| [Keyfactor](#keyfactor)                 | SignServer       | Signing sw | 2025-02-27   |:x: |:heavy_check_mark: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |
-| [Keyfactor](#keyfactor)                 | EJBCA            | PKI              | 2025-05-22   |:heavy_check_mark: |:heavy_check_mark: |:x: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
-| [Keyfactor](#keyfactor)                 | Command          | PKI              | 2025-06-23   | :heavy_check_mark: | :x: | :x: | :x: | :heavy_check_mark: |:clock1: |
-| [Microsoft](#microsoft)                 | SymCrypt/Windows/.NET | Sw library/OS| 2026-02-10   |:x: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:x: |
-| [MTG](#mtg-ag)                          | CARA    | PKI              | 2026-03-27   | :x:  | :clock1:  | :x:  | :clock1:  | :heavy_check_mark:  | :heavy_check_mark:  |
-| [MTG](#mtg-ag)                          | CLM     | PKI              | 2026-03-27   | :x:  | :clock1:  | :x:  | :clock1:  | :heavy_check_mark:  | :heavy_check_mark:  |
-| [MTG](#mtg-ag)                          | KMS     | PKI              | 2026-03-27   | :x:  | :x:       | :x:  | :x:       | :heavy_check_mark:  | :heavy_check_mark:  |
-| [Nexus Group](#nexus-group)             | Certificate Manager | PKI           | 2025-07-14   |:clock1: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
-| [Open Quantum Safe](#open-quantum-safe) | liboqs           | Sw library | 2025-05-27   |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:x: |
-| [OpenSSL](#openssl)                     | libssl           | Sw library | 2025-04-15   |:x: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
-| [PQ Code Package](#pq-code-package) | PQCP           | Sw library | 2025-06-24   | N/A |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:clock1: |
-| [PQShield](#pqshield)                   | UltraPQ-Suite    | IP Core and Sw library | 2025-11-12 |:x: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:x: |
-| [Resquant](#resquant)                   | Customizable Cryptography Accelerator | IP Core | 2025-11-12 |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark:|
-| [SafeLogic](#safelogic)                 | CryptoComply PQTLS | Sw Library | 2025-03-31   | :x: | :x: | :x: | :heavy_check_mark: | :x: | :x: |
-| [Secure-IC](#secure-ic)                 | Securyzr         | IP Core          | 2025-11-12   |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:x: |
-| [Securosys](#securosys)                 | Primus HSM       | HSM              | 2025-02-27   |N/A |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
-| [Smallstep](#smallstep)                 | step-ca          | PKI              | 2025-10-02   | :x: | :x: | :x: | :heavy_check_mark: | :x: | :x: |
-| [Thales](#thales)                       | Luna             | HSM              | 2025-06-30   |N/A |:heavy_check_mark: |:x: |:heavy_check_mark: |:heavy_check_mark: |:x: |
-| [Utimaco](#utimaco)                     | uTrust           | HSM              | 2025-09-02   |N/A |:heavy_check_mark: |:x: |:heavy_check_mark: |:heavy_check_mark: |:x: |
-| [Xiphera](#xiphera)                     | xQlave           | IP Core          | 2025-11-12   |:x: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:x: |
-| [XiPKI](#xipki)                         | XiPKI            | PKI              | 2026-02-16   |:x: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:x: |
+| Vendor                                      | Product                               | Category         | Last updated | [X.509 Chimera/Catalyst certificates](#references) | [LMS](#references) | [XMSS](#references) | [ML-KEM/FIPS-203](#references) | [ML-DSA/FIPS-204](#references) | [SLH-DSA/FIPS-205](#references) |
+|:--------------------------------------------|:--------------------------------------| :--------------- |:-------------| :-------------------------------------: | :----------------: | :-----------------: | :-----------------: | :-------------------: | :----------------------: |
+| [Ascertia](#ascertia)                       | ADSS PKI Server                       | PKI              | 2025-08-12   |:x: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:clock1: |
+| [Ascertia](#ascertia)                       | ADSS Signing Server                   | Signing sw | 2025-08-12 |:x: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:clock1: |
+| [Ascertia](#ascertia)                       | ADSS Server/SAM                       | Signing sw\SAM | 2025-08-12 |:x: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:clock1: |
+| [ANKATech](#ankatech)                       | ANKASecure                            | API | 2025-05-30   |:x: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| [AppViewX](#appviewx)                       | AVX ONE PKIaaS                        | PKI | 2025-04-21   |:heavy_check_mark: |:clock1: |:clock1: |:x: | :heavy_check_mark: | :heavy_check_mark: |
+| [AWS](#aws)                                 | AWS KMS                               | HSM | 2025-09-02   |N/A |:x: |:x: |:x: | :heavy_check_mark: | :x: |
+| [BERTEN](#berten)                           | MLDS-B235                             | IP Core          | 2025-11-12   |:x: |:x: |:x: |:x: |:heavy_check_mark: |:x: |
+| [BERTEN](#berten)                           | MLKE-B135                             | IP Core          | 2025-11-12   |:x: |:x: |:x: |:heavy_check_mark: |:x: |:x: |
+| [Botan](#botan)                             | Botan                                 | Sw library | 2025-02-27   |:x: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark:|
+| [Bouncy Castle](#bouncy-castle)             | BC                                    | Sw library | 2025-02-27   |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark:|
+| [CAST Inc](#cast-inc)                       | KiviPQC-KEM                           | IP Core          | 2025-11-12   |:x: |:x: |:x: |:heavy_check_mark: |:x: |:x: |
+| [Codegic](#codegic)                         | Khatim PKI Server                     | PKI | 2025-08-25 |:x: |:x: |:clock1: |:clock1: |:heavy_check_mark: |:clock1: |
+| [Codegic](#codegic)                         | Khatim Sign Server                    | Signing sw | 2025-08-25 |:x: |:x: |:clock1: |:clock1: |:heavy_check_mark: |:clock1: |
+| [Cryptomathic](#cryptomathic)               | CrystalKey 360                        | KM & Signing Ssw | 2025-08-14   |N/A |:heavy_check_mark:|:heavy_check_mark: |:clock1: |:heavy_check_mark: |:x: |
+| [CryptoNext Security](#cryptonext-security) | Quantum-Safe Library                  | Sw Library | 2025-12-15 |:heavy_check_mark: |:heavy_check_mark:|:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
+| [Crypto4A](#crypto4a)                       | QxEDGE                                | HSP              | 2025-02-27   |N/A |:heavy_check_mark:|:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
+| [Crypto4A](#crypto4a)                       | QxHSM                                 | HSM              | 2025-02-27   |N/A |:heavy_check_mark:|:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
+| [OmniTrust](#omnitrust)                     | ILM                                   | PKI              | 2025-06-22   |:heavy_check_mark: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
+| [Dell Technologies](#dell-technologies)     | BSAFE™ Crypto Module for C            | Sw library | 2025-10-28 |N/A |:heavy_check_mark: |:x: |:clock1: |:heavy_check_mark: | :x: |
+| [Dell Technologies](#dell-technologies)     | BSAFE™ Crypto-J                       | Sw library | 2025-10-28   |:x: |:heavy_check_mark: |:x: |:clock1: |:heavy_check_mark: | :x: |
+| [DigiCert](#digicert)                       | Private CA                            | PKI              | 2025-06-05   |:x: |:x: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |
+| [DigiCert](#digicert)                       | Software Trust Manager                | Signing sw | 2025-06-05   |:x: |:x: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |
+| [DigiCert](#digicert)                       | Trust Lifecycle Manager               | CLM | 2025-06-05   |:x: |:x: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |
+| [DigiCert](#digicert)                       | Device Trust Manager                  | IoT device mgmt | 2025-06-05   |:x: |:x: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |
+| [DigiCert](#digicert)                       | TrustCore SDK                         | Sw library             | 2025-06-05   |:x: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
+| [Entrust](#entrust)                         | nShield                               | HSM              | 2025-03-01   |N/A |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:x:|
+| [essendi it GmbH](#essendi-it-gmbh)         | essendi xc                            | CLM              | 2025-05-21   |:x: |:x: |:x: |:clock1: |:heavy_check_mark: |:clock1:|
+| [EVERTRUST](#evertrust)                     | STREAM/HORIZON                        | PKI              | 2025-03-03   |:heavy_check_mark:|:x:|:x:|:clock1:|:heavy_check_mark:|:clock1:|
+| [Eviden](#eviden)                           | IDnomic PKI                           | PKI              | 2025-03-05   |:x:|:x:|:x:|:heavy_check_mark:|:heavy_check_mark:|:x:|
+| [Eviden](#eviden)                           | Trustway Proteccio™ NetHSM            | HSM      | 2024-12-09   |N/A |:x:|:x:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+| [ExeQuantum](#exequantum)                   | ExeQuantum                            | API | 2025-04-29   |:x: |:x: |:x: |:heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| [Fortanix](#fortanix)                       | DSM                                   | HSM              | 2025-02-27   |N/A |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
+| [FutureX](#futurex)                         | CryptoHub HSM                         | HSM, PKI | 2025-12-10   |:heavy_check_mark: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
+| [I4P](#i4p)                                 | Trident                               | HSM              | 2025-04-16   |N/A |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
+| [InfoSec Global](#infosec-global)           | AgileSec Analytics                    | CPM         | 2025-02-27   |:x: |:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark: |
+| [IP Cores Inc](#ip-cores-inc)               | PQC1                                  | IP Core          | 2025-11-10   |:x: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:x: |
+| [Keyfactor](#keyfactor)                     | SignServer                            | Signing sw | 2025-02-27   |:x: |:heavy_check_mark: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |
+| [Keyfactor](#keyfactor)                     | EJBCA                                 | PKI              | 2025-05-22   |:heavy_check_mark: |:heavy_check_mark: |:x: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
+| [Keyfactor](#keyfactor)                     | Command                               | PKI              | 2025-06-23   | :heavy_check_mark: | :x: | :x: | :x: | :heavy_check_mark: |:clock1: |
+| [Microsoft](#microsoft)                     | SymCrypt/Windows/.NET                 | Sw library/OS| 2026-02-10   |:x: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:x: |
+| [MTG](#mtg-ag)                              | CARA                                  | PKI              | 2026-03-27   | :x:  | :clock1:  | :x:  | :clock1:  | :heavy_check_mark:  | :heavy_check_mark:  |
+| [MTG](#mtg-ag)                              | CLM                                   | PKI              | 2026-03-27   | :x:  | :clock1:  | :x:  | :clock1:  | :heavy_check_mark:  | :heavy_check_mark:  |
+| [MTG](#mtg-ag)                              | KMS                                   | PKI              | 2026-03-27   | :x:  | :x:       | :x:  | :x:       | :heavy_check_mark:  | :heavy_check_mark:  |
+| [Nexus Group](#nexus-group)                 | Certificate Manager                   | PKI           | 2025-07-14   |:clock1: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
+| [Open Quantum Safe](#open-quantum-safe)     | liboqs                                | Sw library | 2025-05-27   |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:x: |
+| [OpenSSL](#openssl)                         | libssl                                | Sw library | 2025-04-15   |:x: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
+| [PQ Code Package](#pq-code-package)         | PQCP                                  | Sw library | 2025-06-24   | N/A |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:clock1: |
+| [PQShield](#pqshield)                       | UltraPQ-Suite                         | IP Core and Sw library | 2025-11-12 |:x: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:x: |
+| [Resquant](#resquant)                       | Customizable Cryptography Accelerator | IP Core | 2025-11-12 |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark:|
+| [SafeLogic](#safelogic)                     | CryptoComply PQTLS                    | Sw Library | 2025-03-31   | :x: | :x: | :x: | :heavy_check_mark: | :x: | :x: |
+| [Secure-IC](#secure-ic)                     | Securyzr                              | IP Core          | 2025-11-12   |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:x: |
+| [Securosys](#securosys)                     | Primus HSM                            | HSM              | 2025-02-27   |N/A |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
+| [Smallstep](#smallstep)                     | step-ca                               | PKI              | 2025-10-02   | :x: | :x: | :x: | :heavy_check_mark: | :x: | :x: |
+| [Thales](#thales)                           | Luna                                  | HSM              | 2025-06-30   |N/A |:heavy_check_mark: |:x: |:heavy_check_mark: |:heavy_check_mark: |:x: |
+| [Utimaco](#utimaco)                         | uTrust                                | HSM              | 2025-09-02   |N/A |:heavy_check_mark: |:x: |:heavy_check_mark: |:heavy_check_mark: |:x: |
+| [Xiphera](#xiphera)                         | xQlave                                | IP Core          | 2025-11-12   |:x: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:x: |
+| [XiPKI](#xipki)                             | XiPKI                                 | PKI              | 2026-02-16   |:x: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:x: |
 
 > **NOTE:** HSS and XMSS<sup>MT</sup> are the multi tree variants of LMS and XMSS. In the table both the simple and multi-tree versions may be supported if LMS/XMSS is checked.
 {.callout-info}
@@ -202,9 +202,9 @@ The [CryptoNext Quantum Safe Library & SDK](https://www.cryptonext-security.com/
 
 Crypto4A Technologies Inc. develops the crypto-agile and quantum-safe security products sold as the QxHSM™, a hardware security module (HSM) and the QxEDGE™, a hardware security platform (HSP). For more information about those products as well as the status of our FIPS 140-3 validation or CAVP algorithm list, please visit [www.crypto4a.com].
 
-## CZERTAINLY
+## OmniTrust
 
-Open source [CZERTAINLY](https://docs.czertainly.com) platform implements post-quantum cryptography algorithms support for certificate, cryptographic key, and digital signature lifecycle management and automation, including support for alternative extensions in X.509 certificates as per ITU-T X.509 section 9.8. The platform supports ML-DSA, ML-KEM, and SLH-DSA algorithms. FN-DSA has experimental support and expected to be available once the standards are finalized.
+Open source [Identity Lifecycle Management (ILM)](https://docs.otilm.com) platform implements post-quantum cryptography algorithms support for certificate, cryptographic key, and digital signature lifecycle management and automation, including support for alternative extensions in X.509 certificates as per ITU-T X.509 section 9.8. The platform supports ML-DSA, ML-KEM, and SLH-DSA algorithms. FN-DSA has experimental support and is expected to be available once the standards are finalized.
 
 ## Dell Technologies
 
