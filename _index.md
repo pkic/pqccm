@@ -90,6 +90,7 @@ The list below lists algorithms and formats standardized by FIPS/IETF/ITU-T. The
 | [Fortanix](#fortanix)                       | DSM                                   | HSM              | 2025-02-27   |N/A |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
 | [FutureX](#futurex)                         | CryptoHub HSM                         | HSM, PKI | 2025-12-10   |:heavy_check_mark: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
 | [I4P](#i4p)                                 | Trident                               | HSM              | 2025-04-16   |N/A |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
+| [IBM](#ibm)                                 | 4770 / CEX8S                          | HSM              | 2026-04-12   |N/A |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:x: |
 | [InfoSec Global](#infosec-global)           | AgileSec Analytics                    | CPM         | 2025-02-27   |:x: |:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark: |
 | [IP Cores Inc](#ip-cores-inc)               | PQC1                                  | IP Core          | 2025-11-10   |:x: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:x: |
 | [Keyfactor](#keyfactor)                     | SignServer                            | Signing sw | 2025-02-27   |:x: |:heavy_check_mark: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |
@@ -243,6 +244,9 @@ Futurex offers a crypto-agile HSM and key management platform built for high per
 Trident HSM is a general purpose network HSM developed by [I4P](https://www.i4p.com/) that received the Common Criteria (CC) EAL4+ (EN 419221-5 as well as EN 419241-2) certification. 
 
 Cryptographic applications are enabled to use Post-Quantum algorithms even in the CC restricted mode that helps with using hybrid solutions and the transition to PQC.
+
+## IBM
+The [IBM 4770-001 Cryptographic Coprocessor Security Module / Crypto Express 8S (CEX8S)](https://www.ibm.com/docs/en/cryptocards?topic=4770-overview) is a HSM (Hardware Security Module) implemented on a PCIe card with an IBM designed ASIC, designed to meet the highest level of security certification.
 
 ## IP Cores Inc
 IP Cores Inc offers [PQC IP Cores](https://www.ipcores.com/PQC_IP_core.html) for FPGA and ASIC.
