@@ -65,6 +65,7 @@ The list below lists algorithms and formats standardized by FIPS/IETF/ITU-T. The
 | [AWS](#aws)                                 | AWS KMS                               | HSM | 2025-09-02   |N/A |:x: |:x: |:x: | :heavy_check_mark: | :x: |
 | [BERTEN](#berten)                           | MLDS-B235                             | IP Core          | 2025-11-12   |:x: |:x: |:x: |:x: |:heavy_check_mark: |:x: |
 | [BERTEN](#berten)                           | MLKE-B135                             | IP Core          | 2025-11-12   |:x: |:x: |:x: |:heavy_check_mark: |:x: |:x: |
+| [Bloombase](#bloombase)                     | Bloombase Cryptographic Module        | Sw library       | 2026-04-18   |:x: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
 | [Botan](#botan)                             | Botan                                 | Sw library | 2025-02-27   |:x: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark:|
 | [Bouncy Castle](#bouncy-castle)             | BC                                    | Sw library | 2025-02-27   |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark:|
 | [CAST Inc](#cast-inc)                       | KiviPQC-KEM                           | IP Core          | 2025-11-12   |:x: |:x: |:x: |:heavy_check_mark: |:x: |:x: |
@@ -153,6 +154,9 @@ AWS KMS have support for [ML-DSA signatures](https://docs.aws.amazon.com/kms/lat
 
 ## BERTEN
 BERTEN offers [PQC IP Cores](https://www.bertendsp.com/products/mlds-b235/) for FPGA and ASIC.
+
+## Bloombase
+Post-Quantum Cryptography (PQC) algorithms are now generally available in the [Bloombase](https://bloombase.com) Cryptographic Module powering [Bloombase Keyparc](https://bloombase.com/go/keyparc), [Bloombase KeyCastle](https://bloombase.com/go/keycastle), [Bloombase StoreSafe](https://bloombase.com/go/storesafe), etc.
 
 ## Botan
 [Botan](https://github.com/randombit/botan) is a C++ cryptography library released under the permissive Simplified BSD license. It offers the tools necessary to implement a range of systems, such as TLS protocol, X.509 certificates, AEAD ciphers, PKCS#11 and TPM hardware support, password hashing, and post quantum crypto schemes.
