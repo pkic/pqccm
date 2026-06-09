@@ -57,11 +57,9 @@ The list below lists algorithms and formats standardized by FIPS/IETF/ITU-T. The
 
 | Vendor                                      | Product                               | Category         | Last updated | [X.509 Chimera/Catalyst certificates](#references) | [LMS](#references) | [XMSS](#references) | [ML-KEM/FIPS-203](#references) | [ML-DSA/FIPS-204](#references) | [SLH-DSA/FIPS-205](#references) |
 |:--------------------------------------------|:--------------------------------------| :--------------- |:-------------| :-------------------------------------: | :----------------: | :-----------------: | :-----------------: | :-------------------: | :----------------------: |
-| [Ascertia](#ascertia)                       | ADSS PKI Server                       | PKI              | 2025-08-12   |:x: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:clock1: |
-| [Ascertia](#ascertia)                       | ADSS Signing Server                   | Signing sw | 2025-08-12 |:x: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:clock1: |
-| [Ascertia](#ascertia)                       | ADSS Server/SAM                       | Signing sw\SAM | 2025-08-12 |:x: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:clock1: |
 | [ANKATech](#ankatech)                       | ANKASecure                            | API | 2025-05-30   |:x: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | [AppViewX](#appviewx)                       | AVX ONE PKIaaS                        | PKI | 2025-04-21   |:heavy_check_mark: |:clock1: |:clock1: |:x: | :heavy_check_mark: | :heavy_check_mark: |
+| [Ascertia](#ascertia)                       | PKI and Signing                       | PKI              | 2025-08-12   |:x: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:clock1: |
 | [AWS](#aws)                                 | AWS KMS                               | HSM | 2025-09-02   |N/A |:x: |:x: |:x: | :heavy_check_mark: | :x: |
 | [BERTEN](#berten)                           | MLDS-B235                             | IP Core          | 2025-11-12   |:x: |:x: |:x: |:x: |:heavy_check_mark: |:x: |
 | [BERTEN](#berten)                           | MLKE-B135                             | IP Core          | 2025-11-12   |:x: |:x: |:x: |:heavy_check_mark: |:x: |:x: |
