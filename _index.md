@@ -121,6 +121,14 @@ The list below lists algorithms and formats standardized by FIPS/IETF/ITU-T. The
 > **NOTE:** HSS and XMSS<sup>MT</sup> are the multi tree variants of LMS and XMSS. In the table both the simple and multi-tree versions may be supported if LMS/XMSS is checked.
 {.callout-info}
 
+## ANKATech  
+[ANKASecure](https://ankatech.co) is a REST API & SaaS platform designed to implement post-quantum cryptography (PQC) in real-world applications. It provides encryption, digital signatures, and key management using a range of PQC algorithms standardized by NIST, as well as additional schemes recognized by ETSI and ENISA. AnkaSecure supports ML-KEM, ML-DSA, SLH-DSA, Falcon, LMS, and XMSS through its API. It also enables organizations to establish cryptographic sovereignty and seamlessly migrate from classical to post-quantum cryptography.
+
+## AppViewX
+[AppViewX](https://www.appviewx.com) - AVX ONE PKIaaS is a cloud-based PKI offering that supports the creation of CAs & issuance of X.509 certificates using post-quantum cryptographic algorithms, with current support for ML-DSA and SLH-DSA, along with the capability to issue hybrid certificates that combine classical and quantum-safe algorithms. Support for additional algorithms such as ML-KEM and composite signatures is currently under evaluation.
+
+## Ascertia
+[Ascertia](https://www.ascertia.com/) have several products supporting PQC algorithms.
 
 **ADSS Server**
 
@@ -140,15 +148,6 @@ ADSS PKI Server can create CAs and issue X.509 certificates signed using Post-Qu
 - ML-KEM/FIPS-203
 - ML-DSA/FIPS-204
 - Classic McEliece
-
-## ANKATech  
-[ANKASecure](https://ankatech.co) is a REST API & SaaS platform designed to implement post-quantum cryptography (PQC) in real-world applications. It provides encryption, digital signatures, and key management using a range of PQC algorithms standardized by NIST, as well as additional schemes recognized by ETSI and ENISA. AnkaSecure supports ML-KEM, ML-DSA, SLH-DSA, Falcon, LMS, and XMSS through its API. It also enables organizations to establish cryptographic sovereignty and seamlessly migrate from classical to post-quantum cryptography.
-
-## AppViewX
-[AppViewX](https://www.appviewx.com) - AVX ONE PKIaaS is a cloud-based PKI offering that supports the creation of CAs & issuance of X.509 certificates using post-quantum cryptographic algorithms, with current support for ML-DSA and SLH-DSA, along with the capability to issue hybrid certificates that combine classical and quantum-safe algorithms. Support for additional algorithms such as ML-KEM and composite signatures is currently under evaluation.
-
-## Ascertia
-[Ascertia](https://www.ascertia.com/) PQC Matrix
 
 ## AWS
 AWS KMS have support for [ML-DSA signatures](https://docs.aws.amazon.com/kms/latest/developerguide/mldsa.html).
