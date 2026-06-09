@@ -282,7 +282,7 @@ MTG KMS, a key management system, [supports ML-DSA and SLH-DSA](https://docs.mtg
 
 ## Microsoft
 
-Post-Quantum Cryptography (PQC) algorithms are now generally available in the cryptographic library [SymCrypt](https://github.com/microsoft/SymCrypt), [Windows Server 2025 and Windows 11 clients and .NET 10](https://techcommunity.microsoft.com/blog/microsoft-security-blog/post-quantum-cryptography-apis-now-generally-available-on-microsoft-platforms/4469093).
+Post-Quantum Cryptography (PQC) algorithms are now generally available in the cryptographic library [SymCrypt](https://github.com/microsoft/SymCrypt), [Windows Server 2025 and Windows 11 clients and .NET 10](https://techcommunity.microsoft.com/blog/microsoft-security-blog/post-quantum-cryptography-apis-now-generally-available-on-microsoft-platforms/4469093). Since the May update for Windows Server 2025 and Windows 11 support in OS tools is enabled.
 
 ## Nexus Group
 **Certificate Manager**
