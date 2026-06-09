@@ -90,6 +90,7 @@ The list below lists algorithms and formats standardized by FIPS/IETF/ITU-T. The
 | [ExeQuantum](#exequantum)                   | ExeQuantum                            | API | 2025-04-29   |:x: |:x: |:x: |:heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | [Fortanix](#fortanix)                       | DSM                                   | HSM              | 2025-02-27   |N/A |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
 | [FutureX](#futurex)                         | CryptoHub HSM                         | HSM, PKI | 2025-12-10   |:heavy_check_mark: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
+| [Google](#google)                           | Chrome                         | Application | 2026-06-09   |:x: |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:x: |
 | [I4P](#i4p)                                 | Trident                               | HSM              | 2025-04-16   |N/A |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:heavy_check_mark: |
 | [IBM](#ibm)                                 | 4770 / CEX8S                          | HSM              | 2026-04-12   |N/A |:x: |:x: |:heavy_check_mark: |:heavy_check_mark: |:x: |
 | [InfoSec Global](#infosec-global)           | AgileSec Analytics                    | CPM         | 2025-02-27   |:x: |:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark: |
@@ -243,6 +244,10 @@ Fortanix DSM support all NIST-approved PQC algorithms in FX 2200, available via 
 ## FutureX
 
 Futurex offers a crypto-agile HSM and key management platform built for high performance and seamless migration to post-quantum cryptography. Our solution supports ML-DSA, ML-KEM and SLH-DSA in hybrid deployment mode. We provide full lifecycle key management, certificate issuance (including hybrid certificates), and operational support across on-prem, cloud, and virtualized environments.
+
+## Google
+
+The Google Chrome browser supports hybrid ML-KEM key exchange since Chrome 131. Starting with Chrome 150, release in June, ML-DSA certificates and signatures are supported.
 
 ## I4P
 Trident HSM is a general purpose network HSM developed by [I4P](https://www.i4p.com/) that received the Common Criteria (CC) EAL4+ (EN 419221-5 as well as EN 419241-2) certification. 
